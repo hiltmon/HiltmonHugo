@@ -22,3 +22,9 @@ aside.sidebar {
 footer {
   clear: both;
 }
+
+/* Images*/
+
+.left-image {
+  float: left;
+}

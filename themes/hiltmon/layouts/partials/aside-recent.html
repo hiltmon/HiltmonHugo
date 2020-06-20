@@ -1,0 +1,20 @@
+<section>
+
+  <h1>Recent Posts</h1>
+  <hr/>
+  
+  {{ $mainSections := .Site.Params.mainSections | default (slice "blog") }}
+  {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+  {{ $section_count := len $section }}
+
+  {{ if ge $section_count 1 }}
+
+    {{ $n_posts := $.Param "recent_posts_number" | default 10 }}    
+    {{ range (first $n_posts $section) }}
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <hr/>
+    {{ end }}
+
+  {{ end }}
+
+<section>

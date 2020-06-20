@@ -11,7 +11,7 @@
 <div id="content">
   <div id="main">
     <h4>Layout: Single</h4>
-    <span>{{ .Date.Format "Jan 2, 2006 03:04 PM MST" }}</span>
+    <span>{{ .Date.Format "Jan 2, 2006 3:04 PM" }}</span>
     <h1>{{ .Title }}</h1>
     <hr/>
 
@@ -22,6 +22,7 @@
 </div>
 
 {{- partial "single-footer.html" . -}}
+{{- partial "footer.html" . -}}
 
 </body>
 

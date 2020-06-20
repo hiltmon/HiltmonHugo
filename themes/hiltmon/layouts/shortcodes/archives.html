@@ -1,0 +1,16 @@
+  {{ $mainSections := .Site.Params.mainSections | default (slice "blog") }}
+  {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+  {{ $section_count := len $section }}
+
+  {{ if ge $section_count 1 }}
+
+    {{ range $section }}
+      <article>
+        <span>{{ .Date.Format "2006 Jan 2" }}</span>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <hr/>
+      </article>
+    {{ end }}
+
+  {{ end }}
+  

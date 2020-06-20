@@ -5,3 +5,44 @@ title = "Hiltmon Hugo"
 theme = "hiltmon"
 
 MetaDataFormat = "yaml"
+
+# To Match the old OctoPresss paths
+[permalinks]
+blog = "/blog/:year/:month/:day/:filename/"
+
+[menu]
+
+  [[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "about me"
+  url = "/about/"
+  weight = -100
+  
+  [[menu.main]]
+  identifier = "code"
+  name = "Code"
+  title = "code"
+  url = "/code/"
+  weight = -80
+  
+  [[menu.main]]
+  identifier = "products"
+  name = "Products"
+  title = "products"
+  url = "/products/"
+  weight = -60
+
+  [[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  title = "blog section"
+  url = "/"
+  weight = -50
+
+  [[menu.main]]
+  identifier = "archives"
+  name = "Archives"
+  title = "archives section"
+  url = "/archives/"
+  weight = -10
