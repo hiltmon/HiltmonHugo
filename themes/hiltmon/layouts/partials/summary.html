@@ -1,0 +1,16 @@
+<div>
+  <span>{{ humanize .Section }} Post Date {{ .Date.Format "Jan 2, 2006 03:04 PM MST" }}</span>
+
+  <h1>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h1>
+
+  <div>
+    {{ .Summary  }}
+  </div>
+  
+  <a href="{{.Permalink}}" >{{ i18n "readOn" }}</a>
+  
+  <hr/>
+
+</div>

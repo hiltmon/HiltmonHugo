@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<div id="main">
+  
+  <!-- <h1> Pages </h1> -->
+  {{ $mainSections := .Site.Params.mainSections | default (slice "blog") }}
+  <!-- <p>Main Sections: {{$mainSections }}</p> -->
+  {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+  <!-- <p>Section: {{$section }}</p> -->
+  {{ $section_count := len $section }}
+  <!-- <p>Count: {{$section_count }}</p> -->
+
+  {{ if ge $section_count 1 }}
+
+    {{ $section_name := index (.Site.Params.mainSections) 0 }}
+    <p>Name: {{$section_name }}</p>
+  
+    {{ with .Site.GetPage "section" $section_name }}
+      {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
+    {{ end }}
+  
+    {{ $n_posts := $.Param "recent_posts_number" | default 3 }}    
+    {{ range (first $n_posts $section) }}
+      {{ partial "summary.html" . }}
+    {{ end }}
+
+  {{ end }}
+
+  {{- range first 10 .Data.Pages }}
+    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+  {{- end }}
+  
+</div>
+
+{{- partial "sidebar.html" . -}}
+
+{{ end }}

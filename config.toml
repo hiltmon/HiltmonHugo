@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Hiltmon Hugo"
+theme = "hiltmon"
+
+MetaDataFormat = "yaml"

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+{{- partial "head.html" . -}}
+
+<body>
+
+{{- partial "header.html" . -}}
+{{- partial "single-header.html" . -}}
+
+<div id="content">
+  <div id="main">
+    <h4>Layout: Single</h4>
+    <span>{{ .Date.Format "Jan 2, 2006 03:04 PM MST" }}</span>
+    <h1>{{ .Title }}</h1>
+    <hr/>
+
+    {{ .Content }}  
+  </div>
+
+  {{- partial "sidebar.html" . -}}
+</div>
+
+{{- partial "single-footer.html" . -}}
+
+</body>
+
+</html>

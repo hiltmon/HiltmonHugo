@@ -1,0 +1,24 @@
+header {
+  clear: both;
+}
+
+#content {
+  overflow: visible;
+  clear: both;
+}
+
+#main {
+/*    margin-right: 240px;*/
+  width: 70%;
+  float: left;
+}
+
+aside.sidebar {
+  width: 30%;
+  margin-left: 5%;
+  float: left;
+}
+
+footer {
+  clear: both;
+}
