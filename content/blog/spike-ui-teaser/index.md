@@ -8,11 +8,11 @@ Following on to last week's [Spike Solutions](https://hiltmon.com/blog/2012/04/0
 
 The following snaps were generated on the fly, quickly, using code, no image or artwork required, and the values change and update dynamically. The best part, I can skin them later once I pick the theme and design for the product (or just use these as is).
 
-{{< figure src="images/spike-ui-number-panels.png 205 326" >}}
+{{< figure src="images/spike-ui-number-panels.png" width=205 height=326 >}}
 
 Note the subtle gradient in the large numbers, the glow around the panel titles, and the strong gradient in the pie slice.
 
-{{< figure src="images/spike-ui-graph-panel.png 455 288" >}}
+{{< figure src="images/spike-ui-graph-panel.png" width=455 height=288 >}}
 
 The graph scales as the data is added, there are no escapee pixels on the line joints, and the points are correctly positioned.
 

@@ -10,7 +10,7 @@ And I can never find a thing.
 
 So I open a new tab. And start again. Tab hell.
 
-{{< figure src="images/tab-hell-1.png 600 172" >}}
+{{< figure src="images/tab-hell-1.png" width=600 height=172 >}}
 
 Now this is fine for reading or browsing - you just walk the tabs to see what you were looking at. But for work, when you need to go to a specific web application that *you just know you have open somewhere*, it becomes a bother. You have to go to each browser window, walk the tabs, switch desktops, walk more. It's too slow and unproductive.
 
@@ -18,7 +18,7 @@ Wouldn't it be nice if you could use COMMAND-TAB (⌘⇥) or [Alfred](http://www
 
 The solution I have found is to use *Site Specific Browsers* for each work web application, and software to ensure that all links clicked go to the right *Site Specific Browser*. In other words, lets say I want to separate Facebook tabs out. I create a Facebook *Site Specific Browser* and set it such that any links that contain `facebook.com` should open in that *Site Specific Browser*. I can then COMMAND-TAB or Alfred or Spotlight to Facebook without having to look through all my browser tabs.
 
-{{< figure src="images/tab-hell-2.png 600 115" >}}
+{{< figure src="images/tab-hell-2.png" width=600 height=115 >}}
 
 Can you tell which applications are native and which are *Site Specific Browsers*? <span class="light">Solution: Google Analytics, Facebook, Asana and Bitbucket are *Site Specific Browsers*.</span>
 
@@ -38,7 +38,7 @@ I use [Fluid](http://fluidapp.com) for these. You can download it [here](http://
 
 To set up a new *Site Specific Browser*, launch [Fluid](http://fluidapp.com) and paste in the URL for the site into the form. Hit `create` and it will create a *Site Specific Browser* by that name in your **Applications** folder. You can customize the icon to make it look better too.
 
-{{< figure src="images/tab-hell-4.png 600 261" >}}
+{{< figure src="images/tab-hell-4.png" width=600 height=261 >}}
 
 To access Facebook now, you can launch it like any other application. It appears on your dock, application switcher and spotlight like a native application.
 
@@ -54,7 +54,7 @@ But there is a solution for that too.
 
 To enable the redirect, go to **Choosy Settings... / Advanced** and create a new rule for each *Site Specific Browser*. In this case, I am redirecting all `facebook.com` URL's to the Facebook *Site Specific Browser*.
 
-{{< figure src="images/tab-hell-5.png 600 623" >}}
+{{< figure src="images/tab-hell-5.png" width=600 height=623 >}}
 
 From now on, any Facebook link in any app (or on the web) will open in my Facebook *Site Specific Browser*.
 

@@ -4,7 +4,7 @@ date: 2016-04-24 10:56:49 -0400
 tags: 
 ---
 
-{{< figure src="images/watch-1yr-0.png 312 356" class="image-right" >}}
+{{< figure src="images/watch-1yr-0.png" width=312 height=356 class="image-right" >}}
 
 The Apple Watch turns 1 year old next week. If you follow the popular press, you'd think the device was rubbish and a complete failure.
 
@@ -16,7 +16,7 @@ I wear, and continue to wear my Apple Watch every day. I have done so since the 
 
 ### The Rings
 
-{{< figure src="images/watch-1yr-3.png 312 285" class="image-right" >}}
+{{< figure src="images/watch-1yr-3.png" width=312 height=285 class="image-right" >}}
 
 If there is a top — by far — reason I wear the Watch as much as possible, it's those perky exercise rings. I have set the calorie and exercise time goals just above my average, with gym exercise, day. After a year, I am still gamed into walking the long way home and feeling bad on those lazy Sundays when the rings gain almost no color.
 
@@ -24,7 +24,7 @@ The Apple Watch has quietly encouraged me to move and exercise in ways that I ha
 
 ### The Notifications
 
-{{< figure src="images/watch-1yr-5.png 156 195" class="image-right" >}}
+{{< figure src="images/watch-1yr-5.png" width=156 height=195 class="image-right" >}}
 
 I can easily replace the Apple Watch with a dedicated fitness device to replace the rings that rule them all, but nothing saves me more time than having notifications on my wrist.
 
@@ -34,7 +34,7 @@ But over the year I have done something few people have. I have added new notifi
 
 ### The Time
 
-{{< figure src="images/watch-1yr-2.png 156 195" class="image-right" >}}
+{{< figure src="images/watch-1yr-2.png" width=156 height=195 class="image-right" >}}
 
 I was a watch wearer before, and will be for life. The device on my wrist needs to be an excellent time piece, in design, feel, engineering and in allowing me to glance and "know" the time. Prior to the Apple Watch, I wore a Titanium Special Pilot Edition Citizen Eco-Drive watch, a solar-powered engineering marvel. Its face was as familiar to me as my own.
 
@@ -44,7 +44,7 @@ These days I run modular to see more data in the same glance. And reading that, 
 
 ### The Next Appointment
 
-{{< figure src="images/watch-1yr-1.png 156 195" class="image-right" >}}
+{{< figure src="images/watch-1yr-1.png" width=156 height=195 class="image-right" >}}
 
 It's not unusual for people to pop appointments in my calendar at work. My fault, I gave them access to my calendar for just that purpose. When deciding what task to work on next, I need to know when my next appointment is. If its far away, I will select a programming challenge and enter the zone. If its near-by, I will work on something smaller requiring less focus.
 
@@ -54,7 +54,7 @@ On the Watch, I just flip my wrist up and the next appointment is in the middle 
 
 ### The Weather
 
-{{< figure src="images/watch-1yr-6.png 156 195" class="image-right" >}}
+{{< figure src="images/watch-1yr-6.png" width=156 height=195 class="image-right" >}}
 
 I live in a high-rise in Manhattan. The best weather report comes from looking out the window. But I used to have no idea the temperature range outside as the building is heavily heated. A bright sunny day may look warm from a heated room, but be blisteringly cold.
 
@@ -74,7 +74,7 @@ Recently, Apple released the black Milanese Loop. I tried my luck and the Grand 
 
 ### The Apps
 
-{{< figure src="images/watch-1yr-4.png 156 253" class="image-right" >}}
+{{< figure src="images/watch-1yr-4.png" width=156 height=253 class="image-right" >}}
 
 As expected, I rarely use Watch Apps unless I want to drill more on a notification. The slow launch times have improved with watchOS 2, but are still too slow.
 

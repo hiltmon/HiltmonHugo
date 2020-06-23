@@ -22,7 +22,7 @@ Without writing a single line of code, this standard iOS app gives you a Master 
 
 So all I had to do in the core was build the flow.
 
-{{< figure src="images/timetocall-controllers.jpg 738 310" >}}
+{{< figure src="images/timetocall-controllers.jpg" width=738 height=310 >}}
 
 The core flow consists of four views:
 

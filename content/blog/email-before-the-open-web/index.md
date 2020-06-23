@@ -8,7 +8,7 @@ tags: [ Writing, Email ]
 
 The year was 1988 or 1989, and my Computer Science Professor wanted to send his first email. But first we had to connect our University to the fledgling Internet. Since I ran the UNIX lab, I was tasked to set this up.
 
-{{< figure src="images/UCT.png 150 152" class="image-right" >}}
+{{< figure src="images/UCT.png" width=150 height=152 class="image-right" >}}
 
 I should point out that I was at the [University of Cape Town][2] in South Africa at the time, about as far from the physical internet as was possible back then.
 
@@ -18,13 +18,13 @@ Since we were not interconnected, we had no access to the fledgling DNS network 
 
 The first step was then to find a way to connect to this Internet thingie from the far end of the world.
 
-{{< figure src="images/cambridge.png 150 189" class="image-right" >}}
+{{< figure src="images/cambridge.png" width=150 height=189 class="image-right" >}}
 
 One of my Professor's colleagues had written in a letter that his University, The [University of Cambridge][3] in the UK, had already been connected, and offered to enable us to route through them. All we needed to do was find a way to connect to them first.
 
 We could have just used one of our modems to call out to Cambridge via the phone network. But international phone calls to host slow modem connections were prohibitively expensive, and the international lines out of Africa were notoriously noisy and unreliable. We needed another way.
 
-{{< figure src="images/rhodes.png 150 213" class="image-right" >}}
+{{< figure src="images/rhodes.png" width=150 height=213 class="image-right" >}}
 
 Then we found out that the [Rhodes University][4] in Grahamstown in the Eastern Cape had been given a huge grant to pay for their connection to Cambridge. So my Professor got on the phone to his counterpart there and they agreed that UCT could route through Rhodes and piggyback on their UK connection.
 

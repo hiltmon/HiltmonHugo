@@ -12,9 +12,7 @@ The right question is not *what* operations exist (or should exist), it’s *how
 
 I believe that great software is based on great workflow. I my opinion, the best software has only the necessary functionality needed to support its workflows. Which means that the developer has focussed on how *best* to get things done and on only the operations necessary to do it. Quality, not quantity. There is not 5 ways to do something, there’s the one *best* way. Easy to learn, easy to use, easy to fix, easy to understand.
 
-{% pullquote %}
-On the other hand, software that offers an insane amount of operations and no workflow is very hard to use. Either the user has to figure out which operations to use when, or they need trainers and consultants and manuals and lots and lots of implementation money to get it going. {" Sure, high functionality software is more powerful, but only the powerful can use it. "} Interestingly enough, I see a lot of software that started with a few flows, but then got patched so many times to suit different users’ needs that the operation count went crazy and these new operations were not integrated into existing flows.
-{% endpullquote %}
+On the other hand, software that offers an insane amount of operations and no workflow is very hard to use. Either the user has to figure out which operations to use when, or they need trainers and consultants and manuals and lots and lots of implementation money to get it going. **Sure, high functionality software is more powerful, but only the powerful can use it.** Interestingly enough, I see a lot of software that started with a few flows, but then got patched so many times to suit different users’ needs that the operation count went crazy and these new operations were not integrated into existing flows.
 
 You can always tell if software was designed for functionality instead of flow:
 

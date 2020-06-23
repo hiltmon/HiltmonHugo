@@ -12,7 +12,7 @@ Removing the `www` was easy. I used Global Search and Replace (**⇧⌘F** in [T
 
 But we are still faced with the problem that remote links to the site may still include the `www` in their URL's. The solution is a 301 redirect. Setting that up depends on your hosting provider. For [Dreamhost](http://www.dreamhost.com/r.cgi?25899)[^1], it required clicking one radio button:
 
-{{< figure src="images/lose-the-www.png 819 145" >}}
+{{< figure src="images/lose-the-www.png" width=819 height=145 >}}
 
 Welcome to [hiltmon.com](https://hiltmon.com).
 

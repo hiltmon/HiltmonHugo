@@ -20,7 +20,7 @@ I used to use the old Dell mechanical switch keyboards when I was a Windows prog
 
 This issue was partially resolved when I purchased my first wired Apple Aluminum keyboard. The keys (except for a very few) were pretty much in the same place and my error rate was reduced when switching from desktop to laptop daily.
 
-{{< figure src="images/Laptop-FullSize.jpg 700 274" >}}
+{{< figure src="images/Laptop-FullSize.jpg" width=700 height=274 >}}
 
 *Apple Wired Desktop Keyboard Overlaying the Macbook Air Keyboard*
 
@@ -28,7 +28,7 @@ As you can see in the above overlaid image, most of the keys were the same size 
 
 So I switched to the Apple Wireless Keyboard.
 
-{{< figure src="images/Laptop-Desktop.jpg 700 274" >}}
+{{< figure src="images/Laptop-Desktop.jpg" width=700 height=274 >}}
 
 *Fade from Macbook Air (black keys) to Wireless Keyboard (white keys)*
 

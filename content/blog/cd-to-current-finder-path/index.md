@@ -45,6 +45,6 @@ To open a new terminal window at the current Finder path from Finder, you need t
 
 Once enabled, you can right click on any folder in Finder, choose **Services** / **New Terminal at Folder** to open a new Terminal at that location.
 
-{{< figure src="images/new-terminal-at-folder.jpg 568 287" >}}
+{{< figure src="images/new-terminal-at-folder.jpg" width=568 height=287 >}}
 
 *Follow the author as [@hiltmon](https://twitter.com/hiltmon) on Twitter or [@hiltmon](http://alpha.app.net/hiltmon) on App.Net.*

@@ -18,13 +18,9 @@ The amount of work seems staggering given we have well over 100 protobufs used a
 
 The benefits are also hard to measure. Given all the effort to upgrade, do we really get that much faster code, that much more secure code? And what about the code changes needed to support new interfaces, formats and ABIs? What does that get us?
 
-{% pullquote %}
-For most IT shops, the discussion stops there. {" “It ain’t broke, don’t fix it!” "}, or “All pain for no gain, not gonna play.” They stay on the known tools and platforms forever.
-{% endpullquote %}
+For most IT shops, the discussion stops there. **“It ain’t broke, don’t fix it!”**, or “All pain for no gain, not gonna play.” They stay on the known tools and platforms forever.
 
-{% pullquote %}
-For my IT shop, things are different. We *want* to use new tools, new languages, new platforms yet remain compatible with our existing services. We need to be secure. And we really do need to eke out each additional microsecond in computing. {" No, if it ain’t broke, break it! "}
-{% endpullquote %}
+For my IT shop, things are different. We *want* to use new tools, new languages, new platforms yet remain compatible with our existing services. We need to be secure. And we really do need to eke out each additional microsecond in computing. **No, if it ain’t broke, break it!**
 
 So, once in a while, generally once a year, we update the platform. Update the libraries. Update the tools. Update the databases.
 

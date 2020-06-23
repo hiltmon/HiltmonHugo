@@ -10,7 +10,7 @@ Following up this morning's [Google Analytics for Status Board](https://hiltmon.
 
 <span class="light">See also [Hourly Stats](https://hiltmon.com/blog/2013/04/15/hourly-analytics-for-status-board/) and [OS and Browser Stats](https://hiltmon.com/blog/2013/04/17/add-ga-os-and-browser-to-status-board/).</span>
 
-{{< figure src="images/status-board-pages.jpg 640 480" >}}
+{{< figure src="images/status-board-pages.jpg" width=640 height=480 >}}
 
 The steps are all the same as [Google Analytics for Status Board](https://hiltmon.com/blog/2013/04/10/google-analytics-for-status-board/), so follow along, only replace those script and the launcher files with these.
 

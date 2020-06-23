@@ -29,7 +29,7 @@ I guess it's time to step away from the screen and start getting to know the goo
 
 ## Aside: The message that was sent
 
-{{< figure src="images/perfect-press-release.jpg 300 169" class="image-right" >}}
+{{< figure src="images/perfect-press-release.jpg" width=300 height=169 class="image-right" >}}
 
 I followed the advice of the folks at the App Design Vault in [The Ultimate Cheat Sheet for Getting iPhone App Reviews](http://www.appdesignvault.com/iphone-app-reviews/) and made it look like   
 Christopher Phin's [anatomy of a perfect press release](https://twitter.com/chrisphin/status/308672663650463744) example.
@@ -42,4 +42,4 @@ In order to get attention, I also
 
 So here it is, an image of the PR message sent:
 
-{{< figure src="images/timetocall-press-release.jpg 729 502" >}}
+{{< figure src="images/timetocall-press-release.jpg" width=729 height=502 >}}

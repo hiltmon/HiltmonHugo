@@ -16,7 +16,7 @@ Then, to create the `.png` files that I use in the application, I would manually
 
 Say I have five buttons in my button set, each having a standard and pushed version. I'd have a shape layer for the regular state, a shape layer for the pushed state and text layers and image layers for each button variant. I would then create ten layer comps, one for each combination of button layers to reflect each button state image desired. It looks like this:
 
-{{< figure src="images/photoshop-with-layer-comps.png 366 369" >}}
+{{< figure src="images/photoshop-with-layer-comps.png" width=366 height=369 >}}
 
 This works great, all I have to do is change 1 layer and all my buttons get updated. But to export, I would have to have to run `Save for Web...` twenty times to get the 20 `.png` files needed, twice for each layer comp (retina and regular). Make one change, 20 more `Save for Web...` runs. Manual. Slow. Tedious.
 
@@ -37,13 +37,13 @@ And the good people at [MacRabbit](http://macrabbit.com) had just the thing. I h
 
 In Photoshop, create layer groups for each element in the file, *and name the group with the file name you want it exported as.* Like this: 
 
-{{< figure src="images/photoshop-layer-cake.png 640 683" >}}
+{{< figure src="images/photoshop-layer-cake.png" width=640 height=683 >}}
 
 When you want to export the images, drag and drop the `.psd` file onto Slicy and it creates the images for you. Like magic.
 
 But there's more. If you name the layer group (file) with the iOS standard `@2x` syntax, Slicy exports both the retina and regular file versions and names them correctly. Better magic. This is it:
 
-{{< figure src="images/layer-cake-results.png 612 433" >}}
+{{< figure src="images/layer-cake-results.png" width=612 height=433 >}}
 
 And there is more. Slicy *remembers* what you did, which means you can *repeat* the process anytime. And it can create multi-resolution `.icns` files.
 

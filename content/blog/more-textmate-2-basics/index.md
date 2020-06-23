@@ -4,7 +4,7 @@ date: 2014-01-20 14:07:30 -0500
 tags: [Text Editors, TextMate]
 ---
 
-{{< figure src="images/textmate.png 128 128" class="image-right" >}}
+{{< figure src="images/textmate.png" width=128 height=128 class="image-right" >}}
 
 Previously, I wrote about the [TextMate 2 Basics](https://hiltmon.com/blog/2013/11/09/textmate-2-basics/) that I use all the time, and I recommend you read [that](https://hiltmon.com/blog/2013/11/09/textmate-2-basics/) post first. This post follows up with a *mish-mash* of more tools, ideas and tricks that I also use surprisingly frequently.
 
@@ -18,13 +18,13 @@ Auto-pairing is when you type in a character that should be paired in code, and 
 
 But TextMate takes it to the next level:
 
-{{< figure src="images/tm-2-basics-2-1.png 140 210" class="image-right" >}}
+{{< figure src="images/tm-2-basics-2-1.png" width=140 height=210 class="image-right" >}}
 
 - **Wrap Selected**: Select some text and press the opening key in an auto-pair set. Instead of replacing the selection with the key pressed like other editors do, TextMate wraps that selection in the correct pair. 
 
   For example, to to correctly bracket an expression such as `a / b + c`, select the `b + c` bit using ⌥⌘← and hit `(` to get `a / (b + c)`.
   
-{{< figure src="images/tm-2-basics-2-2.png 200 210" class="image-right" >}}
+{{< figure src="images/tm-2-basics-2-2.png" width=200 height=210 class="image-right" >}}
   
 - **String Interpolation**: In Ruby, you can interpolate a variable's value in a string using the `#{}` construct. TextMate is aware of the context and if you press the `#` key inside a string that can be interpolated, TextMate uses auto-pairing to wrap the selection in the interpolation braces.
 
@@ -39,17 +39,17 @@ Of course the big problem with auto-pairing is that in most other editors, you n
 TextMate has two kinds of completions, "tab" (⇥) completions and 
 "esc" (⎋) completions.
 
-{{< figure src="images/tm-2-basics-2-3.png 200 170" class="image-right" >}}
+{{< figure src="images/tm-2-basics-2-3.png" width=200 height=170 class="image-right" >}}
 
 **Tab completions** were invented in TextMate and have improved in TextMate 2. Tab completions operate by typing in a few letters and pressing the tab (⇥) key. TextMate attempts to match the characters before the cursor to the tab completions available for that language or context, and if a match is found, it puts the completion in. For example, in Ruby, typing `def⇥` will insert `def function_name\n\nend` and highlights `function_name` for you to overtype.
 
-{{< figure src="images/tm-2-basics-2-4.png 360 231" class="image-right" >}}
+{{< figure src="images/tm-2-basics-2-4.png" width=360 height=231 class="image-right" >}}
 
 You can find the currently available tab completions in the cog menu at the bottom for each language. The best way to learn them is to see what is available and then start using them. For example, in Ruby, I always use `cla⇥` to create Ruby classes, `mod⇥` to create Ruby modules and `ea⇥` for quick `each` loops. I strongly recommend you check out and learn the tab completions for our favorite languages in TextMate. You will save a ton of keystrokes.
 
 Note that TextMate is aware at all times on the language context you are in. Which means that different language completions are available in different parts of a code file. For example, in a Rails `.erb` file, HTML completions are available unless you are inside a `<% ... %>` construct, in which case, Ruby tab completions work.
 
-{{< figure src="images/tm-2-basics-2-5.png 200 230" class="image-right" >}}
+{{< figure src="images/tm-2-basics-2-5.png" width=200 height=230 class="image-right" >}}
 
 **Esc completion** saves you keystrokes within a code file by completing *function* and *variable* names that exist in the *current* file. <span class="light">To get project level completions, you need to look at `ctags` which I intend to cover in a future post.</span>
 
@@ -63,9 +63,7 @@ The File Browser has changed completely in TextMate 2 and it took me a while to 
 
 To switch between the editor and the File Browser without using the mouse, hit `⌃⌘⇥` (Control-Command-Tab). You can then use the arrow keys to navigate the tree. Use `⌘↓` to open the selected file (just like Finder). When in the editor, to reveal the current file in the file browser, hit `⌃⌘r` ("Reveal").
 
-{% pullquote %}
-If you mouse instead (like I do), {" single-click the file icon to open it in the editor. "} Single-clicking the name just selects it (just like Finder). Double-clicking the file name opens the file too. *Once you get used to single-clicking the icon, opening files becomes so much easier.*
-{% endpullquote %}
+If you mouse instead (like I do), **single-click the file icon to open it in the editor.** Single-clicking the name just selects it (just like Finder). Double-clicking the file name opens the file too. *Once you get used to single-clicking the icon, opening files becomes so much easier.*
 
 ## Editor Tabs
 
@@ -77,13 +75,13 @@ You can also drag a tab out of the tab bar (or double-click on it) to move it to
 
 ## Fonts and Themes
 
-{{< figure src="images/tm-2-basics-2-6.jpg 700 245" >}}
+{{< figure src="images/tm-2-basics-2-6.jpg" width=700 height=245 >}}
 
 Since we all have different tastes and preferences, TextMate comes with a lovely set of built-in themes which are fully customizable. You can change the theme from the **View / Theme** menu. 
 
 To install  a new theme, download a `.tmTheme` file and double-click it. Then look for the new theme on the **View / Theme** menu. I use my own [CombinedCasts.tmTheme](https://hiltmon.com/files/CombinedCasts.tmTheme) theme (See [Multiple Themes in TextMate 2 - The Hiltmon](https://hiltmon.com/blog/2013/02/22/multiple-themes-in-textmate-2/)) but there are hundreds out there to choose from.
 
-{{< figure src="images/tm-2-basics-2-7.jpg 300 189" class="image-right" >}}
+{{< figure src="images/tm-2-basics-2-7.jpg" width=300 height=189 class="image-right" >}}
 
 In my case, I have set TextMate to be the default editor for all my script file formats, from `.sh` to `.rb` and `.py`. I also use QuickLook a lot to browse code files before opening them. If TextMate is the default for a file, it's QuickLook generator is used and it now renders code files using your selected theme. A nice touch.
 
@@ -93,7 +91,7 @@ One recent change in TextMate 2 has been the way it accesses and uses fonts. I h
 
 If you use TextMate to write Shell, Ruby or Python scripts, use the environment string (or "shebang" `#!`) to make things easier to run:
 
-{{< figure src="images/tm-2-basics-2-8.png 200 210" class="image-right" >}}
+{{< figure src="images/tm-2-basics-2-8.png" width=200 height=210 class="image-right" >}}
 
 - Start each file with the right environment string. This helps the shell know what runtime to use to execute the file. Type `env⇥` at the top of the file and TextMate will insert the correct environment "shebang" into the file. **It will also mark the file as executable on first save.** So instead of running `ruby my_script.rb`, you can just type `my_script.rb` on the command line to run it.
 - Speaking of the command line, hitting `⌃⇧O` (the letter O) will open a fresh terminal session in the current folder of the file.  But if you prefer the TextMate output window, `⌘r` in TextMate will launch the environment specified in the file's "shebang" and display the output in the output window.
@@ -117,11 +115,11 @@ If you use git, mercurial or subversion, install the matching bundle. You then g
 
 ### The TODO Bundle
 
-{{< figure src="images/tm-2-basics-2-9.png 300 152" class="image-right" >}}
+{{< figure src="images/tm-2-basics-2-9.png" width=300 height=152 class="image-right" >}}
 
 I don't know about you, but I often leave `TODO` and `HACK` comments in my code to remind me about things, *and then forget about them*. The TODO bundle in TextMate 2 searches the current project tree for comments with `TODO`, `FIXME`, `CHANGED` and `RADAR` and displays them in the output window. Just hit `⌃⇧T`. You'll never forget again.
 
-{{< figure src="images/tm-2-basics-2-A.png 300 173" class="image-right" >}}
+{{< figure src="images/tm-2-basics-2-A.png" width=300 height=173 class="image-right" >}}
 
 To add your own markers, go to the cog menu, find the TODO bundle and click **Preferences...**. Add a new marker and replace the regular expression to catch the rest of the comment. Hit `Done`, restart TextMate and run TODO again to see your new marker matches.
 
@@ -131,11 +129,11 @@ I only found this one recently, but it comes in handy a lot. I write a lot of co
 
 Before finding this bundle, I used to have to copy the SQL from TextMate into NaviCat, test and run it, then copy it back. And I could never be sure that I got it all until I ran the program.
 
-{{< figure src="images/tm-2-basics-2-B.png 300 194" class="image-right" >}}
+{{< figure src="images/tm-2-basics-2-B.png" width=300 height=194 class="image-right" >}}
 
 The SQL bundle supports MySQL and PostgreSQL only, but it works rather well. Start by setting up your connections in **Cog Menu / SQL / Preferences...**. Then, to test a SQL statement, just select it in TextMate and hit `⌃⇧Q`. If TextMate picks the wrong database, open **Cog Menu / SQL / Preferences...** and highlight the correct database then click `Done`. `⌃⇧Q` will run the SQL against the correct database now.
 
-{{< figure src="images/tm-2-basics-2-C.png 300 152" class="image-right" >}}
+{{< figure src="images/tm-2-basics-2-C.png" width=300 height=152 class="image-right" >}}
 
 The output window is also a Database Browser, so you can use it to browse databases, their tables and see what their fields are named while coding.
 

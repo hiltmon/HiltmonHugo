@@ -18,7 +18,7 @@ Enter [iTerm 2](http://www.iterm2.com/#/section/home) profiles with shortcut key
 
 In [iTerm 2](http://www.iterm2.com/#/section/home) preferences, access profiles and add a new profile. I name these after the my server *colloquial* names (because who can remember those IT names like `XYZZYDEVDBWX907.domainname.local`). 
 
-{{< figure src="images/iterm-profiles.jpg 700 410" >}}
+{{< figure src="images/iterm-profiles.jpg" width=700 height=410 >}}
 
 Set the shortcut key you want to use, and input the full SSH command:
 

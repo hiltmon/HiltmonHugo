@@ -12,7 +12,7 @@ After letting them percolate for a few days, here are my impressions of what was
 
 ## iOS 7
 
-{{< figure src="images/ios7-mail.jpg 238 422" class="image-right" >}}
+{{< figure src="images/ios7-mail.jpg" width=238 height=422 class="image-right" >}}
 
 The iOS look and feel has remained largely unchanged since the first iPhone release. Same icons, same springboard, same buttons and UI elements. I think the key to the iPhone's success was this beautifully simple UI, and the fact that Apple got it so right at the first attempt was amazing.
 
@@ -20,7 +20,7 @@ But the current iOS UI is starting to look worn in as we have all  gotten used t
 
 My first response to the new iOS 7 look and feel was this: *"It's what Windows Phone would look like if they used real designers"*. My first impression was of large swathes of bright white, tall and thin letterforms, borderless buttons and UI and the same flat look as Microsoft's metro. <span class="light">Yuk.</span>
 
-{{< figure src="images/ios7-weather.jpg 238 422" class="left-right" >}}
+{{< figure src="images/ios7-weather.jpg" width=238 height=422 class="left-right" >}}
 
 But then I looked closer. The colors are more subtle, the shapes more organic, the text more readable and yet the UI calls to action remain visible and present, unlike Metro. <span class="light">Er, not Yuk.</span> It grew on me so quickly, especially after I started using it.
 
@@ -28,7 +28,7 @@ The updated email UI, the new weather app look, the today view on Notification C
 
 Of course this new look led to a typical Internet brouhaha. Designers shouted about how much they hated the new look, that the icons were horrible and the new control center looks like a mess. It was the typical knee-jerk screaming reaction to change.
 
-{{< figure src="images/ios7-multitasking.jpg 238 422" class="image-right" >}}
+{{< figure src="images/ios7-multitasking.jpg" width=238 height=422 class="image-right" >}}
 
 But they had not yet *used* iOS 7.
 
@@ -45,11 +45,11 @@ I'm a Mac. I spend all day, every day working on OS X. Over the years, I have ha
 
 The biggest change for me moving OS X 10.6 Snow Leopard to 10.7 Lion was the full screen apps change. I could full screen an app, wonderful, but my second monitor became useless unless I was using Aperture. It was distracting to see boring gray linen where I expected to see my other windows.
 
-{{< figure src="images/lion-full-screen.jpg 720 225" >}}
+{{< figure src="images/lion-full-screen.jpg" width=720 height=225 >}}
 
 So I switched from a two monitor setup to a single monitor setup. And got used to using gestures to switch between Mission Control desktops, which I then justified as helping me remain focussed. Until I realized that that was actually true, I did remain more focussed and more productive on a single monitor setup.
 
-{{< figure src="images/mavericks-full-screen.jpg 452 246" >}}
+{{< figure src="images/mavericks-full-screen.jpg" width=452 height=246 >}}
 
 The new independent multi-monitor features of OS X Mavericks looks just the trick. Independent monitors, menus on each screen, independent spaces, just right. It should have been done in Lion. I'm glad Apple finally got it right.
 
@@ -63,7 +63,7 @@ On the geeky side, the new compressed memory, coalesced timers, app nap and clic
 
 ## Haswell Macbook Air
 
-{{< figure src="images/macbook-pro-side.jpg 650 142" >}}
+{{< figure src="images/macbook-pro-side.jpg" width=650 height=142 >}}
 
 I am writing this on the top-of-the-line mid-2009 15" Macbook Pro with dual 3 GHz cores, 8GB of RAM, a new SSD and a failing battery, and this machine is plenty fast for my needs (as long as it's plugged in).
 
@@ -77,7 +77,7 @@ My next computer will be this new 13" Macbook Air. I'll get double the performan
 
 ## The Mac Pro
 
-{{< figure src="images/mac-pros-compared.jpg 362 299" class="left-right" >}}
+{{< figure src="images/mac-pros-compared.jpg" width=362 height=299 class="left-right" >}}
 
 ... Until I get one of these.
 
@@ -91,7 +91,7 @@ And then Tim Cook *previewed* the new Mac Pro in his Keynote.
 
 <span class="light">*Thud*. Jaw dropped, hit the floor and cracked the floorboards.</span>
 
-{{< figure src="images/mac-pro-cpu.jpg 287 424" class="left-right" >}}
+{{< figure src="images/mac-pro-cpu.jpg" width=287 height=424 class="left-right" >}}
 
 New Xeon's, super fast flash storage, dual high compute graphics cards, six full speed thunderbolt channels for almost unlimited IO throughput, in a sexy cylinder the size of a large coffee pot.
 
@@ -99,7 +99,7 @@ New Xeon's, super fast flash storage, dual high compute graphics cards, six full
 
 I loved the look of the PowerMac G4 Cube. It's too bad the engineering and sales were not so great. The new Mac Pro shows that Apple can create amazing professional grade computers that outperform anything and yet still innovate massively on design.
 
-{{< figure src="images/mac-pro-ports.jpg 287 362" class="image-right" >}}
+{{< figure src="images/mac-pro-ports.jpg" width=287 height=362 class="image-right" >}}
 
 Of course, there have been some complaints about it too. You cannot add or change the video cards, or add more internal storage. Really? If you want to change video cards to play games, get a playstation. The video cards chosen are high-compute, chosen to help people like me use Open CL and massively increase our compute or render capability, and yet they can still drive 3 x 4K displays. And the plethora of full-speed Thunderbolt ports means that these computers have double the standard SAN bandwidth *per channel* used in data centers to access external storage. I kind of expect Apple to actually release their own external storage chassis to go with the new Mac Pro when it does get released, a new XSan.
 

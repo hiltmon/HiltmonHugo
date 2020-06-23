@@ -49,6 +49,13 @@ blog = "/blog/:year/:month/:day/:filename/"
   weight = -10
   
 [markup]
+
+  # To allow html in the article
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      
   [markup.highlight]
     codeFences = true
     guessSyntax = true
@@ -57,5 +64,6 @@ blog = "/blog/:year/:month/:day/:filename/"
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "solarized-light"
+    style = "rrt"
     tabWidth = 2
+      

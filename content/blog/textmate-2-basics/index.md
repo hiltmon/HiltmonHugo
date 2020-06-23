@@ -4,7 +4,7 @@ date: 2013-11-09 15:00:00-0400
 tags: [Text Editors, TextMate]
 ---
 
-{{< figure src="images/textmate.png 128 128" class="image-right" >}}
+{{< figure src="images/textmate.png" width=128 height=128 class="image-right" >}}
 
 I have been using [TextMate](http://macromates.com) for years as my primary programmer's editor, but it turns out that I only use a subset of its amazing features. I've been speaking with users of other awesome programmer's editors and they wanted to know what it is in TextMate that I love so much and keeps me using it.
 
@@ -16,7 +16,7 @@ So here are the basic parts of TextMate 2 that I use regularly. Maybe you can di
 
 The true power of TextMate can be found in its bundles. Whether you code in Ruby and Shell like I do, or in some esoteric language, chances are that there is a bundle that will not only provide syntax highlighting for that language but include a whole bunch of snippets to make programming easier. There are bundles for programming languages, build systems, source code control, testing languages and odd file formats. Even the themes are bundles.
 
-{{< figure src="images/tm-basics-1.jpg 300 182" class="image-right" >}}
+{{< figure src="images/tm-basics-1.jpg" width=300 height=182 class="image-right" >}}
 
 I don't install all the bundles, I only install them as needed (and remove the ones I do not need). <span class="light">In the *good old days* when TextMate 1 was still growing, this prevented keystroke and scope conflicts.</span>
 
@@ -30,13 +30,13 @@ Or best of all, use `⌘⌃T` to bring up the bundle search dialog to find what'
 
 ## Default file
 
-{{< figure src="images/tm-basics-3.jpg 250 167" class="image-right" >}}
+{{< figure src="images/tm-basics-3.jpg" width=250 height=167 class="image-right" >}}
 
 `⌘N` is a programmer's friend, it creates a new file in any editor. In TextMate 2, the shipped default is a plain text file which really makes no sense in a programmer's editor. I set it to my most common format, Ruby, as *most of the time*, that's what I need. To set the default file type, open **Preferences...** and on the **Files** tab, set your preferred new document type.
 
 ## Favorites
 
-I find myself opening the same projects over and over again in TextMate 2. In TextMate 1 we had project files, but I never really used them. So I used to open projects by opening a terminal, `cd` to the project folder and type the command `mate .` to open the project folder (and then created TextExpander scripts to do this, see [TextExpander in Terminal](https://hiltmon.com/blog/2012/07/15/textexpander-in-terminal/)).{{< figure src="images/tm-basics-4.jpg 272 121" class="image-right" >}}
+I find myself opening the same projects over and over again in TextMate 2. In TextMate 1 we had project files, but I never really used them. So I used to open projects by opening a terminal, `cd` to the project folder and type the command `mate .` to open the project folder (and then created TextExpander scripts to do this, see [TextExpander in Terminal](https://hiltmon.com/blog/2012/07/15/textexpander-in-terminal/)).{{< figure src="images/tm-basics-4.jpg" width=272 height=121 class="image-right" >}}
 
 In TextMate 2, the Favorites feature works better for me. To set up a favorite, use the file browser in TextMate 2 to navigate to the folder *above* your projects. 
 
@@ -44,7 +44,7 @@ In TextMate 2, the Favorites feature works better for me. To set up a favorite, 
 
 Then, to create a favorite, right click on the project folder and choose "Add &lt;folder&gt; to Favorites".
 
-{{< figure src="images/tm-basics-6.jpg 429 301" class="image-right" >}} 
+{{< figure src="images/tm-basics-6.jpg" width=429 height=301 class="image-right" >}} 
 
 Next time you want to open an project, just press `⇧⌘O` (O not zero) to open the **Open Favorite** dialog, then type or click to open the project. I just love this. <span class="light">*Note that in the current alphas of TextMate 2, you need to restart the application for the favorites to be updated.*</span>
 
@@ -77,12 +77,12 @@ will open the `.bash_profile` file from the remote server in your local TextMate
 
 As a Mac user, I already have the Mac editing keys in my muscle memory. Here are some additional keys that I use all the time in TextMate 2 to maximize my productivity:
 
-{{< figure src="images/tm-basics-7.jpg 412 249" class="image-right" >}}
+{{< figure src="images/tm-basics-7.jpg" width=412 height=249 class="image-right" >}}
 
 * `⌘T` is my favorite key, it brings up the **Go to File** dialog which allows you to type a few letters and TextMate 2 intelligently finds all matching files in the project for you. Common uses are for opening the `routes.rb` file (`⌘T rou ↩`)
  or the `schema.rb`file (`⌘T sch ↩`) in Rails projects.
 
-{{< figure src="images/tm-basics-8.jpg 250 216" class="image-right" >}}
+{{< figure src="images/tm-basics-8.jpg" width=250 height=216 class="image-right" >}}
 
 * `⌘R` runs the current file. I do not like the default where the results are displayed at the bottom of the editor window, so I change it to **New window** in the **Preferences**, **Projects** tab.
 

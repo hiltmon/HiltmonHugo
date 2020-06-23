@@ -10,7 +10,7 @@ I have switched over to and finally locked in on a new distributed note taking p
 
 Since I switched over to the iPad from a paper notepad about two years ago, I used [Penultimate](http://www.cocoabox.com/penultimate) and a stylus to scribble notes. I thought this would be a great process. I can scribble quite quickly, I can draw pictures (I have a visual mind) and I can save the PDF's of these notes and refer back to them. Something like this:
 
-{{< figure src="images/penultimate-notes.png 640 419" >}}
+{{< figure src="images/penultimate-notes.png" width=640 height=419 >}}
 
 But it was not working for me. The notes are often quite illegible, they are certainly unsearchable, and I had to manually move them over to the Mac. Truly, a better way was needed.
 
@@ -35,11 +35,11 @@ So, over the past few months, I have been tuning in and then stabilizing on the 
 
 First, I reconfigured nvAlt to save everything as plain text files using the `.markdown` extension in a 'Notational Data' folder which happens to be in the root of my Dropbox. Result: All notes are automatically synced using Dropbox to all devices. It just works.
 
-{{< figure src="images/nvalt-storage.png 640 512" >}}
+{{< figure src="images/nvalt-storage.png" width=640 height=512 >}}
 
 I then added to the series of snippets in TextExander to help me name the different kinds of files and notes that I take (see [My Blog Writing Workflow](https://hiltmon.com/blog/2012/03/15/my-blog-writing-workflow/)). I have TextExpander installed on all devices too, and set to sync via Dropbox as well, so these are also available everywhere.
 
-{{< figure src="images/textexpander-notex.png 640 429" >}}
+{{< figure src="images/textexpander-notex.png" width=640 height=429 >}}
 
 On the iPad, I have installed both TextExpander Touch and Elements. Elements has been configured to use the same 'Notational Data' folder on Dropbox and the same `markdown` file extension. I also have [Byword](http://bywordapp.com/) and [iAWriter](http://www.iawriter.com/) on the iPad with the same folder settings, but it seems I go to Elements the most often.
 

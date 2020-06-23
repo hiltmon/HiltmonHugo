@@ -16,9 +16,7 @@ On the other hand, I don't know many who treat Windows in the same way. They see
 
 There are exceptions of course. I know several smart people who are on Microsoft because there is this one application that they love and use all the time and choose not to change from it. Good for them too, yet we treat them as being a tad "special". Not true, they have made a considered choice too, and are fans and critics too.
 
-{% pullquote %}
-For me, I'd like to think of myself as an Apple fan who tries to criticize them in private more than in public, mostly because of the noise that it generates that drowns out the actual message. *For example, {" I am pissed at Apple for dumping pro and creative users for the masses, I am annoyed that a lot of the new software is buggy yet still ships and I am concerned that the pressure to innovate is hindering Apple's ability to iterate (which is where Apple really excels). "}*
-{% endpullquote %}
+For me, I'd like to think of myself as an Apple fan who tries to criticize them in private more than in public, mostly because of the noise that it generates that drowns out the actual message. *For example, **I am pissed at Apple for dumping pro and creative users for the masses, I am annoyed that a lot of the new software is buggy yet still ships and I am concerned that the pressure to innovate is hindering Apple's ability to iterate (which is where Apple really excels).**
 
 I still feel that Apple produces the best hardware, the best operating systems, the best user experience, and most importantly, has the best indie software ecosystem. **For me, for my needs.** Which is why I still use and choose Apple products. It's why I often talk about this ecosystem on this blog.
 

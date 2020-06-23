@@ -46,6 +46,6 @@ Call notes start here
 
 A search for `called donald huey` will find this document easily, even if Huey was quiet for the whole call and does not appear in the notes. Yet if I format this document for HTML or PDF using [Marked](http://markedapp.com), the metadata disappears. Just the way I want it.
 
-{{< figure src="images/marked-no-metadata.png 579 276" >}}
+{{< figure src="images/marked-no-metadata.png" width=579 height=276 >}}
 
 I use this so much, I have [TextExpander](http://smilesoftware.com/TextExpander/) snippets that generate metadata block, fill in the dates for me, and place the cursor at the title line. Just **New Document**, type `;mmt` (for MultiMarkdown Title) or `;mmc` (for MultiMarkdown Call) and I have a new markdown document with the metadata block all set up and ready to go.  

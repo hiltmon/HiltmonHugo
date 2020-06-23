@@ -10,7 +10,7 @@ Following up last week's [Google Analytics for Status Board](https://hiltmon.com
 
 <span class="light">See also [Top Pages in Status Board](https://hiltmon.com/blog/2013/04/10/top-pages-in-status-board/), [Daily Stats](https://hiltmon.com/blog/2013/04/10/google-analytics-for-status-board/) and [OS and Browser Stats](https://hiltmon.com/blog/2013/04/17/add-ga-os-and-browser-to-status-board/).</span>
 
-{{< figure src="images/status-board-hourly.jpg 640 480" >}}
+{{< figure src="images/status-board-hourly.jpg" width=640 height=480 >}}
 
 The script creates a 24-hour rotating window of stats using your local time-zone for reference. *Note that I have only tested this in US EST, but it should work elsewhere.*
 

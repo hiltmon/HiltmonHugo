@@ -4,7 +4,7 @@ date: 2014-10-18 12:02:52 -0400
 tags: 
 ---
 
-{{< figure src="images/r2d2usb.jpg 200 278" class="image-right" >}}
+{{< figure src="images/r2d2usb.jpg" width=200 height=278 class="image-right" >}}
 
 Dan Frakes ([@DanFrakes](https://twitter.com/DanFrakes)), previously of MacWorld fame, provides easy to follow instructions on how to create a bootable OS X 10.10 Yosemite installer USB drive on his personal blog. I've always done this and I recommend you do too.
 

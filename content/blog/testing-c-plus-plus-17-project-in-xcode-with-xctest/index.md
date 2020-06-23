@@ -19,7 +19,7 @@ In this post I will show you how to set up a simple standard C++17 library proje
 I am going to start with my standard, designed for cross platform, C++17 library project. In a terminal, lets create the folders needed:
 
 
-```
+```bash
 cd Projects
 mkdir HiltmonLibrary
 cd HiltmonLibrary/

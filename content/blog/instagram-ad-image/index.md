@@ -11,6 +11,6 @@ Feel free to use the below image to promote any product out there on my behalf. 
 Ok, thanks, bye.  
 ~Hilton
 
-{{< figure src="images/instagram-ad.jpg 612 612" >}}
+{{< figure src="images/instagram-ad.jpg" width=612 height=612 >}}
 
 *Follow the author as [@hiltmon](https://twitter.com/hiltmon) on Twitter or [@hiltmon](http://alpha.app.net/hiltmon) on App.Net.*

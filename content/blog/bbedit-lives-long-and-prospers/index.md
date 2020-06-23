@@ -10,7 +10,7 @@ On Twitter today:
 Celebrating back to school? Most of today's undergraduates have never lived in a world without BBEdit.
 {% endblockquote %}
 
-{{< figure src="images/bbedit.png 256 256" class="image-right" >}}
+{{< figure src="images/bbedit.png" width=256 height=256 class="image-right" >}}
 
 All our attention is focussed on the race-to-the-bottom, in-app purchase rip-offs or the current fad app, *but we forget that software, well-built and well-maintained software, has no shelf life.*
 

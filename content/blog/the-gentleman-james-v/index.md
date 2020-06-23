@@ -64,7 +64,7 @@ And had a good night’s sleep.
 
 ***
 <br/>
-{{< figure src="images/james-v-1.jpg 350 186" class="image-right" >}}
+{{< figure src="images/james-v-1.jpg" width=350 height=186 class="image-right" >}}
 The message on the third slip of paper in full:
 
 > Hilton… something for your office. I couldn’t bear the thought of you drinking from shitty plastic cups. Enjoy!

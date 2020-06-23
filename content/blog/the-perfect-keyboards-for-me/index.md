@@ -12,7 +12,7 @@ I was wrong. But I did not know it at the time.
 
 A while back, my boss went on a buying bender and purchased a whole bunch of different keyboards, including the DAS and some Microsoft ones. I tried them out too. Neither of us liked any of them, so he returned them all. As a joke, I ordered the CODE keyboard to show that I could buy "better" keyboards than him, and fully expected to return it.
 
-{{< figure src="images/wasd-code.png 600 245" >}}
+{{< figure src="images/wasd-code.png" width=600 height=245 >}}
 
 <span class="light">The CODE Keyboard - I interrupted writing this post to take the picture.</span>
 
@@ -32,7 +32,7 @@ So I ordered another WASD keyboard. I got the exact same 87-key layout, but with
 
 The second WASD looks the same, but the keys are reasonably softer than the CODE and they take even higher up. As a result, I can use lighter presses to type on it which makes coding for me easier.
 
-{{< figure src="images/wasd-at-work.png 300 224" class="image-right" >}}
+{{< figure src="images/wasd-at-work.png" width=300 height=224 class="image-right" >}}
 
 So now I have two of them. The CODE resides at home where I do a lot more writing and I love the heavier presses and back-light at night. The regular WASD resides at work where I program all day.
 

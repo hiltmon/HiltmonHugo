@@ -30,7 +30,7 @@ The lens clarity was surprisingly excellent (even through the fingerprint smudge
 
 Turns out, Revo has a neutral lens in a graphite color. And a matching black titanium frame that looks great. So, after all that research, the best pair of sunglasses today, for me, based on my criteria, is the [Revo Discern Titanium](http://www.revo.com/models/54-discernr-titanium) sunglass with the graphite lens, which I tested and purchased.
 
-{{< figure src="images/revo-discern-titanium.jpg 640 298" >}}
+{{< figure src="images/revo-discern-titanium.jpg" width=640 height=298 >}}
 
 The clarity and quality of their polycarbonate is wonderful, and the neutral lens color means that I still have an excellent idea how photos will turn out. The frame wrap is just right, and the spring loaded arms hold the sunglasses perfectly in front of my eyes without my eyelashes touching the lens. And they look good. I’m still getting used to the new polarization (looking at the lens instead of through it), but I had to do that with my last pair as well.
 

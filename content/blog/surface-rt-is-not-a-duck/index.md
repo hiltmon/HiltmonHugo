@@ -34,9 +34,7 @@ I then launched Powerpoint in tablet mode. Worked OK for showing the slide deck,
 
 Finally, Word. Only in laptop mode, kickstanded with the touch keyboard attached. I was hoping the typing experience would be better than other products. I love that the keys on the touch cover have ever-so-slightly raised caps to I could feel where to tap. But the amount of pressure needed to activate a key varied across the keyboard and across keyboards. It felt natural to type on, but keystrokes kept on getting missed. I’m sure with practice, this will improve, just as my typing on a touchscreen did. I did not try the cover with real keys, but watched others and it seemed the *obvious* one to buy.
 
-{% pullquote %}
-But, while typing in Word, that is when I realized it. {" The Surface was operating at this point in time as intended. Standing up, in landscape, with a keyboard and touchpad, where the user occasionally reaches forward to swipe on the screen. "} In this mode, it does look good and work well. And when the software becomes more useable, this Surface will too.
-{% endpullquote %}
+But, while typing in Word, that is when I realized it. **The Surface was operating at this point in time as intended. Standing up, in landscape, with a keyboard and touchpad, where the user occasionally reaches forward to swipe on the screen.** In this mode, it does look good and work well. And when the software becomes more useable, this Surface will too.
 
 My take is that the Microsoft Surface looks like a tablet, but it’s really just a very nice ARM based ultrabook that is only usable when connected to its keyboard and standing on its kickstand. And Windows 8 RT is *feaux* Windows, it looks and handles like the real Windows 8, it fools consumers into thinking it is Windows 8, yet does not run Windows 8 software. *It’s not a duck.* It’s *not* a tablet and *not* a real Windows 8 PC. And the version of Office on it is a compromised version of the real thing too, and is certainly not ready for tablet or touch use.
 

@@ -5,11 +5,12 @@
   {{ if ge $section_count 1 }}
 
     {{ range $section }}
-      <article>
-        <span>{{ .Date.Format "2006 Jan 2" }}</span>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-        <hr/>
+      
+      <article class="archives-block">
+        <span class="archives-date">{{ .Date.Format "2006-03-02" }}</span>
+        <a class="archives-link" href="{{ .Permalink }}">{{ .Title }}</a>
       </article>
+      
     {{ end }}
 
   {{ end }}

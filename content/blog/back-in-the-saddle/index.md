@@ -4,7 +4,7 @@ date: 2013-06-25 22:39:00-0400
 tags: [ business ]
 ---
 
-{{< figure src="images/handshake.jpg 125 100" class="image-right" >}}
+{{< figure src="images/handshake.jpg" width=125 height=100 class="image-right" >}}
 
 *TL;DR: I got a job! Gonna keep writing though.*
 

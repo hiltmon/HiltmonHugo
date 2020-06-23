@@ -12,7 +12,7 @@ But there are a few things that needed some work. Some of the usual Mac editing 
 
 Since I’m not a `vi` or `emacs` pianist, I prefer standard Apple Cocoa Text bindings when editing the command line, so I set them up in iTerm 2’s **Global Shortcut Keys** in **Preferences** / **Keys**.
 
-{{< figure src="images/iterm2-keys.png 527 438" >}}
+{{< figure src="images/iterm2-keys.png" width=527 height=438 >}}
 
 The changes and settings are:
 
@@ -30,7 +30,7 @@ Thanks to [Brett Terpstra](http://brettterpstra.com) for sharing some of these i
 
 I don’t need to confirm quitting (**Preferences** / **General**):
 
-{{< figure src="images/iterm-1.png 299 108" >}}
+{{< figure src="images/iterm-1.png" width=299 height=108 >}}
 
 I *love* copy on select, it’s one less keystroke and I usually select with the mouse (**Preferences** / **General**):
 
@@ -38,7 +38,7 @@ I *love* copy on select, it’s one less keystroke and I usually select with the
 
 The red tabs were annoying, gone (**Preferences** / **Appearance**):
 
-{{< figure src="images/iterm-3.png 305 170" >}}
+{{< figure src="images/iterm-3.png" width=305 height=170 >}}
 
 Added the border around frames, I *like* this because my terminal background and screen backgrounds are both dark (**Preferences** / **Appearance**):
 
@@ -50,7 +50,7 @@ And got rid of the bell icon and Growl notifications in all profiles (**Preferen
 
 And lowered the line spacing to match Apple’s (**Preferences** / **Profiles** / ****** / **Text** / `Change Font`) - just move the vertical back 1 notch:
 
-{{< figure src="images/iterm-6.png 459 508" >}}
+{{< figure src="images/iterm-6.png" width=459 height=508 >}}
 
 ### New iTerm 2 in Current Space
 
@@ -60,7 +60,7 @@ If you hit ‘⌘N’ on iTerm 2 (or any other OS X app), OS X switches you to t
 
 I used to have `⌃⌘T` mapped to do this for Terminal.app, so I created a [Keyboard Maestro](http://www.keyboardmaestro.com/main/) macro to do this for [iTerm 2](http://www.iterm2.com/#/section/home) instead:
 
-{{< figure src="images/iterm2-macro.png 559 411" >}}
+{{< figure src="images/iterm2-macro.png" width=559 height=411 >}}
 
 The first step, the AppleScript code, launches a new “Default” terminal, and it does so on the *current* space:
 

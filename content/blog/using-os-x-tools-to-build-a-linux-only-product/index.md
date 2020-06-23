@@ -12,15 +12,13 @@ OS X really is a developer's dream platform, a solid UNIX core on which *almost*
 
 I have a new vendor library that does not compile or run on OS X (yet!). As this is a big project which I will be working on for months, I want to set up my development environment so that I am comfortable and productive.
 
-{{< figure src="images/tux-100px.png 100 117" class="image-right" >}}
+{{< figure src="images/tux-100px.png" width=100 height=117 class="image-right" >}}
 
 The simple solution is to spin up a Linux VM with a GUI or a set of `vim` shells, and code away. With this simple solution I can tune the environment to match production, compile and build the product using this vendor library and know that it works.
 
 But to use this simple solution, I need to learn different keyboard shortcuts, copy and paste are weird, there's no integration with my current platform, and the code is locked inside the VM. It violates my preferred [Develop Locally, Stage Nearby, Production Anywhere](https://hiltmon.com/blog/2014/03/15/develop-locally/) model. In short, doable but sufficiently different to make me pause.
 
-{% pullquote %}
-**{" The real issue here is not one of which platform is better or worse, the problem is *me*."}** I am working in parallel on a bunch of other OS X only projects using the same toolset in an environment that I have tuned and practiced on for years. Do I want to build the muscle memory and productivity tools on yet another platform, or can I somehow make the current set work? Can I deal with the frustration of having to switch working contexts, keyboard shortcuts and tools to do this? And do I have the time to set it up and develop the productivity mindset.
-{% endpullquote %}
+**The real issue here is not one of which platform is better or worse, the problem is *me*.** I am working in parallel on a bunch of other OS X only projects using the same toolset in an environment that I have tuned and practiced on for years. Do I want to build the muscle memory and productivity tools on yet another platform, or can I somehow make the current set work? Can I deal with the frustration of having to switch working contexts, keyboard shortcuts and tools to do this? And do I have the time to set it up and develop the productivity mindset.
 
 The answers are all **no**. I am building core product for a new business, I have deadlines and each hour I spend in setting up or learning a new platform is an hour *not* spent creating the products we need.
 
@@ -42,7 +40,7 @@ Here's how it works. Keep in mind that the source code is local, only compile an
 * I compile and build in the `ssh` terminal. *This is the only step different to all other projects.*
 * I do everything else using local tools on OS X.
 
-{{< figure src="images/linux-only-1.png 681 439" >}}
+{{< figure src="images/linux-only-1.png" width=681 height=439 >}}
 
 And I am maximally productive because I have not really had to change a thing about how I work.
 
@@ -50,13 +48,13 @@ And I am maximally productive because I have not really had to change a thing ab
 
 The VM (called 'Witch') runs on my laptop's installation of VMWare Fusion. Since I use minimal Linux installs on our production servers, I did the same here. All I added were the `Developer Tools` and dependent libraries needed using the standard `yum` install process. And, of course, I copied over the vendor library and set up `ssh` access.
 
-{{< figure src="images/linux-only-2.jpg 350 176" class="image-right" >}}
+{{< figure src="images/linux-only-2.jpg" width=350 height=176 class="image-right" >}}
 
 The settings for the VM in VMware are such that networking is local to my laptop (nice and safe), and it mounts my shared folders automatically so it can get to the code. 
 
 And that's the secret. *The VM "sees" the code as local to it while I see it as local to me.* 
 
-{{< figure src="images/linux-only-3.jpg 375 100" class="left-right" >}}
+{{< figure src="images/linux-only-3.jpg" width=375 height=100 class="left-right" >}}
 
 These shared folders can be found in `/mnt/hgfs` by default (you need to make sure VMWare tools are installed and running). 
 
@@ -66,7 +64,7 @@ I also set an alias in the VM's `.bash_profile` that enables me to `cd` to my pr
 	
 In iTerm 2, I created a profile with a shortcut key (in this case `⌃⌘W` for "Witch") to launch an `ssh` terminal session to this VM using my preferred development login.
 
-{{< figure src="images/linux-only-4.png 678 410" >}}
+{{< figure src="images/linux-only-4.png" width=678 height=410 >}}
 
 And finally, I created the Xcode project using my [Xcode and the Simple C++ Project Structure](https://hiltmon.com/blog/2013/07/05/xcode-and-the-simple-c-plus-plus-project-structure/) and [Xcode 4 Code Completion for External Build Projects](https://hiltmon.com/blog/2013/07/07/xcode-4-code-completion-for-external-build-projects/) standards.
 

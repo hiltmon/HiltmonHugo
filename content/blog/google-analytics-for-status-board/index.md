@@ -14,7 +14,7 @@ I wanted to see the 7-day Hiltmon.com web stats from Google Analytics on Panic's
 
 **Warning: Very geeky. Use at your own peril. Only tested in my environment.**
 
-{{< figure src="images/status-board-ga.jpg 640 480" >}}
+{{< figure src="images/status-board-ga.jpg" width=640 height=480 >}}
 
 ### Step 1: Install the Gems
 

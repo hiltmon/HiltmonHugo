@@ -10,7 +10,7 @@ But how to do this in [TextMate 2](https://github.com/textmate/textmate)?
 
 Turns out, not so easy *yet*. But I have it working now:
 
-{{< figure src="images/textmate-themes.png 700 499" >}}
+{{< figure src="images/textmate-themes.png" width=700 height=499 >}}
 
 Since TextMate 2 does not *yet* support multiple themes by file type, you can still create a single theme that has multiple presentations using TextMate 2's brilliant scope selectors. In my case, I use a variant of Ryan Bates' lovely [RailsCasts](http://railscasts.com/about) theme for coding and a modified light theme for Markdown and text files.
 

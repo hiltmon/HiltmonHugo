@@ -13,7 +13,7 @@ The things that sold it to me are:
 * It's the right size for a 15" Macbook Pro, an iPad and related cables, and no bulkier
 * But the biggest selling point of all, it has the GRID-IT&trade; system, no more digging around a bag to find the cables and accessories needed in a demo. Just look at it:
 
-{{< figure src="images/demo-bag.png 640 853" >}}
+{{< figure src="images/demo-bag.png" width=640 height=853 >}}
 
 The only negative is that the shoulder strap squeaks in the shoulder pad when I walk. But I can live with that.
 

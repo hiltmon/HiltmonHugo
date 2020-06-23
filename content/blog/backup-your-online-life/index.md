@@ -22,9 +22,7 @@ As one service becomes less popular, less featured or shuts down, we all move to
 
 *That is because we relied on these services for their data storage* and assumed, incorrectly as we now know, that they would always be there. We did not have local copies or backups. So when the service went, so did our data.
 
-{% pullquote %}
-{" The best thing you can do is to make sure that for anything you have on a free or paid for web service, you also have copies and backups on your local drives."} There is no excuse for not doing this. Hard disks are cheap, huge and reliable, and the data you share is usually quite accessible.
-{% endpullquote %}
+**The best thing you can do is to make sure that for anything you have on a free or paid for web service, you also have copies and backups on your local drives.** There is no excuse for not doing this. Hard disks are cheap, huge and reliable, and the data you share is usually quite accessible.
 
 For example, I use a mail client application to ensure all my Gmail is *downloaded* and safe. I keep copies of all my photos, even the ones I share, in [Aperture](http://www.apple.com/aperture/) libraries (which are just folders of files). I use [IFTTT](https://ifttt.com) and [Slogger](http://ttscoff.github.com/Slogger/) to keep all my tweets, Facebook posts and [Instagram's](http://instagram.com/hiltmon) up to date locally. My blogs are all baked on my computer. I download my [Pinboard](http://pinboard.in) links every month. I *even* have a copy of my old GeoCities web site (and no, no way am I going to share that *atrocity*). And I have an OPML copy of my RSS feeds.
 

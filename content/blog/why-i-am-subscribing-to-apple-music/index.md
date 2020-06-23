@@ -4,7 +4,7 @@ date: 2015-10-04 13:54:22 -0400
 tags: 
 ---
 
-{{< figure src="images/apple-music.jpg 640 135" >}}
+{{< figure src="images/apple-music.jpg" width=640 height=135 >}}
 
 Just over 3 months ago, Apple released [Apple Music](http://www.apple.com/music/) and I signed up for the free trial as we all did. My expectation was that I would play with it for a few days, get over it and never use it again. I expected the same experience I got from Spotify and Pandora before and I never subscribed to them. I expected the same old same old and no reason to use it.
 
@@ -16,15 +16,13 @@ Here are the main reasons why.
 
 ## The Human Curated Playlists
 
-{{< figure src="images/music-1.jpg 250 166" class="image-right" >}}
+{{< figure src="images/music-1.jpg" width=250 height=166 class="image-right" >}}
 
 These are magnificent. They contain the best mixes created by people who know, live and understand music, and have led, time and time again, to me discovering artists and music I had never heard of before.
 
 In fact, 90% of the time, I find myself listening to one of these mixes. I launch the Music app, scroll to one that looks interesting (and there are lots of these) and start playing. When it ends, I find another, and another, and another. Three months later, and I am still finding more. I am often surprised by what comes up next in a mix.
 
-{% pullquote %}
-With Pandora and Spotify, I found the mixes to be boring, generic and pedestrian, when they were not purely amateur. Having been a reasonable mixtape maker myself in the good old days of cassette tapes and big hair, {" a mix needs to tell a story, have a mood, comfort and surprise the listener at the same time "}. Apple Music mixes have this heart, Pandora and Spotify's don't.
-{% endpullquote %}
+With Pandora and Spotify, I found the mixes to be boring, generic and pedestrian, when they were not purely amateur. Having been a reasonable mixtape maker myself in the good old days of cassette tapes and big hair, **a mix needs to tell a story, have a mood, comfort and surprise the listener at the same time**. Apple Music mixes have this heart, Pandora and Spotify's don't.
 
 **Apple Music has a plethora of human created playlists containing magnificent music melding old favorites and new artists in thoughtful, expert, moving ways.**
 

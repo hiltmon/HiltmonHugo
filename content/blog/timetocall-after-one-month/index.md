@@ -17,7 +17,7 @@ After one month on the App Store (with no real marketing other than this blog), 
 Sales   | 125     | 34     | 12     | 7     | **179**
 Revenue | $87.11 | $23.67 | $8.21 | $4.66 | **$123.75**
 
-{{< figure src="images/timetocall-month1-sales.jpg 360 157" class="left-right" >}}
+{{< figure src="images/timetocall-month1-sales.jpg" width=360 height=157 class="left-right" >}}
 
 There was buzz on the first week, mostly thanks to [Brett Terpstra](http://brettterpstra.com) and Gonny van der Zwaag ([@gonny](http://www.twitter.com/gonny)), but then interest tapered off as no new stories went out.
 

@@ -12,7 +12,7 @@ It's just, well, the document looks boring, the same as every other contract I e
 
 So, I reformatted it. Kept the same content, of course, just applied my company's standardized set of font and paragraph styles to the text, replaced the manual numbering scheme with an auto- generated one and got rid of all the underlines and shading. It's the same document, but it now looks like a Noverse document, it looks like *my* contract, reflecting *my* attention to detail and style. And it stands out from all other contracts because of it.
 
-{{< figure src="images/stylized-contract.png 640 480" >}}
+{{< figure src="images/stylized-contract.png" width=640 height=480 >}}
 
 And yes, I checked, unless you are filing a document with certain courts, there is no requirement to use bad fonts or skip using paragraph styles.
 

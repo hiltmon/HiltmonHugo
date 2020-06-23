@@ -92,7 +92,7 @@ else
 end
 ```
 
-{{< figure src="images/slga-slogger-patch.jpg 640 286" >}}
+{{< figure src="images/slga-slogger-patch.jpg" width=640 height=286 >}}
 
 An explanation for this patch is in the "How it Works" section below.
 
@@ -130,7 +130,7 @@ Paste in my client ID and secret key (or use your own)
   client_secret: "xUgp_NqKHnyJ_b8cwZbR1tnX"
 ```
 
-{{< figure src="images/slga-step-1.jpg 640 246" >}}
+{{< figure src="images/slga-step-1.jpg" width=640 height=246 >}}
 
 Make sure you save and close `slogger_config` before moving on to the next step.
 
@@ -144,7 +144,7 @@ This is the painful part of OAuth 2.0, you need to authorize this application to
 
 Slogger will open your default browser and request authorization to access your data. 
 
-{{< figure src="images/slga-step-2-1.jpg 640 200" >}}
+{{< figure src="images/slga-step-2-1.jpg" width=640 height=200 >}}
 
 Click Allow Access. It will come back with an one-time Authorization Code.
 
@@ -185,7 +185,7 @@ To add web properties, go to your [Google Analytics home page](http://www.google
 
 Click on "All Accounts" at the top-left, then expand the first account.
 
-{{< figure src="images/slga-step-4-1.jpg 640 437" >}}
+{{< figure src="images/slga-step-4-1.jpg" width=640 height=437 >}}
 
 Add the UA codes for each property you want to log to the `properties` list in `slogger_config`. These are the same codes you use in your site to send stats to Google Analytics.
 
@@ -213,7 +213,7 @@ Initializing Slogger v2.0 (2.0.14.2)...
 
 And in [DayOne](http://dayoneapp.com):
 
-{{< figure src="images/slga-done.jpg 413 480" >}}
+{{< figure src="images/slga-done.jpg" width=413 height=480 >}}
 
 To undo the test, just run
 

@@ -37,15 +37,15 @@ Since I already write everything in Markdown, and have the stylesheet already se
 
 While I am writing the document, I write using Markdown format in Scrivener. I create a folder for each section and a scrivening for each sub-section. I use the corkboard in Scrivener to note what content should go into what sub-section.
 
-{{< figure src="images/meld-scrivener-overview.png 600 450" >}}
+{{< figure src="images/meld-scrivener-overview.png" width=600 height=450 >}}
 
 This structure enables me to (a) focus on that sub-section alone, and (b) to never lose sight of the structure of the document and be able to navigate around easily. *Note that I only write the sub-section title once as the document title, and will display and change it later.*
 
-{{< figure src="images/meld-scrivener-write.png 600 450" >}}
+{{< figure src="images/meld-scrivener-write.png" width=600 height=450 >}}
 
 When I feel I have finished writing a section, and have proof-read it a few times in Scrivener, I like to preview it in Marked. Just seeing the same content rendered the way it will turn out helps me see if and where more work is needed.
 
-{{< figure src="images/meld-marked-preview.png 600 450" >}}
+{{< figure src="images/meld-marked-preview.png" width=600 height=450 >}}
 
 If this does not look the same to you, never fear, I'll show you how to get set it up so that it does below.
 
@@ -53,7 +53,7 @@ If this does not look the same to you, never fear, I'll show you how to get set 
 
 Once I have completed writing the document, I use Scrivener's compiler to create the final Markdown document file. This I then open in Marked and produce the final PDF, ePub or web page.
 
-{{< figure src="images/meld-marked-final.png 600 450" >}}
+{{< figure src="images/meld-marked-final.png" width=600 height=450 >}}
 
 You may note that this final processing has added images and outline numbering for me (compare this to the previous image). I'll show you how to do this too.
 
@@ -77,7 +77,7 @@ I do this because it makes it easier to add images to the Scrivener document and
 
 I create a folder for the document and two sub-folders, `images` and `markdown`. I place all the images the document needs in the `images` folder.
 
-{{< figure src="images/meld-folder-structure.png 600 226" >}}
+{{< figure src="images/meld-folder-structure.png" width=600 height=226 >}}
 
 In this case, the `Star Trek Systems Design` is the Scrivener document in the **Star Trek Systems Design** folder. Below it are two images in the **images** folder, `enterprise.png` and `okudagram.png`. There is nothing in the **markdown** folder, yet.
 
@@ -85,9 +85,9 @@ In this case, the `Star Trek Systems Design` is the Scrivener document in the **
 
 I use a monospaced font with no indent while writing in Markdown. This gives the the feel of working in plain text and gets rid of any Markdown issues with indents. 
 
-{{< figure src="images/meld-document-setup.png 595 445" >}}
+{{< figure src="images/meld-document-setup.png" width=595 height=445 >}}
 
-You can download the brilliant [Cousine Font from Google here](http://www.google.com/fonts#UsePlace:use/Collection:Cousine). Just click the down arrow, then `.zip file` to download, double-click the `.zip` file in **Downloads** to expand the file and drag all files (except the `.txt`) file into FontBook. {{< figure src="images/meld-no-smart-quotes.png 246 211" class="image-right" >}} You may have to restart Scrivener to see this new font.
+You can download the brilliant [Cousine Font from Google here](http://www.google.com/fonts#UsePlace:use/Collection:Cousine). Just click the down arrow, then `.zip file` to download, double-click the `.zip` file in **Downloads** to expand the file and drag all files (except the `.txt`) file into FontBook. {{< figure src="images/meld-no-smart-quotes.png" width=246 height=211 class="image-right" >}} You may have to restart Scrivener to see this new font.
 
 You also need to disable **Use smart quotes (" ")** in the Corrections tab as (a) Marked takes care of this and (b) you may need to put some raw HTML in (or image attributes) and smart quotes cause this to fail.
 
@@ -107,7 +107,7 @@ This is why we turned smart quotes off.
 
 If you now open the Scrivener document in Marked, you will see it in the style you prefer, *with images*.
 
-{{< figure src="images/meld-marked-with-images.png 600 450" >}}
+{{< figure src="images/meld-marked-with-images.png" width=600 height=450 >}}
 
 **To complete the document and set heading numbers?**
 
@@ -115,9 +115,9 @@ Since all my business documents need automatic heading numbers, I set them up in
 
 Choose **File / Compile...** or press ⌥⌘E. Click the **Formatting** option and tick off the title for all document levels, we want them included. Also, set the **Compile For** to `MultiMarkdown`.
 
-{{< figure src="images/meld-compile-layout.png 578 472" >}}
+{{< figure src="images/meld-compile-layout.png" width=578 height=472 >}}
 
-{{< figure src="images/meld-heading-numbers.png 300 267" class="image-right" >}}
+{{< figure src="images/meld-heading-numbers.png" width=300 height=267 class="image-right" >}}
 
 Then, *for each row*, click **Section Layout...**. Type in 
  
@@ -129,13 +129,13 @@ This will tell the Scrivener compiler to put heading numbering in for each title
 
 Hit **Compile** and Save the result into the **Markdown** folder. You need to do this in the correct folder so that image links work (and in my case so I do not get confused between the final Markdown file and the in-progress Scrivener file).
 
-{{< figure src="images/meld-save-to-markdown.png 605 389" >}}
+{{< figure src="images/meld-save-to-markdown.png" width=605 height=389 >}}
 
 You can now open the final document in Marked for some final touches.
 
 ### Marked Setup and Tips
 
-{{< figure src="images/meld-marked-behavior.png 329 482" class="image-right" >}}
+{{< figure src="images/meld-marked-behavior.png" width=329 height=482 class="image-right" >}}
 
 While editing in Scrivener and previewing the Scrivener file in Marked, you want the following settings enables in **Marked Preferences**:
 
@@ -153,11 +153,11 @@ You can also set your preferred stylesheet in the **Style** tab to save time whe
 
 I like to have the document name and page numbers at the bottom of the page when I print. In **Printing**, I set the Bottom-Left to `%title` and the Bottom-Right to `Page %page of %total` and changed the font to match the style. I also check the **Border / Below Header**  and **Border / Above Footer** as I prefer a line there. Click **Save & Apply** to save your changes.
 
-{{< figure src="images/meld-marked-footer.png 569 510" >}}
+{{< figure src="images/meld-marked-footer.png" width=569 height=510 >}}
 
 To print the final document, click the **Export Drawer** in Marked or press ⌘⇧E and click the **Paginated PDF** to generate the final PDF file.
 
-{{< figure src="images/meld-marked-print.png 614 472" >}}
+{{< figure src="images/meld-marked-print.png" width=614 height=472 >}}
 
 And there you have it, a formatted, paginated version of your complex Scrivener document.
 

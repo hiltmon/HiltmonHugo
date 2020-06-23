@@ -12,7 +12,7 @@ When a company reports bumper earnings, I assume its stock price should rise, an
 
 Here is a chart of AAPL vs AMZN (with friends MSFT and PEP as the "blue-chips") for the past three months:
 
-{{< figure src="images/aapl-amzn-performance.png 640 423" >}}
+{{< figure src="images/aapl-amzn-performance.png" width=640 height=423 >}}
 
 So, over the past 3 months, AAPL is down **5.33%**, AMZN only **1.25%** down, whereas MSFT, PEP, DOW and the Nasdaq are all pretty flat. Why is AAPL down more than AMZN? The short term view makes no sense.
 
@@ -20,7 +20,7 @@ So, over the past 3 months, AAPL is down **5.33%**, AMZN only **1.25%** down, wh
 
 Since most investment decisions are made over a longer view, lets look at the **Return on Equity** (ROE) ratios over five (5) years. *The ROE tells us how much money a company is making for its investors*, i.e. if a company spends $100 to make something, and sells it for $120, it makes a profit of $20, or an ROE of 20%:
 
-{{< figure src="images/aapl-amzn-roe.png 480 348" >}}
+{{< figure src="images/aapl-amzn-roe.png" width=480 height=348 >}}
 
 This tells quite a story. Over the past 5 years, AAPL's ROE has been trending upwards, i.e. AAPL is becoming *more* profitable. This is amazing given that we've been through the toughest recession since the Great Depression. MSFT and PEP have held their own as blue-chips should, but look at the downward slope of AMZN, *it's too steep to ski down!* AMZN has gone from a company that generates massive profits to a company that makes a loss, and the trend is not looking good. So, using past performance, AMZN's shares should have dropped like a rock. Instead, they have gone *up* by 170.27% over 5 years vs AAPL's 209.2%. What? Something is wrong here.
 
@@ -28,7 +28,7 @@ This tells quite a story. Over the past 5 years, AAPL's ROE has been trending up
 
 Lets try **Earnings per Share** (EPS) instead. EPS the amount of money the company actually earns for each share of stock that is outstanding. It should increase each year as the company grows.
 
-{{< figure src="images/aapl-amzn-eps.png 480 348" >}}
+{{< figure src="images/aapl-amzn-eps.png" width=480 height=348 >}}
 
 Wow, AAPL's EPS has gone ballistic, so the stock should have gone ballistic too. AMZN, however, has gone from almost nothing positive EPS to negative, so the share price should have tanked. Did not!
 
@@ -36,9 +36,9 @@ Wow, AAPL's EPS has gone ballistic, so the stock should have gone ballistic too.
 
 This is the number that triggered this post. The **Price / Earnings Ratio** (P/E) is *one* way investors use to determine how much a stock costs compared with how much the company earns. Think of it as the number of years it would take for the earnings of the company to pay back your share purchase cost. A good P/E should be in line with the industry average (I prefer above average), and it should remain steady, it should not move around too much. As a simplification, a cheap share is one where the P/E suddenly drops after being nice and steady, and an expensive share is one where the P/E rises suddenly after being nice and steady. Lets take a look:
 
-{{< figure src="images/aapl-amzn-pe.png 480 348" >}}
+{{< figure src="images/aapl-amzn-pe.png" width=480 height=348 >}}
 
-{{< figure src="images/aapl-amzn-pe-full.png 280 203" class="image-right" >}}  
+{{< figure src="images/aapl-amzn-pe-full.png" width=280 height=203 class="image-right" >}}  
 
 AAPL, MSFT and PEP are nice and steady, with AAPL's P/E dropping as it's profitability increases, *as expected*. AMZN's P/E is quite high and volatile. But over the last year, the P/E for AMZN has popped right off the chart. See the chart to the right. AMZN's P/E on Sep 30 was 3,633 vs AAPL's of 15.11. Or in other words, AAPL will pay back in 15 years and AMZN when the sun goes cold. Using P/E as an indicator to make investment decisions, AMZN's volatile P/E means you should not buy it (and sell what you have) and the upwards jump indicates an urgent sell and a do-not-touch. Yet *still* the AMZN share price went up. What?
 

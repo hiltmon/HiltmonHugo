@@ -40,7 +40,7 @@ The first thing you want to do it create all the desktops. Launch **Mission Cont
 
 *Tip 2*: I also like to use keyboard shortcuts to switch between desktops. To do so, *after you have created the desktops*, launch **System Preferences**, the choose **Keyboard**, then **Keyboard Shortcuts**. Click on **Mission Control** and enable the shortcuts for each desktop.
 
-{{< figure src="images/keyboard-shortcuts-mc.png 640 574" >}}
+{{< figure src="images/keyboard-shortcuts-mc.png" width=640 height=574 >}}
 
 The next thing you want to do is set it up that each application launches only on the desktop you want. This is a little more tricky:
 
@@ -50,7 +50,7 @@ The next thing you want to do is set it up that each application launches only o
 * Right-click on the running application icon to bring up the context menu
 * Choose **Options**, then click **This Desktop**
 
-{{< figure src="images/assign-to-desktop.png 340 261" >}}
+{{< figure src="images/assign-to-desktop.png" width=340 height=261 >}}
 
 From now on, whenever you launch this application, OS X will switch you to this desktop and launch the application. Now switch to the next desktop, and do the same. Only do this for applications that you want pinned to specific desktops.
 

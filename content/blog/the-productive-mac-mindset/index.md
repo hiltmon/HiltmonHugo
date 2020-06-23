@@ -12,13 +12,13 @@ In this post, I intend to outline how the limited set of productivity tools I us
 
 ### Keyboard Maestro
 
-{{< figure src="images/keyboard-maestro-icon-64.png 128 128" class="image-right" >}}
+{{< figure src="images/keyboard-maestro-icon-64.png" width=128 height=128 class="image-right" >}}
 
 [Keyboard Maestro](http://www.keyboardmaestro.com/main/) is my primary productivity tool. Over the years I have added more and more macros to the point that I forget how to do things without them. It has also replaced other productivity utilities as its functionality has grown. [Keyboard Maestro](http://www.keyboardmaestro.com/main/) initially started out as a way to run a series of commands using keyboard shortcuts and has grown into a tool that can do these from menus, from application launches, startup, disk mounts, even scheduled. If you can imagine it, it can probably do it.
 
 My [Keyboard Maestro](http://www.keyboardmaestro.com/main/) macros include:
 
-{{< figure src="images/keyboard-maestro-menus.png 173 220" class="image-right" >}}
+{{< figure src="images/keyboard-maestro-menus.png" width=173 height=220 class="image-right" >}}
 
 * Launching new Safari windows from a keyboard shortcut, with additional shortcuts for Rails development, the common web applications I open at work or blog posting. For less common sets, I use the menu feature.
 * Shortcuts to speed up blog article creation.
@@ -31,7 +31,7 @@ My [Keyboard Maestro](http://www.keyboardmaestro.com/main/) macros include:
 * Creating tweets and [Facebook](http://facebook.com/hiltmoncom/) links for new blog posts.
 * Reopening a page in Google Chrome on the rare occasions I need to see Flash content.
 
-{{< figure src="images/dev-screen.png 320 180" class="image-right" >}}
+{{< figure src="images/dev-screen.png" width=320 height=180 class="image-right" >}}
 
 For example, to spin up my test environment which involves launching six applications, log viewers, a web server and a calculation engine, all in different terminal windows arranged so I can see what is going on, I could manually create new terminals for each application, type in the command to launch each one, then rearrange the windows. Which takes a lot of time.
 
@@ -45,7 +45,7 @@ Or press a single key and let [Keyboard Maestro](http://www.keyboardmaestro.com/
 
 My [TextExpander](https://smilesoftware.com/TextExpander/index.html) quiver includes:
 
-{{< figure src="images/textexpander-snippets.png 173 289" class="image-right" >}}
+{{< figure src="images/textexpander-snippets.png" width=173 height=289 class="image-right" >}}
 
 * My source code snippets for headers, code blocks and other common patterns. This allows me to use them across IDEs.
 * Expansions in the terminal for:
@@ -61,9 +61,7 @@ My [TextExpander](https://smilesoftware.com/TextExpander/index.html) quiver incl
 
 For example, to build my current product, I type `;cdcbs` (which expands to `cd ~/Projects/Maritime/cb/ChesapeakeBayServer`) to change to the product folder, then `;m8i` (which expands to `git pull; make clean; make -j 8; make install`). So much faster.
 
-{% pullquote %}
-It has taken a lot of time to create the macros, perfect them and convert them into habits. But the time invested has paid off incredibly. {" These two products on their own as configured enable me to spend more time on the keyboard, more time thinking and programming and significantly less time doing manual labor on the computer. "} And that means I get more done in less time with fewer frustrations and screw-ups.
-{% endpullquote %}
+It has taken a lot of time to create the macros, perfect them and convert them into habits. But the time invested has paid off incredibly. **These two products on their own as configured enable me to spend more time on the keyboard, more time thinking and programming and significantly less time doing manual labor on the computer.** And that means I get more done in less time with fewer frustrations and screw-ups.
 
 ### Three More
 
@@ -87,8 +85,6 @@ And [Mail Act-On](http://www.indev.ca/MailActOn.html) gives Apple's Mail superpo
 
 You may have noticed that the two most popular productivity tools, [LaunchBar](https://www.obdev.at/products/launchbar/index.html) and [Alfred](https://www.alfredapp.com/) are not mentioned. I *used* to use them a lot, and both are still installed, just not running. With all my [Keyboard Maestro](http://www.keyboardmaestro.com/main/) macros running well, I was down to using them as application launchers only. I tried using Spotlight in Yosemite as an Application Launcher, and it worked well enough to stick.
 
-{% pullquote %}
-Consider the amount of time you spend performing menial tasks on your computer, launching the same windows, typing in the same commands and text, filing, tidying up, doing the same thing over and over again. Computers are awesome at this, and these productivity tools make it easy to set up and do. {" The money invested in buying these tools and the time invested in setting them up pays off tremendously. "} To the point that the OS X experience without them seems slow and cumbersome.
-{% endpullquote %}
+Consider the amount of time you spend performing menial tasks on your computer, launching the same windows, typing in the same commands and text, filing, tidying up, doing the same thing over and over again. Computers are awesome at this, and these productivity tools make it easy to set up and do. **The money invested in buying these tools and the time invested in setting them up pays off tremendously.** To the point that the OS X experience without them seems slow and cumbersome.
 
 *Follow the author as [@hiltmon](https://twitter.com/hiltmon) on Twitter.*

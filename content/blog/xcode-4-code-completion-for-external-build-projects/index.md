@@ -14,7 +14,7 @@ The solution is simple, you need to use the Xcode build system to create the ind
 
 The answer is to create a new target that uses the Xcode build tools, and add all your source `*.cpp` files to it. Xcode will now index these files. And you can simply ignore the new target and continue to build against the old Makefile-based target.
 
-{{< figure src="images/document-target.jpg 700 256" >}}
+{{< figure src="images/document-target.jpg" width=700 height=256 >}}
 
 To add this *documentation* target, click on the project at the top, then click the **Add Target** button. In this case, I chose a command-line tool. I like to name the new target the same name as the external target with a `-doc` extension. Then save it.
 

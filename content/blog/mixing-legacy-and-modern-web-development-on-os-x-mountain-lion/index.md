@@ -144,7 +144,7 @@ Now to see if I remember any PHP!
     </ol>
 </div>
 
-{{< figure src="images/toggle-databases.jpg 700 579" >}}
+{{< figure src="images/toggle-databases.jpg" width=700 height=579 >}}
 
 [37signals]: http://37signals.com
 [app]: http://alpha.app.net/hiltmon

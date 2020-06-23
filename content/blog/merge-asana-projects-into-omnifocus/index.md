@@ -4,7 +4,7 @@ date: 2013-11-03 17:51:00-0400
 tags: 
 ---
 
-{{< figure src="images/asana_to_omnifocus.png 363 130" class="image-right" >}}
+{{< figure src="images/asana_to_omnifocus.png" width=363 height=130 class="image-right" >}}
 
 **Note: Updated the script, see [Merge Asana Projects Into OmniFocus Updated](https://hiltmon.com/blog/2015/03/01/merge-asana-projects-into-omnifocus-updated/).**
 
@@ -36,9 +36,9 @@ The [script](https://gist.github.com/hiltmon/d1f79e95dd11252ce6ca) **does not**:
 
 Make sure you have the following set up in OmniFocus:
 
-{{< figure src="images/asana_asana.png 212 103" class="left-right" >}}
+{{< figure src="images/asana_asana.png" width=212 height=103 class="left-right" >}}
 
-{{< figure src="images/asana_context.png 212 104" class="image-right" >}}
+{{< figure src="images/asana_context.png" width=212 height=104 class="image-right" >}}
 
 * A Project Folder called **Asana** in Library.
 * A context called **People** under all Contexts.
@@ -49,11 +49,11 @@ Log into Asana and go into your account (It's at the bottom left just above the 
 
 Make a note of your Profile Name, you'll need it in the script.
 
-{{< figure src="images/asana_profile.png 543 222" >}}
+{{< figure src="images/asana_profile.png" width=543 height=222 >}}
 
 Click on **Apps** to get your API Key. Click on the **API Key...** link to see it. Note that down too.
 
-{{< figure src="images/asana_api_key.png 533 341" >}}
+{{< figure src="images/asana_api_key.png" width=533 height=341 >}}
 
 Open the [script](https://gist.github.com/hiltmon/d1f79e95dd11252ce6ca) in a text editor and insert your API key and Profile Name at the top.
 

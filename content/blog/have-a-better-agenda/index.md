@@ -14,9 +14,7 @@ Negotiators, professional or just natural ones, start with an *agenda*, a plan o
 
 Look at politicians with their talking points, how they never ever answer interviewer's questions. Look at powerful CEO's who always talk up their businesses no matter what. Look at the technical press (even the WSJ) slamming Apple even though the competition they promote is horrible. They all have their agendas, and they tenaciously work their way through them, no matter what, undistracted, even if it makes them look ridiculous.
 
-{% pullquote %}
-We developers, on the other hand, tend to jump on board with other people's agendas. I am sure part of this is because we get paid to do so (it is our profession after all) and if we do not, we'll never make for happy clients or get work. But I think it's more deep seated than that. We jump on board because {" we see their agendas as problems to be solved, and we, the natural problem solvers in the room, take it as a challenge to help them. "} Or maybe we're just trying too hard to fit in and please.
-{% endpullquote %}
+We developers, on the other hand, tend to jump on board with other people's agendas. I am sure part of this is because we get paid to do so (it is our profession after all) and if we do not, we'll never make for happy clients or get work. But I think it's more deep seated than that. We jump on board because **we see their agendas as problems to be solved, and we, the natural problem solvers in the room, take it as a challenge to help them.** Or maybe we're just trying too hard to fit in and please.
 
 In jumping on board another's agenda, *we give up our own*. Even if we do not know what our own agenda is. In jumping on board another's agenda, we succeed or fail based on *their* plans and abilities, not our *own* skills and abilities. That's not good for us.
 

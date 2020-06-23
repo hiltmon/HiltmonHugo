@@ -4,7 +4,7 @@ date: 2016-03-14 20:26:13 -0400
 tags: [ Hiltmonism ]
 ---
 
-{{< figure src="images/checkengine.png 391 232" class="image-right" >}}
+{{< figure src="images/checkengine.png" width=391 height=232 class="image-right" >}}
 
 How many people really know how their motor vehicle works, or even care to. Very few.
 
@@ -36,21 +36,13 @@ In business, successful technology teams understand this disconnect and learn to
 
 Lets take a look closer at tech talk (the language of the mechanic) vs audience talk (the language of the driver) to see why this disconnect exists:
 
-{% pullquote %}
-<strong style="font-size: 1.25em;">1. </strong>Techs talk in details, the audience talks in generalities. As a result, techs talk too much about the detail of what they are explaining and either confuse or bore the audience. {" Who cares that brakes have linings that soften, wear out and burr; but we all know when they squeak. "} Techs need to adopt necessary generalizations to address their clients properly and to have a shot at understanding them.
-{% endpullquote %}
+<strong style="font-size: 1.25em;">1. </strong>Techs talk in details, the audience talks in generalities. As a result, techs talk too much about the detail of what they are explaining and either confuse or bore the audience. **Who cares that brakes have linings that soften, wear out and burr; but we all know when they squeak.** Techs need to adopt necessary generalizations to address their clients properly and to have a shot at understanding them.
 
-{% pullquote left %}
-<strong style="font-size: 1.25em;">2. </strong>Techs also get lost in being accurate and pedantic, something the audience never does — they have better things to do. Whether there are N items or N+M items makes a difference to techs yet makes no difference to the audience. {" For a mechanic, the engine timing, tuning, air flow and seals are critical, for the driver, having a working car is all that matters. "} Techs need to loosen up and focus on *how it will be used* and not how it works. The tech and the client can always come back and drill down into the details later.
-{% endpullquote %}
+<strong style="font-size: 1.25em;">2. </strong>Techs also get lost in being accurate and pedantic, something the audience never does — they have better things to do. Whether there are N items or N+M items makes a difference to techs yet makes no difference to the audience. **For a mechanic, the engine timing, tuning, air flow and seals are critical, for the driver, having a working car is all that matters.** Techs need to loosen up and focus on *how it will be used* and not how it works. The tech and the client can always come back and drill down into the details later.
 
-{% pullquote %}
-<strong style="font-size: 1.25em;">3. </strong>Techs use specific language to communicate, our audience uses common language and relies on context or experience to share what they are taking about — and understand that the right terminology does not matter as long as the core points of the conversation are understood. {" To a driver the doohickey is rattling, to a mechanic, that could be anything and the rattle a symptom, a result or something else!"}  We techs get confused when the language is not our own, missing the gist of the conversation, which is what the audience wants us to understand. Techs need to learn their language patterns, and to focus on the *gist* of what is being said, on what the client is trying to say, not to imagine what the client may mean or what may be happening and what they just missed the client saying while doing all that imagining.
-{% endpullquote %}
+<strong style="font-size: 1.25em;">3. </strong>Techs use specific language to communicate, our audience uses common language and relies on context or experience to share what they are taking about — and understand that the right terminology does not matter as long as the core points of the conversation are understood. **To a driver the doohickey is rattling, to a mechanic, that could be anything and the rattle a symptom, a result or something else!**  We techs get confused when the language is not our own, missing the gist of the conversation, which is what the audience wants us to understand. Techs need to learn their language patterns, and to focus on the *gist* of what is being said, on what the client is trying to say, not to imagine what the client may mean or what may be happening and what they just missed the client saying while doing all that imagining.
 
-{% pullquote left %}
-<strong style="font-size: 1.25em;">4. </strong>Techs explicitly express assumptions, the audience barely registers that they are making assumptions in conversation. {" Mechanics feel the need to explain the purpose of tappets and push-rods and how they react to different octane fuels which have different explosive properties, and that is why the car pings and feels sluggish. The driver wants the car to just go well. "} This one is hard for techs learning to speak to their audiences because they need to know what assumptions the audience usually makes. Working with your audience, listening to them interact, and asking them questions is a good start.
-{% endpullquote %}
+<strong style="font-size: 1.25em;">4. </strong>Techs explicitly express assumptions, the audience barely registers that they are making assumptions in conversation. **Mechanics feel the need to explain the purpose of tappets and push-rods and how they react to different octane fuels which have different explosive properties, and that is why the car pings and feels sluggish. The driver wants the car to just go well.** This one is hard for techs learning to speak to their audiences because they need to know what assumptions the audience usually makes. Working with your audience, listening to them interact, and asking them questions is a good start.
 
 <strong style="font-size: 1.25em;">5. </strong>Finally, techs seek rigid exacting perfection, its necessary to make correct digital programs. The audience thinks and lives differently in an analog world where things change, move, shift, adjust and make — or fail to make — sense in unusual ways. Techs need to understand their audience’s analogue nature, senses, rate of change and direction, finding ways to communicate and adjust in analog while still operating in digital space.
 
@@ -68,17 +60,12 @@ Keep in mind that, unlike mechanics, techs do deal with different audiences. Eac
 
 ### Mechanics can be Drivers too
 
-{% pullquote %}
-*The tech team **needs** to know what to tell their audience, and **most importantly, what not to tell them** *. Explaining how a program or technology works, what an error message means, why something cannot or does not work, why this one case in 100 is possible and needs to be solved now, is interesting to techs, and not at all interesting to the audience. {" Drivers want a working vehicle, they do not need an explanation why it's not working. "}
-{% endpullquote %}
 
-{% pullquote left %}
-*The tech team **needs** to know when to shut up*. To the audience, perception being reality means they build their own mind-model of how a thing works. Letting them live in their own model is hard for techs because we need to deeply understand our own models and assume, incorrectly, that others do too. {" The driver does not need a lesson on internal combustion engine thermodynamics when knowing it turns on and makes a "vroom" sound is good enough. "}
-{% endpullquote %}
+*The tech team **needs** to know what to tell their audience, and **most importantly, what not to tell them** *. Explaining how a program or technology works, what an error message means, why something cannot or does not work, why this one case in 100 is possible and needs to be solved now, is interesting to techs, and not at all interesting to the audience. **Drivers want a working vehicle, they do not need an explanation why it's not working.**
 
-{% pullquote %}
-*And finally, the tech team **needs** to know when to speak up*. Especially when the audience draws the wrong conclusions. {" If the driver is operating the vehicle incorrectly or using the wrong fuel, the mechanic needs to find a way to reach them in a way the driver can understand. "} The tech team needs to know how to effectively communicate the issue without going into boring details or terms, and draw the audience back in, regain their trust and understanding.
-{% endpullquote %}
+*The tech team **needs** to know when to shut up*. To the audience, perception being reality means they build their own mind-model of how a thing works. Letting them live in their own model is hard for techs because we need to deeply understand our own models and assume, incorrectly, that others do too. **The driver does not need a lesson on internal combustion engine thermodynamics when knowing it turns on and makes a "vroom" sound is good enough.**
+
+*And finally, the tech team **needs** to know when to speak up*. Especially when the audience draws the wrong conclusions. **If the driver is operating the vehicle incorrectly or using the wrong fuel, the mechanic needs to find a way to reach them in a way the driver can understand.** The tech team needs to know how to effectively communicate the issue without going into boring details or terms, and draw the audience back in, regain their trust and understanding.
 
 ### Talk to Drivers, not Mechanics
 
@@ -94,6 +81,6 @@ I use this [Hiltmonism](https://hiltmon.com/blog/categories/hiltmonism/), “Tal
 
 Oh, and to make the tech team seem a little less weird, strange and alien.
 
-<span class="light">Click to see other [Hiltmonisms]https://hiltmon.com/blog/categories/hiltmonism/) in the ongoing series.</span>
+<span class="light">Click to see other [Hiltmonisms](https://hiltmon.com/blog/categories/hiltmonism/) in the ongoing series.</span>
 
 *Follow the author as [@hiltmon](https://twitter.com/hiltmon) on Twitter.*

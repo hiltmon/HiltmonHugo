@@ -4,7 +4,7 @@ date: 2013-01-25 17:19:00-0400
 tags: 
 ---
 
-{{< figure src="images/time-to-call-teaser.jpg 384 628" class="image-right" >}}
+{{< figure src="images/time-to-call-teaser.jpg" width=384 height=628 class="image-right" >}}
 
 “Ring Ring”  
 ...  

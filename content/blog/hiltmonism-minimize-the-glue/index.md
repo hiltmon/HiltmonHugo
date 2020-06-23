@@ -16,23 +16,23 @@ I do believe that having the best systems for each part of your business provide
 
 If you have two systems, A and B, then to glue them together, you need two integrations, four interfaces, one glue program, and one reconciliation process, as follows:
 
-{{< figure src="images/mimimize-the-glue-1.png 487 234" >}}
+{{< figure src="images/mimimize-the-glue-1.png" width=487 height=234 >}}
 
 Now add another system, C:
 
-{{< figure src="images/mimimize-the-glue-2.png 334 296" >}}
+{{< figure src="images/mimimize-the-glue-2.png" width=334 height=296 >}}
 
 Now you are up to 12 interfaces, 6 integrations, three glue programs and three reconciliation processes.
 
 Add another system, D:
 
-{{< figure src="images/mimimize-the-glue-3.png 293 296" >}}
+{{< figure src="images/mimimize-the-glue-3.png" width=293 height=296 >}}
 
 Now there are 24 interfaces, 12 integrations, 6 glue programs and 6 reconciliation processes.
 
 Add one more system, E, and the numbers get crazy:
 
-{{< figure src="images/mimimize-the-glue-4.png 301 296" >}}
+{{< figure src="images/mimimize-the-glue-4.png" width=301 height=296 >}}
 
 You get the picture. Ironically, looking at the growth as I have presented it, it’s *obvious* that there is too much glue, but in practice, I do see this all the time, often with more and more systems in the mix. The glue exists because users *may* need it or the business grew without a plan to minimize the glue.
 
@@ -44,11 +44,11 @@ Let’s look at each.
 
 If you have multiple systems with the same data in them, then integrating them such that this data flows in all directions between all these systems does not make sense. A change in any one system needs to be moved to all other systems, and reconciled to be sure that they are all the same and correct. But, if you select one of these systems to be the single, official or ‘gold’ source of the data, and *only make changes* in it, then you can push this data from the source system to all the destination systems. As long as the push program doesn’t fail, you can be sure they all have the same [version of the truth](https://hiltmon.com/blog/2011/12/23/hiltmonism-one-version-of-the-truth/) and so do not need to reconcile.
 
-{{< figure src="images/mimimize-the-glue-5.png 627 296" >}}
+{{< figure src="images/mimimize-the-glue-5.png" width=627 height=296 >}}
 
 If you have systems that work at the front-end of a business process, others that work at the middle and others that work at the back-end, integrate from front to back. In my experience, I have only seen a few areas where integrating back to front is necessary, and in those cases, only integrate a limited data set to keep the front-end systems in sync.
 
-{{< figure src="images/mimimize-the-glue-6.png 582 297" >}}
+{{< figure src="images/mimimize-the-glue-6.png" width=582 height=297 >}}
 
 Finally, when you need *integrated* reporting, take these from systems further back in the integration flow. It is this that usually trips organizations up and leads to too much glue. A user uses a system but wants to report data from it and other systems, so glue is written to enable this report. But another user, elsewhere in the business using a different system also needs a similar report, so glue is written to that system as well. Invariably, you now have a [one version of the truth](https://hiltmon.com/blog/2011/12/23/hiltmonism-one-version-of-the-truth/) issue in that, if unreconciled, these reports may differ significantly, leading to bad business decision making. The correct approach is to select *which* of these systems is further back in the business workflow, *which* has the most data fed to it, and to make *that* the ‘gold’ master for the report. You can email, portal or provide a client to the first user so they can see the same report from the chosen source.
 

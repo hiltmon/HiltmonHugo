@@ -29,7 +29,7 @@ Given that it uses the Yahoo real-time API, it cannot be used to back fill data.
 
 Here’s what it looks like with and without details:
 
-{{< figure src="images/yahoo-finance-slogger.jpg 640 480" >}}
+{{< figure src="images/yahoo-finance-slogger.jpg" width=640 height=480 >}}
 
 ## Some ticker ideas
 

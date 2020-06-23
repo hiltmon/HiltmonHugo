@@ -6,7 +6,7 @@ tags: [ Computers ]
 
 I have no idea why I am sharing this, but this is my current workspace:
 
-{{< figure src="images/hiltmon-desk-2013-04.jpg 700 525" >}}
+{{< figure src="images/hiltmon-desk-2013-04.jpg" width=700 height=525 >}}
 
 On and around it you will find (left-to-right-ish):
 

@@ -63,6 +63,7 @@ A Statement of Work (SOW) is a *short* document that defines the objective, task
 
 My Statement of Work template is a simple [Markdown](https://hiltmon.com/blog/categories/markdown/) text document as follows:
 
+```Markdown
     Kind: Statement of Work
     Title: <Task or Project Name>
     Author: Hilton Lipschitz
@@ -83,9 +84,11 @@ My Statement of Work template is a simple [Markdown](https://hiltmon.com/blog/ca
     ## Deliverables
     
     <The deliverables of the project, so we know when it is complete>
+```
 
 Optional additional sections are
 
+```
     ## Dependencies
     
     <SOWs that need to be done first for this to be viable>
@@ -93,6 +96,7 @@ Optional additional sections are
     ## Assumptions
     
     <Any assumption made in why this work needs to be done>
+```
 
 That’s all there is to it.
 

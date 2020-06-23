@@ -8,6 +8,6 @@ One thing we all try to do is to simplify the presentation of data and tell a st
 
 At the UEFA site, they created a brilliant way to present the story of the tournament. Instead of the usual brackets with the final in the middle and the upper and lower quadrants blank wasted space, they created a railway network, wherein you can follow the story of each team as the tournament progressed (the lines highlight as you hover over them). See it live [here](http://www.uefa.com/uefaeuro/season=2012/matches/index.html).
 
-{{< figure src="images/uefa-euro-infographic.png 640 238" >}}
+{{< figure src="images/uefa-euro-infographic.png" width=640 height=238 >}}
 
 Clever and beautiful.

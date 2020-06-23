@@ -6,7 +6,7 @@ tags: Apple
 
 <span class="light">Note: This is not a thing, it's just some idle speculation on my behalf. But maybe, just maybe, Apple will do something like this. Or not. Maybe we will do it.</span>
 
-{{< figure src="images/swift-hero.png 128 128" class="image-right" >}}
+{{< figure src="images/swift-hero.png" width=128 height=128 class="image-right" >}}
 
 This week at WWDC, [Apple](http://www.apple.com) surprised the developer world with their new programming language, [Swift](https://developer.apple.com/swift/). And astoundingly, it's almost ready for prime time Mac and iOS client software development already.
 

@@ -18,7 +18,7 @@ Here a some of the details in [TimeToCall]({{ root_url }}/timetocall/) that were
 
 ## Slider Accuracy
 
-{{< figure src="images/timetocall-finger-slider.png 320 309" class="image-right" >}}
+{{< figure src="images/timetocall-finger-slider.png" width=320 height=309 class="image-right" >}}
 
 Initially I had the time slider set up so that it represented every minute of every day. Logically, this makes sense since we’re trying to ‘play’ with time in the app. But the problem was that my fingers on the tiny iPhone screen were never able to drag the slider to exactly the time I wanted. It was always off by a few minutes. It was less hard to hit a chosen time on the iPad as the slider is bigger, but still hard.
 
@@ -48,7 +48,7 @@ If the user then taps the roundel, iOS confirms the delete by drawing a delete b
 
 So I started to play with what to do when the delete imagery was present. First, I tried just hiding the third graphic and disclosure indicator. But that meant you saw less information when deleting, which made it harder to be sure you were deleting the right cell.
 
-{{< figure src="images/timetocall-delete-stages.jpg 320 320" class="left-right" >}}
+{{< figure src="images/timetocall-delete-stages.jpg" width=320 height=320 class="left-right" >}}
 
 So I started to shift things around. Eventually, I came up with hiding the clock face as it has the least information when deleting, and sliding the  remaining items to the left so that they can be seen by the user. That then also made sufficient space for the delete button if the user needs it.
 

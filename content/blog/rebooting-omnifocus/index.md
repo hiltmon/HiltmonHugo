@@ -4,7 +4,7 @@ date: 2014-03-29 15:08:47 -0400
 tags: 
 ---
 
-{{< figure src="images/omnifocus.png 256 256" class="image-right" >}}
+{{< figure src="images/omnifocus.png" width=256 height=256 class="image-right" >}}
 
 I've been using [OmniFocus](https://www.omnigroup.com/omnifocus) forever to record and track my personal and professional actionable to-dos and ideas. But over the past year, I have been using it less and less, getting less and less tracked and done, and it's all my fault.
 
@@ -18,9 +18,7 @@ The automation dutifully created more tasks than I could handle. The Asana merge
 
 And these tasks were not *mine*. The imported tasks from Asana felt were created by *other* people, because they were. Sure, they needed to be done, and needed to be tracked in Asana. All good. But they did not feel like *my* tasks.
 
-{% pullquote %}
-And these tasks also created *more* work for me because the Asana projects and contexts did not match how I work and the task descriptions were confusing. {" It's a huge difference between how you write tasks for yourself and how others write tasks for you."} And then there are the tasks that are tagged in Asana as assigned to me but are really like the Carbon Copy (cc) in email, just for my information, yet they too came into OmniFocus as tasks for me to do. And that made me want to use OmniFocus less.
-{% endpullquote %}
+And these tasks also created *more* work for me because the Asana projects and contexts did not match how I work and the task descriptions were confusing. **It's a huge difference between how you write tasks for yourself and how others write tasks for you.** And then there are the tasks that are tagged in Asana as assigned to me but are really like the Carbon Copy (cc) in email, just for my information, yet they too came into OmniFocus as tasks for me to do. And that made me want to use OmniFocus less.
 
 I no longer felt I *owned* my own task list.
 

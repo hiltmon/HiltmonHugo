@@ -221,7 +221,7 @@ Date:           %B %e, %Y
 
 Which gives:
 
-{{< figure src="images/mmas.jpg 604 221" >}}
+{{< figure src="images/mmas.jpg" width=604 height=221 >}}
 
 I also use a [TextExpander](https://itunes.apple.com/us/app/textexpander-for-mac/id405274824?mt=12&uo=4&at=10l894) snippet to break it up into days `;mmd`:
 

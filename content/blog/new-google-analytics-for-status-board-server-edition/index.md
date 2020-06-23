@@ -17,7 +17,7 @@ Last week, Google finally deprecated their non-Oauth APIs, which means that the 
 
 You should get something like this <span class="light">(Yes, my follower count is still tiny. Yes, I live in New York, but I still use Celsius for weather. And awesome Inbox Zero!)</span>:
 
-{{< figure src="images/status-board-000.png 715 537" >}}
+{{< figure src="images/status-board-000.png" width=715 height=537 >}}
 
 ## Details
 
@@ -32,26 +32,26 @@ There are four files in the archive:
 
 You need to create a new Project in the [Google Developers Console](https://console.developers.google.com/project) in order to permit your web application to access Google's data.
 
-{{< figure src="images/status-board-001.png 529 191" >}}
+{{< figure src="images/status-board-001.png" width=529 height=191 >}}
 
 1. Click **Create Project**
  
-{{< figure src="images/status-board-002.png 532 241" >}}
+{{< figure src="images/status-board-002.png" width=532 height=241 >}}
 
 2. Give the Project a Name, such as "My-GAPI-Project"
 3. Wait while Google does its thing and moves you to the Project Dashboard
 4. Click on "APIs & Auth"
 5. Click "APIs" and search for "Analytics"
  
-{{< figure src="images/status-board-003.png 529 196" >}} 
+{{< figure src="images/status-board-003.png" width=529 height=196 >}} 
 
 6. Click on "Analytics API" then click "Enable API"
 
-{{< figure src="images/status-board-004.png 505 195" >}}  
+{{< figure src="images/status-board-004.png" width=505 height=195 >}}  
  
 7. Click on "Credentials" to create a service account
  
-{{< figure src="images/status-board-005.png 537 197" >}}  
+{{< figure src="images/status-board-005.png" width=537 height=197 >}}  
 
 8. Click on "Create new Client ID"
 9. Choose "Service account" and click "Create Client ID"
@@ -63,7 +63,7 @@ You need to create a new Project in the [Google Developers Console](https://cons
 
 You will now create, copy and paste the three elements needed for the Analytics PHP files to access Googles Analytics API.
 
-{{< figure src="images/status-board-006.png 638 138" >}}
+{{< figure src="images/status-board-006.png" width=638 height=138 >}}
 
 1. Copy the "Email address" which ends with "@developer.gserviceaccount.com" and replace the "&lt;Email address @developer.gserviceaccount.com&gt;" in each analytics PHP file.
 2. Click "Generate new P12 Key". Google will send you a ".p12" file.

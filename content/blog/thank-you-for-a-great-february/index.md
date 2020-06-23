@@ -12,7 +12,7 @@ It's been two months since I consolidated all my sites into this blog and starte
 
 Great stats for February: **22,080** visitors to Hiltmon.com.
 
-{{< figure src="images/feb-visits.png 640 320" >}}
+{{< figure src="images/feb-visits.png" width=640 height=320 >}}
 
 However, very very few read an additional article over the one they were looking for. I guess they found what they were looking for and moved on. Good to see the number of repeat visitors growing, but again it seems this is more people coming back to re-read the same article, not browse for more content.
 

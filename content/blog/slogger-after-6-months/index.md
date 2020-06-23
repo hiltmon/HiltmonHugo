@@ -21,7 +21,7 @@ I have been using [Brett Terpstra's][brettterpstra] ([@ttscoff][twitter]) [Slogg
 
 Let us look at my Friday, April 19th, in [Day One][linksynergy], in order from top to bottom, [click the image for a full-size version]({{ root_url }}/images/slogger-review-1.jpg). It contains:
 
-[{{< figure src="images/slogger-review-1.jpg 341 393" class="image-right" >}}]({{ root_url }}/images/slogger-review-1.jpg)
+[{{< figure src="images/slogger-review-1.jpg" width=341 height=393 class="image-right" >}}]({{ root_url }}/images/slogger-review-1.jpg)
 
 * The Google Analytics statistics for this web site, almost 700 visitors, and the the same stats for my company site below it.
 * Market closing prices
@@ -36,13 +36,13 @@ Not shown, since I did not use them that day, are any [Instagram][instagram] pic
 
 Lets look at some of these entries in more detail. 
 
-[{{< figure src="images/slogger-review-2.jpg 255 295" class="left-right" >}}]({{ root_url }}/images/slogger-review-2.jpg)
+[{{< figure src="images/slogger-review-2.jpg" width=255 height=295 class="left-right" >}}]({{ root_url }}/images/slogger-review-2.jpg)
 
 If we choose the Google Analytics for hiltmon.com, we get the image on the left, [click for larger version]({{ root_url }}/images/slogger-review-2.jpg). For each day, I can see how many page views and visitors the site got, where those visitors came from, and the top 10 most popular articles on the site.
 
 I like to have these stats to see how my site traffic is growing or shrinking, and to see what my audience likes. I helps me decide whether to create or publish new blog ideas.
 
-[{{< figure src="images/slogger-review-3.jpg 255 295" class="image-right" >}}]({{ root_url }}/images/slogger-review-3.jpg)
+[{{< figure src="images/slogger-review-3.jpg" width=255 height=295 class="image-right" >}}]({{ root_url }}/images/slogger-review-3.jpg)
 
 If we choose the tweets item, I see all the tweets I made on that day, [click for larger version]({{ root_url }}/images/slogger-review-3.jpg). Seems that I did not get any retweets or favorites on that day.
 

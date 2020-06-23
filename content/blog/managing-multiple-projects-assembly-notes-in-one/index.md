@@ -20,7 +20,7 @@ Also, storing these files in a central location does not work for me as these ar
 
 Since all these files are plain text Markdown files and I usually have them open in BBEdit, I use BBEdit projects to manage each set that I need.  During the day I open the *work* project in BBEdit that contains references to all my *work* project assembly notes and TODO documents no matter where they are. At night, I open the *Noverse* BBEdit project which contains references to all current *Noverse* project assembly notes and TODOS.
 
-{{< figure src="images/bbedit-projects.jpg 413 273" class="image-right" >}}
+{{< figure src="images/bbedit-projects.jpg" width=413 height=273 class="image-right" >}}
 
 And the best part is that BBEdit has a separate section in **File / Open Recent** for just these project files, so its very quick to switch sets.
 

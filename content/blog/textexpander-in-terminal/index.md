@@ -15,11 +15,11 @@ Lets get started.
 
 ## Setup TextExpander Group for Terminal
 
-{{< figure src="images/textexpander-applications.png 282 274" class="image-right" >}}
+{{< figure src="images/textexpander-applications.png" width=282 height=274 class="image-right" >}}
 
 If TextExpander is only on your menu bar, click the icon, then choose **Open TextExpander**. In TextExpander, create a new Group. I called mine **HL Terminal Commands**. In the **Group Settings** (see below), choose **Only These Applications...** and TextExpander will bring up a list of installed applications (see right). Check **Terminal** only. TextExpander will now only expand these snippets in Terminal.app.
 
-{{< figure src="images/textexpander-group.png 640 357" >}}
+{{< figure src="images/textexpander-group.png" width=640 height=357 >}}
 
 ## Some core Snippets
 
@@ -106,7 +106,7 @@ function ssh {
 
 Whenever I execute a ssh command, my current terminal gets a new color scheme, which gets restored on exit from the remote session (local to the left, remote to the right).
 
-{{< figure src="images/terminal-compare.png 590 420" >}}
+{{< figure src="images/terminal-compare.png" width=590 height=420 >}}
 
 ### Open with Editor
 

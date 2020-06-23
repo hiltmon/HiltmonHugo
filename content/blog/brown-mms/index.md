@@ -4,7 +4,7 @@ date: 2015-10-14 19:31:20 -0400
 tags: 
 ---
 
-{{< figure src="images/vanhalenmm.png 320 320" class="image-right" >}}
+{{< figure src="images/vanhalenmm.png" width=320 height=320 class="image-right" >}}
 
 My business runs on code. Every day, my team and I deploy new systems, patches and add new features to our mission-critical code base. And we rarely have a problem.
 
@@ -14,11 +14,11 @@ We run a quick quality check.
 
 We look for the presence of *brown M&Ms*.
 
-{{< figure src="images/vanhalen.png 320 196" class="image-right" >}}
+{{< figure src="images/vanhalen.png" width=320 height=196 class="image-right" >}}
 
 Back in the day, the legendary band [Van Halen](http://www.van-halen.com) put on complex live shows involving lots of equipment, lighting and expensive sensitive sound equipment. The setup for the show was documented in great detail in their standard concert contract which dictated what the venue needed to do to set up and run a Van Halen Concert.
 
-{{< figure src="images/vanhalenrider.jpg 477 144" class="image-right" >}}
+{{< figure src="images/vanhalenrider.jpg" width=477 height=144 class="image-right" >}}
 
 One of the more unusual requests, under the "Munchies" section hidden in the middle of the contract, was a line requesting a bowl of M&M's with the brown ones removed.
 
@@ -34,9 +34,7 @@ In our case, we don't ask programmers to provide bowls of chocolate <span class=
 
 When new code is delivered to us, the first thing we do is scan it for standards compliance. We can see, at a glance, if the code is to standard or not: are the headers present, are the files named correctly, is the spacing and layout right and does the code look 'clean'. So, if the programmer has *not* followed the coding standards, we know to drill further. If they have followed the standards to the letter, chances are the code is better.
 
-{% pullquote %}
-{" The programmer who takes the time to code to all our needs (the standards being just one) is more likely to have thought through the code, structured and tested it properly and produced a more reliable and maintainable product. "} If a programmer has been lazy, copy/pasted code and ignored the coding standard, its more likely that they have not fully examined the problem space, designed an elegant solution, tested it and made it maintainable.
-{% endpullquote %}
+**The programmer who takes the time to code to all our needs (the standards being just one) is more likely to have thought through the code, structured and tested it properly and produced a more reliable and maintainable product.** If a programmer has been lazy, copy/pasted code and ignored the coding standard, its more likely that they have not fully examined the problem space, designed an elegant solution, tested it and made it maintainable.
 
 *Its all about attention to detail.* If the code layout detail has been adhered to, so too have all the other details.
 
@@ -44,7 +42,7 @@ We've seen this time and time again. Code to standard is usually more reliable a
 
 To be clear, we do not just take the pretty code and push it out. Code still gets reviewed, tested, challenged and examined before it goes out to run the business. If the attention to detail was applied to standardizing the code, then the likelihood of the same level of attention being paid to the functionality and feature set of the code is very high. 
 
-{{< figure src="images/vanhalenbrown.png 270 192" class="image-right" >}}
+{{< figure src="images/vanhalenbrown.png" width=270 height=192 class="image-right" >}}
 
 Empirically, we see fewer bugs and problems, have an easier time in review, better tests run with better coverage, and maintenance by the team is easier.
 

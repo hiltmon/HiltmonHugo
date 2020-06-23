@@ -24,7 +24,7 @@ The first line runs the `LogToDayOne.rb` passing in the blog title. The second l
 
 Here it is in [Day One](http://dayoneapp.com/):
 
-{{< figure src="images/day-one-sample-1.png 291 120" >}}
+{{< figure src="images/day-one-sample-1.png" width=291 height=120 >}}
 
 ### 2. Log all commits
 

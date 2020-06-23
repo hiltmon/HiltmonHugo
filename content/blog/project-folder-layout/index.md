@@ -23,7 +23,7 @@ Each project has a project [VoodooPad](http://flyingmeat.com/voodoopad/) documen
 
 I always have this file open when working on a project, and it's great to come back to a project later and have all this information at your fingertips.
 
-{{< figure src="images/project-layout.png 395 685" class="image-right" >}}
+{{< figure src="images/project-layout.png" width=395 height=685 class="image-right" >}}
 
 And then there are the project folders themselves:
 

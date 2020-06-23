@@ -11,11 +11,11 @@ But how to do this in [Sublime Text 2](http://www.sublimetext.com)?
 
 Turns out, it's easy. The file on the left is Ruby, the one on the right is Markdown (The sample code is [Slogger](http://ttscoff.github.com/Slogger/) by [Brett Terpstra](https://twitter.com/ttscoff)).
 
-{{< figure src="images/sublime-two-themes.jpg 640 416" >}}
+{{< figure src="images/sublime-two-themes.jpg" width=640 height=416 >}}
 
 To achieve this, first install all the themes you may need. Obvious, I know!
 
-{{< figure src="images/sublime-set-color.jpg 256 127" class="image-right" >}}
+{{< figure src="images/sublime-set-color.jpg" width=256 height=127 class="image-right" >}}
 
 Then set the default theme using **Preferences / Color Scheme** from the **Sublime Text 2** menu.  This sets the theme in the default  preferences file which resides in **~/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings**.
 

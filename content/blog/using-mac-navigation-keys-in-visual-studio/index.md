@@ -47,7 +47,7 @@ My mapping changes are as follows:
 
 Some of these mappings require you to change the Visual Studio keys. To do so, go to **Tools / Options / Environment / Keyboard**.
 
-{{< figure src="images/vs_keyboard.jpg 785 469" >}}
+{{< figure src="images/vs_keyboard.jpg" width=785 height=469 >}}
 
 First, find the key mapping you would like to change (See 1). In this case, I am remapping `Edit.LineStart`. You should see `Home (Text Editor)` under **Shortcuts for selected command:** (I have already changed mine).
 

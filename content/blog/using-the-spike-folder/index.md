@@ -10,7 +10,7 @@ By the way, I have previously written about [spike solutions](https://hiltmon.co
 
 In this case, being back in C++ and rusty as an old door hinge, I also needed to create and test out snippets of code I *could* be using without having to `make` and run the entire product. So I create spike `.cpp` files in the `spike` folder to try things out.
 
-{{< figure src="images/code-runner.jpg 328 409" class="image-right" >}}
+{{< figure src="images/code-runner.jpg" width=328 height=409 class="image-right" >}}
 
 But making and running these is such a pain. Instead, I use Nikolai Krill's absolutely brilliant [Code Runner](http://krillapps.com/coderunner/) ([App Store link](https://itunes.apple.com/us/app/coderunner/id433335799?mt=12&uo=4&at=10l894)) app.
 
@@ -20,7 +20,7 @@ Another great feature is that you can customize the compile and runtime environm
 
 *[Code Runner](https://itunes.apple.com/us/app/coderunner/id433335799?mt=12&uo=4&at=10l894) is another of those well-done, well though out, single use applications that we all love.*
 
-{{< figure src="images/small-textmate-runner.jpg 243 199" class="image-right" >}}
+{{< figure src="images/small-textmate-runner.jpg" width=243 height=199 class="image-right" >}}
 
 For TextMate 2 users, you can do the same in TextMate 2. Just open a `.cpp` file that contains an `int main...` and hit ⌘R to run it. But it does not enable you to set parameters or compilation flags like [Code Runner](https://itunes.apple.com/us/app/coderunner/id433335799?mt=12&uo=4&at=10l894) does.
 

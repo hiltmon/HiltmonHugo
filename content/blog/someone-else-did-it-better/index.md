@@ -12,7 +12,7 @@ As a developer, I have a bunch of old iPhones and iPads. As a writer, I have a b
 
 I had already solved the OAuth 2 issue in [Spike Solutions](https://hiltmon.com/blog/2012/04/06/spike-solutions/), tested a tile UI in [Spike UI Teaser](https://hiltmon.com/blog/2012/04/19/spike-ui-teaser/) and had worked through the Google Analytics API (but did not write about it). In short, I was up to putting it all together and polishing it up.
 
-{{< figure src="images/analytics-tiles.jpg 384 281" class="image-right" >}}
+{{< figure src="images/analytics-tiles.jpg" width=384 height=281 class="image-right" >}}
 
 But today I learned about [Analytics Tiles](https://itunes.apple.com/us/app/analytics-tiles-app/id527147208?mt=8&uo=4&at=10l894). It's brilliant, just the product I was developing, but with a cleaner design, more tiles than I had thought of and a better interaction model. All in all, a better product than I was making.
 

@@ -14,7 +14,7 @@ Here's how to set up Xcode 4 on the Mac to compile using our Makefile and run/de
 
 ## Step 1: Create an External Build System Project
 
-{{< figure src="images/external-build-1.jpg 364 246" class="image-right" >}}
+{{< figure src="images/external-build-1.jpg" width=364 height=246 class="image-right" >}}
 
 Start Xcode and choose **File / New Project**.
 
@@ -22,7 +22,7 @@ Click on **Other** then choose **External Build System**.
 
 Click **Next**.
 
-{{< figure src="images/external-build-2.jpg 364 246" class="image-right" >}}
+{{< figure src="images/external-build-2.jpg" width=364 height=246 class="image-right" >}}
 
 Input your project name, I use the existing project's name so that the Xcode project file matches.
 
@@ -46,7 +46,7 @@ Double-click the moved `*.xcodeproj` to open the project again in Xcode.
 
 ## Step 3: Add the sources
 
-{{< figure src="images/external-build-3.jpg 280 299" class="image-right" >}}
+{{< figure src="images/external-build-3.jpg" width=280 height=299 class="image-right" >}}
 
 At the bottom left of the Xcode window, click the `+` icon. Then choose **Add files to "Your Project Name"**.
 
@@ -56,7 +56,7 @@ Select everything *except the `build` folder* and choose **Add**.
 
 Click on the project at the top to see the Project and Targets panel. You should see an **External Build Tool Configuration** already setup to use the Makefile we had before.
 
-{{< figure src="images/external-build-4.jpg 700 136" >}}
+{{< figure src="images/external-build-4.jpg" width=700 height=136 >}}
 
 To build, press **⌘B**.
 
@@ -66,7 +66,7 @@ We still need to do one more thing and that is to tell Xcode which executable to
 
 Under the **Product** menu, choose **Scheme** then **Edit Scheme..** or press **⌘<**.
 
-{{< figure src="images/external-build-5.jpg 700 475" >}}
+{{< figure src="images/external-build-5.jpg" width=700 height=475 >}}
 
 Click on **Run** in the left pane. The click on the drop-down next to **Executable** and choose **Other...**. Find the executable in the `bin` folder and click on it.
 

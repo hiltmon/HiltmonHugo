@@ -10,7 +10,7 @@ tags: [ TimeToCall ]
 
 The biggest design decision made in [TimeToCall]({{ root_url }}/timetocall/) was whether to have a separate Edit view from the Detail view, or whether the Detail view should also be the one to edit a *Time to Call*.
 
-{{< figure src="images/timetocall-four-vs-three.jpg 660 310" >}}
+{{< figure src="images/timetocall-four-vs-three.jpg" width=660 height=310 >}}
 
 I chose for them to be separate, but placed the time slider on the detail view. Here is is how I came to this design decision.
 

@@ -16,7 +16,7 @@ So here is how I work now.
 
 I have a Numbers spreadsheet with a bunch of tabs. On the far right is the tab containing the source data tables. To the left are tabs containing one and only one graph per tab. The source data for each graph is in the data tab.
 
-{{< figure src="images/indesign-graph-1.png 570 432" >}}
+{{< figure src="images/indesign-graph-1.png" width=570 height=432 >}}
 
 The reason the data is in the right-hand tabs is to ensure that the graphs are always published to PDF in the correct order and present on the same page number every time (see linking below).
 
@@ -24,11 +24,11 @@ Each graph has been created individually, designed to match the book or page the
 
 I then export the entire document to PDF (**File** / **Export** / **PDF...**). I set the image quality to **Best** which seems to produce nice, clean hairlines, and save the output into my Indesign **Assets** folder, overwriting the previous period's PDF.
 
-{{< figure src="images/indesign-graph-2.png 570 432" >}}
+{{< figure src="images/indesign-graph-2.png" width=570 height=432 >}}
 
 In Indesign, I created the frames for each chart. When placing the chart, I check **Show Import Options** and select the PDF file. This brings up the below dialog where I select the PDF page (the linking trick) containing the graph I want in that frame. A bit of resizing and repositioning and the graph is linked and placed in the document.
 
-{{< figure src="images/indesign-graph-3.png 570 325" >}}
+{{< figure src="images/indesign-graph-3.png" width=570 height=325 >}}
 
 On update days, things cannot be easier, I:
 
