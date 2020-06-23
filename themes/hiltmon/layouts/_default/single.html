@@ -5,25 +5,49 @@
 
 <body>
 
-{{- partial "header.html" . -}}
-{{- partial "single-header.html" . -}}
+  <div id="container">
 
-<div id="content">
-  <div id="main">
-    <h4>Layout: Single</h4>
-    <span>{{ .Date.Format "Jan 2, 2006 3:04 PM" }}</span>
-    <h1>{{ .Title }}</h1>
-    <hr/>
+    {{- partial "header.html" . -}}
+    {{- partial "navigation.html" . -}}
 
-    {{ .Content }}  
+    <section id="content">
+      <p class="meta-data">
+        <span class="post-date">{{ .Date.Format "Jan 2, 2006 3:04 PM" }}</span>
+      </p>
+      <h1 class="post-title">{{ .Title }}</h1>
+
+      <div class="post-body">
+        {{ .Content }}
+      </div>
+  
+      <p class="post-mark">
+        <span>Posted By {{ .Params.author | default "Hilton Lipschitz" }}</span>
+        &middot;
+        <span>{{ .Date.Format "Jan 2, 2006 3:04 PM" }}</span>
+      </p>
+      
+      <div class="pagination">
+        <ul>
+        {{ with .NextInSection }}
+          <li class="post-previous"><a href="{{.Permalink}}">&larr;  {{.Title}}</a></li>
+        {{ end }}
+        
+        <li class="post-center">&nbsp;</li>
+        
+        {{ with .PrevInSection }}
+          <li class="post-next"><a  href="{{.Permalink}}">{{.Title}} &rarr;</a></li>
+        {{ end }}
+        
+        </ul>
+      </div>
+  
+    </section>
+
+    {{- partial "sidebar.html" . -}}
+    {{- partial "footer.html" . -}}
+
   </div>
-
-  {{- partial "sidebar.html" . -}}
-</div>
-
-{{- partial "single-footer.html" . -}}
-{{- partial "footer.html" . -}}
-
+  
 </body>
 
 </html>

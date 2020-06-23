@@ -6,7 +6,7 @@ author: Hilton Lipschitz
 ---
 
 <!-- {% img left /images/the_hiltmon_2013_end.jpg 200 270 %} -->
-{{< figure src="images/the_hiltmon_2013_end.jpg" height=270 width=200 class="left-image" >}}
+{{< figure src="images/the_hiltmon_2013_end.jpg" height=270 width=200 class="image-left" >}}
 
 My name is **Hilton Lipschitz**, but everybody calls me **hiltmon**.
 

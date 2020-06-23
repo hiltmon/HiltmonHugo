@@ -3,6 +3,7 @@ languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Hiltmon Hugo"
 theme = "hiltmon"
+author = "Hilton Lipschitz"
 
 MetaDataFormat = "yaml"
 
@@ -46,3 +47,15 @@ blog = "/blog/:year/:month/:day/:filename/"
   title = "archives section"
   url = "/archives/"
   weight = -10
+  
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "solarized-light"
+    tabWidth = 2

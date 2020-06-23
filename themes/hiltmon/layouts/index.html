@@ -1,37 +1,29 @@
 {{ define "main" }}
 
-<div id="main">
-  
-  <!-- <h1> Pages </h1> -->
   {{ $mainSections := .Site.Params.mainSections | default (slice "blog") }}
-  <!-- <p>Main Sections: {{$mainSections }}</p> -->
-  {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
-  <!-- <p>Section: {{$section }}</p> -->
-  {{ $section_count := len $section }}
-  <!-- <p>Count: {{$section_count }}</p> -->
-
-  {{ if ge $section_count 1 }}
-
-    {{ $section_name := index (.Site.Params.mainSections) 0 }}
-    <p>Name: {{$section_name }}</p>
   
-    {{ with .Site.GetPage "section" $section_name }}
-      {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
-    {{ end }}
+  {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" $mainSections) }}
   
-    {{ $n_posts := $.Param "recent_posts_number" | default 3 }}    
-    {{ range (first $n_posts $section) }}
-      {{ partial "summary.html" . }}
-    {{ end }}
-
+  {{ range $paginator.Pages }}
+    {{ partial "summary.html" . }}
   {{ end }}
-
-  <!-- {{- range first 10 .Data.Pages }}
-    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-  {{- end }} -->
   
-</div>
-
-{{- partial "sidebar.html" . -}}
+  {{ $paginator := .Paginator }}
+  
+  <div class="pagination">
+    <ul>
+      
+      {{ if $paginator.HasNext }}
+        <li class="page-left"><a href="{{ $paginator.Next.URL }}">&larr; Older</a></li>
+      {{ end }}
+    
+      <li class="page-center"><a href="/archives/">Blog Archives</a></li>
+    
+      {{ if $paginator.HasPrev }}
+        <li class="page-right"><a href="{{ $paginator.Prev.URL }}">Newer &rarr;</a></li>
+      {{ end }}
+    
+    </ul>
+  </div>
 
 {{ end }}

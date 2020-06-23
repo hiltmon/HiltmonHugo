@@ -19,18 +19,20 @@ In this post I will show you how to set up a simple standard C++17 library proje
 I am going to start with my standard, designed for cross platform, C++17 library project. In a terminal, lets create the folders needed:
 
 
-	cd Projects
-	mkdir HiltmonLibrary
-	cd HiltmonLibrary/
-	mkdir -p doc include/hmlib src test
-	touch README.md
-	git init
+```
+cd Projects
+mkdir HiltmonLibrary
+cd HiltmonLibrary/
+mkdir -p doc include/hmlib src test
+touch README.md
+git init
+```
 
 <span class="light">NOTE: `hmlib` above is the namespace I will be using for the standard library project.</span>
 
 Now we will create the Xcode Project:
 
-{% img right /images/hmlib-01.png %}
+{{< figure src="images/hmlib-01.png" class="image-right" >}}
 
 - In Xcode, choose **File** / **New Project**.
 - Select **macOS** at the top, then **Library** and click **Next**.
