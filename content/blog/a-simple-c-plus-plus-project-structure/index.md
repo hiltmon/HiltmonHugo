@@ -14,7 +14,7 @@ Since I am planning on creating a lot of these little projects, developing them 
 
 **Note**: I'm not making these to go outside my company, so the full GNU C++ standard project is overkill. Much of what follows does conform to the basics of their standard C++ project design though.
 
-{% img /images/simple-cpp-folders.jpg 500 319 %}
+{{< figure src="images/simple-cpp-folders.jpg 500 319" >}}
 
 For each application, the folders are:
 

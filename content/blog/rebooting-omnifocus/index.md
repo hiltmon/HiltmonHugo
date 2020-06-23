@@ -4,7 +4,7 @@ date: 2014-03-29 15:08:47 -0400
 tags: 
 ---
 
-{% img right /images/omnifocus.png 256 256 %}
+{{< figure src="images/omnifocus.png 256 256" class="image-right" >}}
 
 I've been using [OmniFocus](https://www.omnigroup.com/omnifocus) forever to record and track my personal and professional actionable to-dos and ideas. But over the past year, I have been using it less and less, getting less and less tracked and done, and it's all my fault.
 

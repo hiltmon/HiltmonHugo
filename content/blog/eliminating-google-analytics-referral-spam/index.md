@@ -4,7 +4,7 @@ date: 2015-01-18 10:42:51 -0500
 tags: 
 ---
 
-{% img right /images/google-analytics.png 100 101 %}
+{{< figure src="images/google-analytics.png 100 101" class="image-right" >}}
 
 It seems that the [Google Analytics](http://www.google.com/analytics/) use of a public tracking code was a mistake. Anyone can use your tracking code on their site, which adds to your traffic, or they can create ghost visits and spam referrals by hammering Google Analytics with your code *while never visiting your site*. Oh, and the codes are easy to guess, so they do not even need to know about your site.
 
@@ -12,7 +12,7 @@ In most cases, this is perfectly harmless (<abbr title="In Mu Humble Opinion">IM
 
 The only reason I am talking about this is because I was up early this morning and noticed that a page with the title of "Luck" was trending in my analytics[^1].
 
-{% img left /images/google-analytics-luck.png 300 153 %}
+{{< figure src="images/google-analytics-luck.png 300 153" class="left-right" >}}
 
 Except for one problem.
 
@@ -22,7 +22,7 @@ I never wrote one.
 
 Ever!
 
-{% img right /images/google-analytics-hostname.png 310 230 %}
+{{< figure src="images/google-analytics-hostname.png 310 230" class="image-right" >}}
 
 Which led me down the rabbit hole.
 

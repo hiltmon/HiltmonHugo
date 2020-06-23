@@ -4,7 +4,7 @@ date: 2014-10-02 12:14:26 -0400
 tags: 
 ---
 
-{% img right /images/timetocall-128.jpg 128 128 %}
+{{< figure src="images/timetocall-128.jpg 128 128" class="image-right" >}}
 
 I have removed TimeToCall from the App Store effective today, for several reasons:
 

@@ -4,7 +4,7 @@ date: 2014-04-27 12:33:04 -0400
 tags: [Markdown, Scrivener]
 ---
 
-{% img right /images/markdown.png 208 128 %}
+{{< figure src="images/markdown.png 208 128" class="image-right" >}}
 
 A long, long time ago in a galaxy far, far away, I switched to [Markdown][DF] format for documents, notes and other scratchings. <span class="light">(And wrote about it - see the posts in the [Markdown][1] category)</span>.
 

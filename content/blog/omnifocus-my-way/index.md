@@ -4,7 +4,7 @@ date: 2014-05-26 15:39:03 -0400
 tags: Productivity
 ---
 
-{% img right /images/omnifocus.png 128 128 %}
+{{< figure src="images/omnifocus.png 128 128" class="image-right" >}}
 
 I've been using [OmniFocus](https://www.omnigroup.com/omnifocus) as my primary tool for task management for years, yet I never read the GTD book. How I chose OmniFocus is a topic for another day, how I use it *my way* is the topic for today. Maybe some of the alternative ways I use it can improve the way you do too.
 
@@ -16,7 +16,7 @@ But with a bit of structure, a taste of discipline and a comfortable workflow, O
 
 ### Area Folders
 
-{% img right /images/omnifocus-my-way-1.png 308 244 %}
+{{< figure src="images/omnifocus-my-way-1.png 308 244" class="image-right" >}}
 
 I divide up my life by *my world*. Which means the first level of all my OmniFocus tasks is the in the Projects tab. I have top-level folders for each of the four areas of my life I manage in OmniFocus: Personal, Maritime (work), Noverse (consulting) and Hiltmon (here).
 
@@ -24,7 +24,7 @@ This breakdown allows me to separate and focus on the tasks in the area of my li
 
 ### Projects
 
-{% img right /images/omnifocus-my-way-3.png 304 595 %}
+{{< figure src="images/omnifocus-my-way-3.png 304 595" class="image-right" >}}
 
 Given that I have a Project Management background, to me *almost* everything I do is part of a larger project. Whether it's the multitude of applications to design at work, my consulting clients to support, or bigger ticket items in personal space, they are all projects.
 
@@ -32,7 +32,7 @@ I create all of the projects that I am involved in within each area folder. In m
 
 I also create a few 'special' tasks in each project:
 
-*  The **Project Ideas** task is used to capture {% img right /images/omnifocus-my-way-4.png 263 229 %} (as sub-tasks) thoughts and ideas on what could be done but is not planned, yet.  I do not want to lose any ideas no matter the source while I am working on the project.
+*  The **Project Ideas** task is used to capture {{< figure src="images/omnifocus-my-way-4.png 263 229" class="image-right" >}} (as sub-tasks) thoughts and ideas on what could be done but is not planned, yet.  I do not want to lose any ideas no matter the source while I am working on the project.
  
 * The **Project On-Hold** task is for sub-tasks that have been placed on hold, but we may still get back to.
 * The **Project Later** task for sub-tasks that I have intentionally deferred until later versions of that project.
@@ -49,7 +49,7 @@ Instead, I use contexts as tags, for prioritization and for assignments.
 
 My top five contexts (after **No Context**) are my prioritizers. I had tried priority levels and colors before, but it added complexity. *What's the difference between a priority 3 and a priority 4 task when the levels are arbitrary?*
 
-{% img right /images/omnifocus-my-way-2.png 301 404 %}
+{{< figure src="images/omnifocus-my-way-2.png 301 404" class="image-right" >}}
 
 I use a **UI / NUI / UNI / NUNI / Chase / None** model for prioritization as follows:
 
@@ -86,7 +86,7 @@ I used to put in due dates on all my tasks, just as a project manager puts in ta
 
 I rarely use the Inbox. Instead, I capture tasks as I hear about them either into OmniFocus directly if the window is visible, or using the Quick Entry box. Since I know what the project is at the time of capture, I find it easier to tab to the project field and fill that in while I am capturing (or click on the project first).
 
-{% img /images/omnifocus-my-way-5.png 500 193 %}
+{{< figure src="images/omnifocus-my-way-5.png 500 193" >}}
 
 I did try for a while to capture to inbox as the manual says, but my inbox got so messy that I stopped. I still have to clean up later, but at least I can do it project by project.
 

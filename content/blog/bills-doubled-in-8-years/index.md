@@ -6,7 +6,7 @@ tags:
 
 While shredding old, unnecessary paperwork today, I noticed that the cost of our monthly utilities have more than doubled in 8 years, yet almost nothing in our way of life has changed.
 
-{% img /images/household-bills.jpg 409 324 %}
+{{< figure src="images/household-bills.jpg 409 324" >}}
 
 We live in exactly the same apartment. We still have no kids. We still have only 1 TV, but the new one uses less juice. We both use modern laptops and iPads, which also use less juice, so our monthly kWh has not gone up, but our power bill has more than doubled.
 

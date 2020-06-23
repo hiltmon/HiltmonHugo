@@ -14,7 +14,7 @@ But there is a solution. `avahi`.
 
 ## The Problem in Detail
 
-{% img right /images/vm-network.jpg 412 255 %}
+{{< figure src="images/vm-network.jpg 412 255" class="image-right" >}}
 
 I spin up Linux VM's in my local VMware Fusion using the exact same Linux distribution as production. Since these are never to be exposed to the wide world out there, I set the network to "Share with my MAC" which makes it a local VM. I could use "Bridged Networking" but this problem then recurs when I work from home or a coffee shop.
 
@@ -22,7 +22,7 @@ I `yum` install all the packages as per production, even set up a `deploy` user.
 
 The problem is that each time the Linux VM boots, or I use it outside the office, it gets a new DHCP IP address. Which means that I need to find out what the IP address is every time before I can SSH in. Too many steps:
 
-{% img right /images/vm-ip.png 384 250 %}
+{{< figure src="images/vm-ip.png 384 250" class="image-right" >}}
 
 * Log in
 * Run an `ifconfig`

@@ -88,7 +88,7 @@ Glebe NSW 2037 AUSTRALIA  || WWW: http://www.ozemail.com.au/~hiltonl
 
 Which led me to [The Wayback Machine](http://archive.org/web/web.php) and [my home page](http://web.archive.org/web/19961226071414/http://www.ozemail.com.au/~hiltonl/index.html) circa 1996. I'd forgotten had done this one. Besides the horrible graphic work and default font, I love that:
 
-{% img right /images/1996-seltex.jpg 350 501 %}
+{{< figure src="images/1996-seltex.jpg 350 501" class="image-right" >}}
 
 * The javascript hack to add a scrolling message on the browser status bar still works in 2013! [Check it out](http://web.archive.org/web/19961226071414/http://www.ozemail.com.au/~hiltonl/index.html)!
 * I used a better software development methodology than waterfall back then (and documented it): [Software Development Methodology](http://web.archive.org/web/19961222092338/http://www.ozemail.com.au/~hiltonl/softdevm/index.htm)

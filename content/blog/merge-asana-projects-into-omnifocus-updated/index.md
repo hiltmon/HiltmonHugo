@@ -4,7 +4,7 @@ date: 2015-03-01 18:18:59 -0500
 tags: 
 ---
 
-{% img right /images/asana_to_omnifocus.png 363 130 %}
+{{< figure src="images/asana_to_omnifocus.png 363 130" class="image-right" >}}
 
 A long long time ago in a galaxy far far away, I wrote a script to import Asana tasks into Omnifocus. If you ran it again, it would update the tasks in OmniFocus. See [Merge Asana Projects Into OmniFocus](https://hiltmon.com/blog/2013/11/03/merge-asana-projects-into-omnifocus/).
 

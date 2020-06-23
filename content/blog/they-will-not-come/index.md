@@ -4,7 +4,7 @@ date: 2014-06-28 16:39:10 -0400
 tags: 
 ---
 
-{% img right /images/kifu-is-going-dark.png 225 215 %}
+{{< figure src="images/kifu-is-going-dark.png 225 215" class="image-right" >}}
 
 > "If you build it, they will come"  
 > -- Field of Dreams
@@ -15,7 +15,7 @@ On Monday night, June 30, 2014, I'll be taking the [Kifu](http://www.kifuapp.com
 
 I know we built it right. We spent years looking at the market for non-profit management systems and found thousands and thousands of potential customers publicly expressing real needs. We met with many, many different kinds of non-profits to talk about that they needed, and with even more to talk about what we could do. We tested the idea, refined it and sought out more to talk with. We did this for *three* years. Only *then* did my partners and I decide to go ahead, set up a company and do it.
 
-{% img left /images/kifu-status-1.png 350 325 %}
+{{< figure src="images/kifu-status-1.png 350 325" class="left-right" >}}
 
 When I committed the first line of code on July 5, 2011 at 11:14PM, we *knew* we had a great product idea for a massive, hungry market. This was a winning idea. We even decided to bootstrap the product, give up our time, effort and potential income to make this thing.
 
@@ -25,7 +25,7 @@ It was fun.
 
 How often does one get to design and build a leading edge product that you just *know* people will love, because they have already told you they need *your* solution. It was designer and programmer nirvana. Coding all day, dealing with some amazing creative people who provided art and words, and occasionally meeting even more potential customers and sharing the idea.
 
-{% img right /images/kifu-alpha-1.png 350 325 %}
+{{< figure src="images/kifu-alpha-1.png 350 325" class="image-right" >}}
 
 On December 9, 2011, I committed v0.7 and we brought on our first customer. They were so excited and could not wait for beta, and were happy to be our alpha testers.
 
@@ -33,7 +33,7 @@ Turns out this too was a very good thing. A few of our ideas did not work as wel
 
 On March 6, 2012, out came v0.9, and we went into beta. Several new customers started to migrate on. We put up the public web site, and started telling folks that the final product would be available for everyone soon.
 
-{% img left /images/kifu-portfolio-1.png 350 237 %}
+{{< figure src="images/kifu-portfolio-1.png 350 237" class="left-right" >}}
 
 Almost one year from the start, on July 2, 2012, I pushed out version 1.0.
 
@@ -53,7 +53,7 @@ But they did not come.
 
 This was the hardest time for me personally. I had spent a year without much income building this thing in the belief that it was what all these folks had expressed was what they needed. And then it was no longer in idea, it was a real product. They all loved it when they saw the demos, and it passed all their tests with flying colors.
 
-{% img right /images/kifu-home-1.png 350 280 %}
+{{< figure src="images/kifu-home-1.png 350 280" class="image-right" >}}
 
 But when the time came for them to sign up, they did not. Their reasoning *never* had anything to do with their need (we filled it) or price (we were better) or quality of product (we hit their sweet spots).
 
@@ -75,7 +75,7 @@ We had all lost heart and moved on.
 
 But we did not walk away.
 
-{% img right /images/kifu-gone-dark.png 350 325 %}
+{{< figure src="images/kifu-gone-dark.png 350 325" class="image-right" >}}
 
 I have spent the last six months making sure that our existing customer's data is where they need it in the form they need it. And that the servers have stayed up and functional while they migrated away. That has now happened.
 

@@ -42,13 +42,13 @@ So I experimented there too.
 
 Apple, in its clocks app, inverts the clock when its night time (6PM to 6AM). So I created a clock where the background was white during the day, gray in the morning and evening and dark at night. It was nice, especially when ‘playing’ with time as the backgrounds got accordingly lighter and darker. But the darker clocks were harder to read against the dark app background. And both 6AM and 6PM has the same gray. There had to be a better way.
 
-{% img /images/timetocall-transitions.jpg 656 152 %}
+{{< figure src="images/timetocall-transitions.jpg 656 152" >}}
 
 I tried a version where a sun would rise and rotate around the face for day time and a moon for rise and fall at night, but that was confusing and garish. I tried a version where the backgrounds I use for indicating the period of the day (morning, dinnertime, etc) were placed behind the clock, but that made the hands harder to read. There had to be a better way.
 
 So I settled on subtlety instead. I placed an AM and a PM on the face and made the active one red and the inactive one gray. Red AM, gray PM means morning, gray AM, red PM means afternoon. I found it easy to determine when the clock was showing AM or PM. And the hands never get confused and the clock faces still stand out on the screen. **But how would it work out there in the real world?** I tested the clock face on a few friends and they subliminally knew the AM or PM of the time without being aware of the AM/PM image switch. It worked.
 
-{% img /images/timetocall-icon-320.jpg 320 320 %}
+{{< figure src="images/timetocall-icon-320.jpg 320 320" >}}
 
 I now had a design *form* for the clock, but I was not done. The rest of the work involved choosing the face number font, setting font sizes, drawing the major and minor tick marks, picking the color scheme and creating the clock face style. I prefer a simple clock face, so that it would be both recognizable and easy to read. Yet I also wanted classic looking numbers and classic hands that would not confuse readers. So I went with a paper textured face, tiny bezel, black minor tick marks, the same red for major tick marks, and classic hands with transparency and a shadow so you can see the minute hand behind the hour hand. And then put my name on it for fun.
 

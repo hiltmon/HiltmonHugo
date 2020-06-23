@@ -8,7 +8,7 @@ Prior to online purchases, the only innovation in purchasing was credit cards. T
 
 Until now.
 
-{% img right /images/buyreply-logo.png 250 53 %}
+{{< figure src="images/buyreply-logo.png 250 53" class="image-right" >}}
 
 With [BuyReply](http://www.buyreply.com/), purchasing is as far away as an email, text or tweet. Completely frictionless. Completely effortless. Available everywhere.
 

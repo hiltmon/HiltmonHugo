@@ -24,7 +24,7 @@ The first line runs the `LogToDayOne.rb` passing in the blog title. The second l
 
 Here it is in [Day One](http://dayoneapp.com/):
 
-{% img /images/day-one-sample-1.png 291 120 %}
+{{< figure src="images/day-one-sample-1.png 291 120" >}}
 
 ### 2. Log all commits
 
@@ -45,7 +45,7 @@ Now all I do is type `gca "The commit message"` and its both logged to [Day One]
 
 Here it is in [Day One](http://dayoneapp.com/):
 
-{% img /images/day-one-sample-2.png 368 64 %}
+{{< figure src="images/day-one-sample-2.png 368 64" >}}
 
 ### 3. Use the annoying reminders
 

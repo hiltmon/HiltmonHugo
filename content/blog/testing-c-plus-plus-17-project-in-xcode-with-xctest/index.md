@@ -40,20 +40,20 @@ Now we will create the Xcode Project:
 - Select the Project Folder we just created, then click **Done**.
 - Close the project Xcode window. Do this because we need to move some files around.
 
-{% img right /images/hmlib-02.png %}
+{{< figure src="images/hmlib-02.png" class="image-right" >}}
 
 The next two steps clean up that which we just created:
 
 - In Finder, go to the Project Folder.
 - Drag and drop the `*.xcodeproj` up a level, then delete the new folder (`HiltmonLibrary` under **HiltmonLibrary**).
 - Double-click to open the project in Xcode.
-- {% img right /images/hmlib-03.png %} Right-Click on the red folder and select **Delete** to remove the Xcode created folder and files.
+- {{< figure src="images/hmlib-03.png" class="image-right" >}} Right-Click on the red folder and select **Delete** to remove the Xcode created folder and files.
 - Right-click on the Project (at the top of the tree) and select **Add files to "HiltmonLibrary"...**.
 - Press `CMD-A` to Select all, then click **Add**.
 
 The standard library template is almost ready.
 
-{% img /images/hmlib-04.png %}
+{{< figure src="images/hmlib-04.png" >}}
 
 ### Update for C++17
 
@@ -65,7 +65,7 @@ Lets make it C++17 compliant, add extra warnings and expose inline methods from 
 - Search for `Other Warning` and double-click to the right of  **Other Warning Flags**. Click `+` to add the following flags:
 	- `-Wall`
 	- `-Wextra`
-- {% img right /images/hmlib-06.png %} Search for `Search` and double-click to the right of **Header Search Paths**. Click `+` to add the following flags:
+- {{< figure src="images/hmlib-06.png" class="image-right" >}} Search for `Search` and double-click to the right of **Header Search Paths**. Click `+` to add the following flags:
 	- `$SRCROOT/include/hmlib`
 	- `/usr/local/include`
 - While there, double-click to the right of **Library Search Paths**. Click `+` to add the following flags:
@@ -73,7 +73,7 @@ Lets make it C++17 compliant, add extra warnings and expose inline methods from 
 
 If you clear the search, and select **Customized** at the top, you should see something like this:
 
-{% img /images/hmlib-05.png %}
+{{< figure src="images/hmlib-05.png" >}}
 
 ### Add Project Code
 
@@ -81,11 +81,11 @@ And finally, lets add our first items to test. We'll create a utilities namespac
 
 - Right-click on the `src` folder and choose **New File** or select the `src` folder and hit `CMD-N`.
 - Choose **C++ File** and click **Next**.
-- {% img right /images/hmlib-07.png %} Create the C++ File, in this case `string_utilities`, make sure create header file is checked, and click **Next**.
+- {{< figure src="images/hmlib-07.png" class="image-right" >}} Create the C++ File, in this case `string_utilities`, make sure create header file is checked, and click **Next**.
 - Make sure it goes in the `src` folder and that the target is checked (in my case `HiltmonLibrary`, and click **Create**.
 - Finally, drag and drop the `.hpp` file under the `include/hmlib` folder.
 
-{% img /images/hmlib-08.png %}
+{{< figure src="images/hmlib-08.png" >}}
 
 Ok, lets create some code to test, say a function that converts a string to lowercase.
 
@@ -157,11 +157,11 @@ Great, we have an awesome library, how do we go about testing it?
 
 ### Create and integrate the Test Target
 
-{% img right /images/hmlib-09.png %}
+{{< figure src="images/hmlib-09.png" class="image-right" >}}
 
 - Press `CMD-6` to show the Test Navigator (or select the icon to the right)
 
-{% img right /images/hmlib-10.png %}
+{{< figure src="images/hmlib-10.png" class="image-right" >}}
 
 - At the bottom, click the plus and choose **New Unit Test Target...**
 - I prefer to make a strong name for test targets, so I named mine `TestHiltmonLibrary`.
@@ -195,7 +195,7 @@ The reconnect the `Info.plist`
 - Click on the Project name in the Project Navigator, and choose the test target.
 - Change the **Info.plist File** entry to `test/Info.plist`.
 
-{% img /images/hmlib-11.png %}
+{{< figure src="images/hmlib-11.png" >}}
 
 ### Integrate with the Main Library Project
 
@@ -203,7 +203,7 @@ And finally, hook it all up:
 
 - Click on **Product**, **Scheme**, **Edit Scheme...**, right-click on the scheme in the tool bar and choose **Edit Scheme**, or press `CMD-<`.
 
-{% img right /images/hmlib-12.png %}
+{{< figure src="images/hmlib-12.png" class="image-right" >}}
 
 - Make sure the scheme selected is the Library scheme (`HiltmonLibrary`), not the Test scheme (`TestHiltmonLibrary`) in the top left of the sheet that shows up.
 - Click on **Test** on the left.
@@ -219,7 +219,7 @@ Lets Compile and Run the tests to see what happens. Press `CMD-U`. Xcode will:
 
 Since no tests have been created, it should have no failures.
 
-{% img /images/hmlib-13.png %}
+{{< figure src="images/hmlib-13.png" >}}
 
 Thats it, the hoops have been jumped through to set things up. From now on, all you need to care about is developing your project code and your new tests.
 
@@ -287,7 +287,7 @@ The final file should look like:
 @end
 ```
 
-{% img right  /images/hmlib-14.png %} Press `CMD-U` to run the tests. Xcode will run the tests and put a bezel up that tests have passed and puts a green checkmark next to the test functions that passed.
+{{< figure src="images/hmlib-14.png" class="image-right" >}} Press `CMD-U` to run the tests. Xcode will run the tests and put a bezel up that tests have passed and puts a green checkmark next to the test functions that passed.
 
 Lets create a failing test:
 
@@ -412,7 +412,7 @@ The file will now look like this:
 
 ```
 
-{% img right  /images/hmlib-15.png %}
+{{< figure src="images/hmlib-15.png" class="image-right" >}}
 
 Press `CMD-U` to compile the Library and run the tests. 
 

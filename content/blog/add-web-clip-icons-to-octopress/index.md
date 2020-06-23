@@ -10,7 +10,7 @@ Both Apple and Android phones also support saving a link to a site (called a web
 
 Here’s how to add a web clip on the iPhone:
 
-{% img /images/web-clip-banner.jpg 718 272 %}
+{{< figure src="images/web-clip-banner.jpg 718 272" >}}
 
 In order to customize this experience, you need to provide up to four image files for download and to add some code to the `head` in your site.
 

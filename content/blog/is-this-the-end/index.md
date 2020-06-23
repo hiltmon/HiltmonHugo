@@ -6,7 +6,7 @@ tags: [ Writing ]
 
 The indie business is cyclical, a sin wave of quiet and busy times. The peaks are high and the troughs are low.
 
-{% img /images/earning-sin.png 640 480 %}
+{{< figure src="images/earning-sin.png 640 480" >}}
 
 When an indie is busy, there is nothing better, no higher high. They are working with great clients, creating amazing products, solving the unsolvable, slaying dragons and earning enough money to pay the bills.
 

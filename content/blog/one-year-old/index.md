@@ -4,7 +4,7 @@ date: 2012-11-24 16:49:00-0400
 tags: 
 ---
 
-{% img /images/hiltmon-one-year.jpg 640 127 %}
+{{< figure src="images/hiltmon-one-year.jpg 640 127" >}}
 
 On Nov 22, 2012, the revamped [hiltmon.com](https://hiltmon.com) turned one year old. And I missed it as I was too busy guzzling turkey.
 

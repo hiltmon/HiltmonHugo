@@ -4,7 +4,7 @@ date: 2013-05-12 11:20:00-0400
 tags: [ Tools, Web, Design ]
 ---
 
-{% img right /images/coda2.png 128 128 %}
+{{< figure src="images/coda2.png 128 128" class="image-right" >}}
 
 I upgraded to [Panic's][panic] [Coda 2][coda] when it came out, *and never used it*. Unless it was to trigger a software update.
 
@@ -16,7 +16,7 @@ Since our payment processor's servers could only handle plain-old HTML and CSS f
 
 But that led to a problem, one of navigation. I needed one [BBEdit][bbedit] project window open for the mockup HTML (bottom left), another project window open for the processor's templates (top left) and *one preview window open for each page being mocked up.* This is because [BBEdit][bbedit]'s preview window is tied to the editor frame that is current when opening it, and it does not switch when you change to another editor frame containing a different file.
 
-{% img /images/bbedit-multi-preview.jpg 700 438 %}
+{{< figure src="images/bbedit-multi-preview.jpg 700 438" >}}
 
 I tiled the preview windows to help, but got confused as to which preview window to look at when I made a change to a HTML file. I tried just using one preview window, but that meant I had to close and open a preview each time I switched pages. This process was slowing me down.
 
@@ -26,7 +26,7 @@ So, in personal OCD frustration, I decided to use another product for some of th
 
 And remembered I had [Coda 2][coda] which contains integrated previews. So I opened the mockups folder as a site in [Coda 2][coda] and used its split panes feature to add a preview window for *each* mockup, and then created a tab for each mockup page. And it worked brilliantly.
 
-{% img /images/coda-single-preview.jpg 700 446 %}
+{{< figure src="images/coda-single-preview.jpg 700 446" >}}
 
 I could focus on a single mockup page in [Coda 2][coda], see its changes live in the split-pane preview window, and jump tabs to work on different mockup pages with their *own* previews. Which suited my mindset. And then use `⌘-⇥` to jump back to [BBEdit][bbedit] to modify the templates, which suited my muscle-memory. And which kept me sane.
 

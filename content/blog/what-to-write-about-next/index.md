@@ -123,7 +123,7 @@ So the idea has passed the culling and the sorting. In sorting I added many poin
 
 Some posts take minutes to write and they work. Other posts take months to think on and write on and never get finished. And a lot get rejected because they never get to any point.
 
-{% img right /images/what-write-next.png 392 262 %}
+{{< figure src="images/what-write-next.png 392 262" class="image-right" >}}
 
 For bigger posts, I draw up a mind map using [MindNode Pro](http://mindnode.com). If there is a lot to write about, I feel it is important to list all the topics and structure the piece. It also helps me arrange thoughts and ideas. It helps me build the story. It helps me focus on the parts that I need to think about and and write.
 

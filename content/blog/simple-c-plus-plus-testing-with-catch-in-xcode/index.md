@@ -4,7 +4,7 @@ date: 2014-10-26 14:34:32 -0400
 tags: [development, programming, c++]
 ---
 
-{% img right /images/catch-logo-small.png 300 145 %}
+{{< figure src="images/catch-logo-small.png 300 145" class="image-right" >}}
 
 [Catch](https://github.com/philsquared/Catch) is a simple, open-source, *dependency-free* unit testing framework for C++ projects. In this post I show you how to use it in a [Simple C++ Project](https://hiltmon.com/blog/2013/07/05/xcode-and-the-simple-c-plus-plus-project-structure/) from Xcode.
 
@@ -107,7 +107,7 @@ std::string SampleClass::bigStr()
 
 ### Testing In Xcode
 
-{% img right /images/catch-tests.png 255 276 %}
+{{< figure src="images/catch-tests.png 255 276" class="image-right" >}}
 
 I setup testing in Xcode using a separate tests folder and a second tests target and scheme. In this sample case, the main project code is in the  `SampleProject` group (usually a library project) and the test target code is in the `TestSampleProject` group. This group (and its matching file system folder) are automatically created when you add an Xcode command-line target.
 
@@ -122,7 +122,7 @@ I then add `catch.hpp` and edit the `main.cpp` file. The `main.cpp` in the test 
 
 I also add the following command-line options to the test target scheme and toggle when needed:
 
-{% img right /images/catch-command-line.png 313 120 %}
+{{< figure src="images/catch-command-line.png 313 120" class="image-right" >}}
 
 - `-r console` sets up readable console output (not necessary but a good reminder)
 - `-d yes` shows the time taken on each test (usually disabled)
@@ -131,7 +131,7 @@ I also add the following command-line options to the test target scheme and togg
 
 I then start to add `.cpp` files for each test case and write my tests.
 
-{% img right /images/catch-include-target.png 197 96 %}
+{{< figure src="images/catch-include-target.png 197 96" class="image-right" >}}
 
 Finally, you also need to add each class that is being tested to the Test target as well or it will not compile.
 

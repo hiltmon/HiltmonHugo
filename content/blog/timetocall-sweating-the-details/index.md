@@ -18,7 +18,7 @@ Here a some of the details in [TimeToCall]({{ root_url }}/timetocall/) that were
 
 ## Slider Accuracy
 
-{% img right /images/timetocall-finger-slider.png 320 309 %}
+{{< figure src="images/timetocall-finger-slider.png 320 309" class="image-right" >}}
 
 Initially I had the time slider set up so that it represented every minute of every day. Logically, this makes sense since we’re trying to ‘play’ with time in the app. But the problem was that my fingers on the tiny iPhone screen were never able to drag the slider to exactly the time I wanted. It was always off by a few minutes. It was less hard to hit a chosen time on the iPad as the slider is bigger, but still hard.
 
@@ -42,13 +42,13 @@ But this animation happened so fast that it was still jarring. In the real world
 
 When you hit edit on the Master View to delete a *Time to Call*, iOS displays a red roundel in the left of the cell to be tapped to delete the cell. This roundel pushes the content of the cell over to the right. Which means the third location graphic and my custom disclosure image get arbitrarily cut off on the right. That looks bad.
 
-{% img right /images/timetocall-bad-delete.jpg 320 88 %}
+{{< figure src="images/timetocall-bad-delete.jpg 320 88" class="image-right" >}}
 
 If the user then taps the roundel, iOS confirms the delete by drawing a delete button on the right of the cell, on top of everything else. Now it looks worse.
 
 So I started to play with what to do when the delete imagery was present. First, I tried just hiding the third graphic and disclosure indicator. But that meant you saw less information when deleting, which made it harder to be sure you were deleting the right cell.
 
-{% img left /images/timetocall-delete-stages.jpg 320 320 %}
+{{< figure src="images/timetocall-delete-stages.jpg 320 320" class="left-right" >}}
 
 So I started to shift things around. Eventually, I came up with hiding the clock face as it has the least information when deleting, and sliding the  remaining items to the left so that they can be seen by the user. That then also made sufficient space for the delete button if the user needs it.
 

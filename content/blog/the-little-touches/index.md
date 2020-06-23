@@ -6,7 +6,7 @@ tags: [ Apple ]
 
 **It's the *little touches* that turn ordinary products into great products.**
 
-{% img right /images/power2000.jpg 154 200 %}
+{{< figure src="images/power2000.jpg 154 200" class="image-right" >}}
 
 For years I have been using Power2000 NiMH batteries and their chargers that I get in Japan for use in my camera's Flash. I use these because they really hold a charge and can handle the burst heat from a Nikon flash unit. And they store a lot of energy so they keep on flashing.
 
@@ -18,7 +18,7 @@ Most chargers come with 4 batteries.
 
 The [Apple Battery Charger](http://www.apple.com/battery-charger/) comes with *six*.
 
-{% img left /images/applecharger.jpg 179 200 %}
+{{< figure src="images/applecharger.jpg 179 200" class="left-right" >}}
 
 Yep, six.
 

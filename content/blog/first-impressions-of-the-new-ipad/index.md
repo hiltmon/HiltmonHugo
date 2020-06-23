@@ -20,8 +20,8 @@ Between the original and the new iPad (retina):
 
 ## Comparing the Screens
 
-{% img /images/ipad-screens.png 640 640 %}
+{{< figure src="images/ipad-screens.png 640 640" >}}
 
 ## Comparing the Thickness
 
-{% img /images/ipad-sides.png 640 640 %}
+{{< figure src="images/ipad-sides.png 640 640" >}}

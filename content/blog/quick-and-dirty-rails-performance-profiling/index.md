@@ -64,13 +64,13 @@ Next time you call this code, via a URL or in a Rake task, it will be profiled a
 
 I use on the `import-stack.html` file in my quick and dirty approach.  Here's what one of these looks like:
 
-{% img /images/old-profile-stack.png 600 340 %}
+{{< figure src="images/old-profile-stack.png 600 340" >}}
 
 This profile ran for 36.01 seconds, and spent 18.25% of its time in `load_allocations`.  Looks like we can get some improvement there. So I then expand out the tree to see where in my code it spends the time, how many times something gets called, and then choose which to optimize. One of the excellent features of this view is that the links open TextMate at the line of code being profiled.
 
 Iterate, optimize, profile, iterate, optimize, and profile again, and I see this:
 
-{% img /images/new-profile-stack.png 600 396 %}
+{{< figure src="images/new-profile-stack.png 600 396" >}}
 
 This profile now ran for 26.20 seconds, a huge speed up, with `load_allocations` using only 7.46% of the *shorter* runtime. There is much more I can do. I can drill on these stacks for hours finding more and more methods to optimize.
 

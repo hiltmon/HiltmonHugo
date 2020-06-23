@@ -4,7 +4,7 @@ date: 2015-03-07 17:37:51 -0500
 tags: Scrivener
 ---
 
-{% img right /images/scrivener-format.png 520 254 %}
+{{< figure src="images/scrivener-format.png 520 254" class="image-right" >}}
 
 I am writing a lot of business documents in [Scrivener](http://www.literatureandlatte.com/scrivener.php), and even though it's the wrong way to do it, I use Scrivener's format presets (think paragraph styles) to quickly format headings, bulleted lists and paragraphs in each sub-document. This way I minimize post-processing <span class="light">(and the business format is intentionally boring so I do not need any fancy layouts)</span>.
 
@@ -29,7 +29,7 @@ To manually apply this preset to another paragraph, select the new paragraph and
 
 ### Create the Keyboard Shortcuts
 
-{% img right /images/scrivener-format-keys.png 372 204 %}
+{{< figure src="images/scrivener-format-keys.png 372 204" class="image-right" >}}
 
 Open **System Preferences**, choose **Keyboard** and select the **Shortcuts** tab. Click on **App Shortcuts** on the left.
 
@@ -40,7 +40,7 @@ To add a new Scrivener Shortcut:
 * Click the **Plus** Button
 * Select the Application - Scrivener
 * Type in the name of the format preset. *Note: The name must match the format preset exactly, one character difference and this will not work.*
-* Hit the keyboard shortcut you wish to use {% img right /images/scrivener-format-menu.png 283 250 %}
+* Hit the keyboard shortcut you wish to use {{< figure src="images/scrivener-format-menu.png 283 250" class="image-right" >}}
 * Click **Add** to save
 
 

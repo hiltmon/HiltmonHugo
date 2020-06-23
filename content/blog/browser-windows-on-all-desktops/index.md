@@ -13,13 +13,13 @@ My needs are to have separate browser windows on *Desktop 1 / Work* for previews
 
 What I *used to do* is I use the **New Window** menu item off the Safari dock icon to launch a blank Safari window in the current space.
 
-{% img /images/safari-new-window.jpg 495 303 %}
+{{< figure src="images/safari-new-window.jpg 495 303" >}}
 
 OS X (or maybe Safari) is smart enough that if there is an open Safari window on the current desktop, then it opens all clicked links in that window as new tabs. It does not jump desktops. Note that I have “Open paths in tabs instead of windows:” set to **Automatically** in Safari **Preferences** / **Tabs**.
 
 What I use now is a [Keyboard Maestro](http://www.keyboardmaestro.com/main/) macro triggered by `⌃⌥⌘B` that creates a new Safari window on the current desktop.  I habitually hit `⌃⌥⌘B` when I move to a desktop that I wish to browse on. The macro looks like this:
 
-{% img /images/new-safari-window.jpg 487 396 %}
+{{< figure src="images/new-safari-window.jpg 487 396" >}}
 
 You can setup the same script in [Alfred](https://itunes.apple.com/us/app/alfred/id405843582?mt=12&uo=4&at=10l894) or other launcher, the code is simply:
 

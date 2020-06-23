@@ -12,7 +12,7 @@ I use them so frequently and am so lazy that even typing `,,tick` and `,,cross` 
 
 So I made them hot keys using [Keyboard Maestro](http://www.keyboardmaestro.com/main/). `⌃⌘=` gives me a `✓` and `⌃⌘-` gives a `✗`. Anywhere. Anytime.
 
-{% img /images/ticks-and-crosses.jpg 549 162 %}
+{{< figure src="images/ticks-and-crosses.jpg 549 162" >}}
 
 <span class="light">**Update:** As per the comment from Jimmy Hartingdon below, change the macro to 'Insert Text by Typing' if you want the clipboard to remain unchanged.</span>
 

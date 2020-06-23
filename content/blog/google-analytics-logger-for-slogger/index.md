@@ -92,7 +92,7 @@ else
 end
 ```
 
-{% img /images/slga-slogger-patch.jpg 640 286 %}
+{{< figure src="images/slga-slogger-patch.jpg 640 286" >}}
 
 An explanation for this patch is in the "How it Works" section below.
 
@@ -130,7 +130,7 @@ Paste in my client ID and secret key (or use your own)
   client_secret: "xUgp_NqKHnyJ_b8cwZbR1tnX"
 ```
 
-{% img /images/slga-step-1.jpg 640 246 %}
+{{< figure src="images/slga-step-1.jpg 640 246" >}}
 
 Make sure you save and close `slogger_config` before moving on to the next step.
 
@@ -144,15 +144,15 @@ This is the painful part of OAuth 2.0, you need to authorize this application to
 
 Slogger will open your default browser and request authorization to access your data. 
 
-{% img /images/slga-step-2-1.jpg 640 200 %}
+{{< figure src="images/slga-step-2-1.jpg 640 200" >}}
 
 Click Allow Access. It will come back with an one-time Authorization Code.
 
-{% img /images/slga-step-2-2.jpg 640 97 %}
+{{< figure src="images/slga-step-2-2.jpg 640 97" >}}
 
 Copy the code and paste it into your `slogger_config` in the `auth_code` field.
 
-{% img /images/slga-step-2-3.jpg 640 95 %}
+{{< figure src="images/slga-step-2-3.jpg 640 95" >}}
 
 Save and close the file again.
 
@@ -175,7 +175,7 @@ Initializing Slogger v2.0 (2.0.14.2)...
 
 If you look in your `slogger_config` now, you should now see an `access_token` and a `refresh_token`. 
 
-{% img /images/slga-step-3.jpg 640 93 %}
+{{< figure src="images/slga-step-3.jpg 640 93" >}}
 
 If you do not, check that the `slogger` patch has been saved, set the `auth_code` to `""` and try again.
 
@@ -185,11 +185,11 @@ To add web properties, go to your [Google Analytics home page](http://www.google
 
 Click on "All Accounts" at the top-left, then expand the first account.
 
-{% img /images/slga-step-4-1.jpg 640 437 %}
+{{< figure src="images/slga-step-4-1.jpg 640 437" >}}
 
 Add the UA codes for each property you want to log to the `properties` list in `slogger_config`. These are the same codes you use in your site to send stats to Google Analytics.
 
-{% img /images/slga-step-4-2.jpg 640 95 %}
+{{< figure src="images/slga-step-4-2.jpg 640 95" >}}
 
 **Test that it works**
 
@@ -213,7 +213,7 @@ Initializing Slogger v2.0 (2.0.14.2)...
 
 And in [DayOne](http://dayoneapp.com):
 
-{% img /images/slga-done.jpg 413 480 %}
+{{< figure src="images/slga-done.jpg 413 480" >}}
 
 To undo the test, just run
 

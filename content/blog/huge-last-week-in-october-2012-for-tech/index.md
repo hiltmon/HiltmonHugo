@@ -8,7 +8,7 @@ It’s going to be a huge week in tech this week, with launches and events from 
 
 ## Microsoft Windows 8 and Surface
 
-{% img /images/microsoft-event-oct-25-2012.jpg 440 330 %}
+{{< figure src="images/microsoft-event-oct-25-2012.jpg 440 330" >}}
 
 On October 25, 2012, Microsoft will hold an event to launch their new Windows 8 Operating System for release the next day. I expect to see more demos of the system itself, a lot more Metro, er Windows UI, style applications and some great hardware that is tuned for it, especially touchable wrap-around laptops from Lenovo and Acer. It will be a good show, unless Ballmer speaks, in which case all bets are off.
 
@@ -22,7 +22,7 @@ On the Surface, I don’t know. Windows RT is limiting and most purchasers are g
 
 ## Google’s New Android and Nexus
 
-{% img /images/google-event-oct-29-2012.jpg 440 248 %}
+{{< figure src="images/google-event-oct-29-2012.jpg 440 248" >}}
 
 While Microsoft is releasing stuff on October 29, 2012, Google will be hosting it’s rushed event to launch their next version of Android as well as updates on Google Play and their Nexus product line. I expect the new Android to be a good update to 4, especially the tablet version, and I think their ecosystem integration across web, Chromebook and tablet to mature. I also expect higher capacity Nexus tablets and a huge price drop. They’ll probably also talk about their new cheaper Chromebooks.
 
@@ -32,7 +32,7 @@ While Microsoft is releasing stuff on October 29, 2012, Google will be hosting i
 
 ## Apple’s new iTunes, iPad mini and iBooks
 
-{% img /images/apple-event-oct-23-2012.jpg 440 332 %}
+{{< figure src="images/apple-event-oct-23-2012.jpg 440 332" >}}
 
 But the biggest news this week is Apple’s event tomorrow, October 23. It’s expected that this event will focus on an updated iBooks for education, building on iBooks Author and iTunes U, with a shot of going after textbooks, something the late Steve Jobs was passionate about. Apple will also demo, and probably release, the new iTunes 11 version with the new iOS UI, which will *stink* like all iTunes versions because the product still does too much in it’s own, un-Mac-like way.
 

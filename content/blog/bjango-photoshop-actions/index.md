@@ -4,7 +4,7 @@ date: 2013-03-25 16:59:00-0400
 tags: [ Tips and Tricks ]
 ---
 
-{% img right /images/bjango-actions.png 190 956 %}
+{{< figure src="images/bjango-actions.png 190 956" class="image-right" >}}
 
 I've already pointed out that you *must have* [Slicy](https://hiltmon.com/blog/2012/07/11/slicy-photoshop-artwork/) when working in Photoshop to create and manage iOS artwork or when creating assets for web sites.
 

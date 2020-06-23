@@ -36,11 +36,11 @@ Actually it is, and SAP, Adobe and Microsoft have done amazing things to try to 
 
 For regular folks, there are products just as functional with far simpler interfaces. Compare Excel (top) to [Numbers](http://www.apple.com/iwork/numbers/) (bottom), Excel has a heap of buttons on the toolbar, Numbers only has a few, it's simpler, more focussed and easier to use:
 
-{% img /images/excel-vs-numbers.png 640 141 %}
+{{< figure src="images/excel-vs-numbers.png 640 141" >}}
 
 Or compare Photoshop (dark window chrome) to [Acorn](http://flyingmeat.com/acorn/) (light windows chrome), Acorn has a far more compact and simple interface, yet can do a lot of what the complex Photoshop interface does and with a lot less effort:
 
-{% img /images/photoshop-vs-acorn.png 640 432 %}
+{{< figure src="images/photoshop-vs-acorn.png 640 432" >}}
 
 ## Some rules to help
 

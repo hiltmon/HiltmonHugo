@@ -19,7 +19,9 @@ For example, the formula:
 
 Renders like this from markdown:
 
-<div>$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$</div>
+$$
+  x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+$$
 
 Or we can go inline where the code `\\( ax^2 + \sqrt{bx} + c = 0 \\)` renders as <span>\\(ax\^2 + \sqrt{bx} + c = 0 \\)</span>.
 
@@ -30,6 +32,7 @@ Most Markdown Editors have a Preview function, but do not include MathJax by def
 For iA Writer, for example, go to **Preferences**, select the **Templates** tab and click the plus below **Custom Templates**, and choose **Open Documentation** to learn how to create your own template. Or copy an existing one and rename it.
 
 In the main html file, called `document.html` in the iA template, add the MathJax javascript header line:
+
 
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
@@ -49,13 +52,13 @@ My template file is very simple:
 
 Next time iA Writer, Byword or Ulysses loads its preview pane and renders the page, the javascript will run and render the MathJax as mathematical formulae. For example, in iA Writer:
 
-{% img /images/mathjax-1.jpeg 640 379 %}
+{{< figure src="images/mathjax-1.jpeg" width=640 height=379 >}}
 
-{% img right /images/mathjax-2.jpeg 340 123 %}
+{{< figure src="images/mathjax-2.jpeg" width=340 height=123 class="image-right" >}}
 
 **Note**: Occasionally the preview will fail to render the MathJax, either because the MathJax is invalid or the refresh fails to reload the Javascript. If you see something like the image on the right, just right-click on the preview-pane and click `Reload`. That forces the preview pane to reload both the rendering template and the page.
 
-{% img right /images/mathjax-3.jpeg 340 332 %}
+{{< figure src="images/mathjax-3.jpeg" width=340 height=332 class="image-right" >}}
 
 ### Preview: Marked 2
 

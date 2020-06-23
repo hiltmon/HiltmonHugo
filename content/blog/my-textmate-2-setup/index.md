@@ -6,7 +6,7 @@ tags: [Text Editors, Productivity]
 
 I switched back to [TextMate 2][github] from [Sublime Text 2][sublimetext] full time a while back and I am really happy with the way I have it looking and working. My "[My Sublime Text 2 Setup][1]" post is quite popular, so I though I'd create the same for TextMate 2.
 
-{% img /images/textmate-themes.jpg 600 240 %}
+{{< figure src="images/textmate-themes.jpg 600 240" >}}
 
 <!--more-->
 
@@ -18,7 +18,7 @@ One problem with the default Markdown preferences in TextMate 2 is that it uses 
 
 ## Bundles
 
-{% img right /images/textmate-auto-lang.jpg 350 231 %}
+{{< figure src="images/textmate-auto-lang.jpg 350 231" class="image-right" >}}
 
 One of the benefits of TextMate 2 over Sublime Text 2 is that adding new bundles, themes and languages is all built-in, you do not need a third party package manager. The first time TextMate 2 encounters a file it does not recognize, it gives you the option to download and install the bundle for it.
 

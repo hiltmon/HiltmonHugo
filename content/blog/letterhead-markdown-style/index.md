@@ -6,7 +6,7 @@ tags: [ Markdown ]
 
 So I get this request yesterday to send a document on [letterhead][letterhead]. You all may remember letterheads from back in the day when companies had professional printers print their fancy logos on fancy paper that you then ran through the "good" laser printer that then went into matching fancy envelopes and someone stuck stamps on and mailed them.
 
-{% img /images/letterhead.jpg 500 153 %}
+{{< figure src="images/letterhead.jpg 500 153" >}}
 
 I thought that letterheads went the way of the dodo about the same time [fax machines][fax] and [US Mail][usps] both died out. *I was wrong*. It turns out, sometimes to make something "official" <span class="light">(whatever the heck that means)</span> you need it on letterhead. And since it's 2013, a PDF version is acceptable.
 
@@ -58,7 +58,7 @@ Notes on the markdown source:
 
 And the result, an "official" looking document while remaining in the [Markdown Mindset][mindset]. Sweet!
 
-{% img /images/markdown-letterhead.png 588 470 %}
+{{< figure src="images/markdown-letterhead.png 588 470" >}}
 
 *Follow the author as [@hiltmon](https://twitter.com/hiltmon) on Twitter and [@hiltmon](http://alpha.app.net/hiltmon) on App.Net. Mute `#xpost` on one.*
 

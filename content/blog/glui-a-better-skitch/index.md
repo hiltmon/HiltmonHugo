@@ -6,7 +6,7 @@ tags: [ Productivity, Reviews ]
 
 Ever since [Evernote](http://evernote.com) purchased and then ruined [Skitch](https://itunes.apple.com/us/app/skitch/id425955336?mt=12&uo=4&at=10l894) (See my [Bye bye Skitch, Hello LittleSnapper](https://hiltmon.com/blog/2012/09/27/bye-bye-skitch/) post), I’ve been looking for a replacement product. A lightweight snap, annotate and save to PNG or share the image app. And I think [Glui](https://itunes.apple.com/us/app/glui/id601359958?mt=12&uo=4&at=10l894) may be it.
 
-{% img /images/glui.jpg 640 397 %}
+{{< figure src="images/glui.jpg 640 397" >}}
 
 I just wanted an app that just does the following like the original [Skitch](https://itunes.apple.com/us/app/skitch/id425955336?mt=12&uo=4&at=10l894) betas:
 

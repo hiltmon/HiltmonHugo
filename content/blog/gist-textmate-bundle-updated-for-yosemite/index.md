@@ -4,7 +4,7 @@ date: 2014-10-18 12:44:44 -0400
 tags: textmate
 ---
 
-{% img right /images/textmate.png 128 128 %}
+{{< figure src="images/textmate.png 128 128" class="image-right" >}}
 
 Thanks to Michael Sheets, the Gist TextMate bundle now works in [TextMate 2](http://macromates.com) on Yosemite. The issue was that the UI code in TextMate 2 relied on Ruby 1.8, and Ruby 1.8 is deprecated and no longer installed in OS X 10.10. 
 

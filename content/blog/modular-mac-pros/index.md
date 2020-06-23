@@ -14,11 +14,11 @@ I’m completely convinced that Apple is dropping the enormous Mac Pro tower thi
 
 This discussion reminded me of one of the first computers I ever used for work, the Burroughs B20 series, sold by Unisys. I started on a B24 and upgraded to a B26 later.
 
-{% img /images/b20.jpg 700 280 %}
+{{< figure src="images/b20.jpg 700 280" >}}
 
 These were amazing in their day. Because components were expensive, you could 'build' your computer as your needs and budget changed. Each stack started with a CPU unit on the left, early models had a Intel 80186, going up to the 80306 in the B26. You then added a hard drive module (they called  them Winchester drives back then) and added a graphics module to enable I/O (different ones for green screen and basic color).
 
-{% img right /images/b20-face.jpg 195 116 %}
+{{< figure src="images/b20-face.jpg 195 116" class="image-right" >}}
 
 Need more RAM? Plug in a memory expansion module.  Needed a floppy disk, stack on a drive module. Need *another* floppy, stack it on. Tape backup? Another module. Need to cluster computers, stack on a cluster module (think ethernet card). More hard disk, add a disk expansion module. On some desks in our office, these stacks used to span the entire desk.
 

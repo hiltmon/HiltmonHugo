@@ -6,7 +6,7 @@ tags: [Productivity]
 
 In order to reduce distractions while I am working, yet still have the benefit of having these applications running, I use multiple [Mission Control](http://www.apple.com/macosx/whats-new/mission-control.html) desktops on my Macintosh computers. In short, I work, with focus, on Desktop 1; respond to email on Desktop 2; IM and Tweet from Desktop 3; and manage my time and activity on Desktop 4.
 
-{% img /images/all-desktops.png 640 83 %}
+{{< figure src="images/all-desktops.png 640 83" >}}
 
 Here's why and how it works.
 
@@ -40,7 +40,7 @@ The first thing you want to do it create all the desktops. Launch **Mission Cont
 
 *Tip 2*: I also like to use keyboard shortcuts to switch between desktops. To do so, *after you have created the desktops*, launch **System Preferences**, the choose **Keyboard**, then **Keyboard Shortcuts**. Click on **Mission Control** and enable the shortcuts for each desktop.
 
-{% img /images/keyboard-shortcuts-mc.png 640 574 %}
+{{< figure src="images/keyboard-shortcuts-mc.png 640 574" >}}
 
 The next thing you want to do is set it up that each application launches only on the desktop you want. This is a little more tricky:
 
@@ -50,7 +50,7 @@ The next thing you want to do is set it up that each application launches only o
 * Right-click on the running application icon to bring up the context menu
 * Choose **Options**, then click **This Desktop**
 
-{% img /images/assign-to-desktop.png 340 261 %}
+{{< figure src="images/assign-to-desktop.png 340 261" >}}
 
 From now on, whenever you launch this application, OS X will switch you to this desktop and launch the application. Now switch to the next desktop, and do the same. Only do this for applications that you want pinned to specific desktops.
 

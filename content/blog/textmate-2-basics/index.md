@@ -4,7 +4,7 @@ date: 2013-11-09 15:00:00-0400
 tags: [Text Editors, TextMate]
 ---
 
-{% img right /images/textmate.png 128 128 %}
+{{< figure src="images/textmate.png 128 128" class="image-right" >}}
 
 I have been using [TextMate](http://macromates.com) for years as my primary programmer's editor, but it turns out that I only use a subset of its amazing features. I've been speaking with users of other awesome programmer's editors and they wanted to know what it is in TextMate that I love so much and keeps me using it.
 
@@ -16,13 +16,13 @@ So here are the basic parts of TextMate 2 that I use regularly. Maybe you can di
 
 The true power of TextMate can be found in its bundles. Whether you code in Ruby and Shell like I do, or in some esoteric language, chances are that there is a bundle that will not only provide syntax highlighting for that language but include a whole bunch of snippets to make programming easier. There are bundles for programming languages, build systems, source code control, testing languages and odd file formats. Even the themes are bundles.
 
-{% img right /images/tm-basics-1.jpg 300 182 %}
+{{< figure src="images/tm-basics-1.jpg 300 182" class="image-right" >}}
 
 I don't install all the bundles, I only install them as needed (and remove the ones I do not need). <span class="light">In the *good old days* when TextMate 1 was still growing, this prevented keystroke and scope conflicts.</span>
 
 To install a language or feature bundle, open **Preferences...** or press `⌘,` and click on **Bundles**. Check a bundle to install, uncheck to remove. *Or just open an unrecognized file and TextMate 2 will recommend a bundle to install.*
 
-{% img right /images/tm-basics-2.jpg 220 81 %}
+{{< figure src="images/tm-basics-2.jpg 220 81" class="image-right" >}}
 
 There are many ways to learn about what's in a bundle. You could go to the **Bundle / Edit Bundles...** menu (or press `⌃⌥⌘B`) and then click on a bundle to see its contents. Or you could click on the gear menu (see image right) at the bottom of an opened file to see what's available. 
 
@@ -30,21 +30,21 @@ Or best of all, use `⌘⌃T` to bring up the bundle search dialog to find what'
 
 ## Default file
 
-{% img right /images/tm-basics-3.jpg 250 167 %}
+{{< figure src="images/tm-basics-3.jpg 250 167" class="image-right" >}}
 
 `⌘N` is a programmer's friend, it creates a new file in any editor. In TextMate 2, the shipped default is a plain text file which really makes no sense in a programmer's editor. I set it to my most common format, Ruby, as *most of the time*, that's what I need. To set the default file type, open **Preferences...** and on the **Files** tab, set your preferred new document type.
 
 ## Favorites
 
-I find myself opening the same projects over and over again in TextMate 2. In TextMate 1 we had project files, but I never really used them. So I used to open projects by opening a terminal, `cd` to the project folder and type the command `mate .` to open the project folder (and then created TextExpander scripts to do this, see [TextExpander in Terminal](https://hiltmon.com/blog/2012/07/15/textexpander-in-terminal/)).{% img right /images/tm-basics-4.jpg 272 121 %}
+I find myself opening the same projects over and over again in TextMate 2. In TextMate 1 we had project files, but I never really used them. So I used to open projects by opening a terminal, `cd` to the project folder and type the command `mate .` to open the project folder (and then created TextExpander scripts to do this, see [TextExpander in Terminal](https://hiltmon.com/blog/2012/07/15/textexpander-in-terminal/)).{{< figure src="images/tm-basics-4.jpg 272 121" class="image-right" >}}
 
 In TextMate 2, the Favorites feature works better for me. To set up a favorite, use the file browser in TextMate 2 to navigate to the folder *above* your projects. 
 
-{% img right /images/tm-basics-5.jpg 271 98 %}
+{{< figure src="images/tm-basics-5.jpg 271 98" class="image-right" >}}
 
 Then, to create a favorite, right click on the project folder and choose "Add &lt;folder&gt; to Favorites".
 
-{% img right /images/tm-basics-6.jpg 429 301 %} 
+{{< figure src="images/tm-basics-6.jpg 429 301" class="image-right" >}} 
 
 Next time you want to open an project, just press `⇧⌘O` (O not zero) to open the **Open Favorite** dialog, then type or click to open the project. I just love this. <span class="light">*Note that in the current alphas of TextMate 2, you need to restart the application for the favorites to be updated.*</span>
 
@@ -77,12 +77,12 @@ will open the `.bash_profile` file from the remote server in your local TextMate
 
 As a Mac user, I already have the Mac editing keys in my muscle memory. Here are some additional keys that I use all the time in TextMate 2 to maximize my productivity:
 
-{% img right /images/tm-basics-7.jpg 412 249 %}
+{{< figure src="images/tm-basics-7.jpg 412 249" class="image-right" >}}
 
 * `⌘T` is my favorite key, it brings up the **Go to File** dialog which allows you to type a few letters and TextMate 2 intelligently finds all matching files in the project for you. Common uses are for opening the `routes.rb` file (`⌘T rou ↩`)
  or the `schema.rb`file (`⌘T sch ↩`) in Rails projects.
 
-{% img right /images/tm-basics-8.jpg 250 216 %}
+{{< figure src="images/tm-basics-8.jpg 250 216" class="image-right" >}}
 
 * `⌘R` runs the current file. I do not like the default where the results are displayed at the bottom of the editor window, so I change it to **New window** in the **Preferences**, **Projects** tab.
 
@@ -136,10 +136,10 @@ And want to change it to an inline `cusip, isin, name` for use in an INSERT stat
 
 1. Select to where I want the carets to be with the selection start being the first location and the selection end being the last.
 2. Tap the `⌥` key to switch to multiple carets.
-3. `⌥→` to move to the end of the field name, then `⇧⌘→` to select to the end of the line.{% img /images/tm-basics-9.jpg 660 92 %}
+3. `⌥→` to move to the end of the field name, then `⇧⌘→` to select to the end of the line.{{< figure src="images/tm-basics-9.jpg 660 92" >}}
 4. `DELETE` to remove the excess baggage.
 5. `→` once to cross over the newline, `DELETE` to remove the new line.
-6. Type a comma to separate the elements, `⇧→` to highlight the excess spaces, `SPACE` to replace them and finally `⌘⇧L` to select the line.{% img /images/tm-basics-A.jpg 660 92 %}
+6. Type a comma to separate the elements, `⇧→` to highlight the excess spaces, `SPACE` to replace them and finally `⌘⇧L` to select the line.{{< figure src="images/tm-basics-A.jpg 660 92" >}}
 
 And now I have what I need to paste into the INSERT statement. Its a lot easier than typing out all the fields, especially for large tables.
 

@@ -8,7 +8,7 @@ Five years ago, the first iPhone went on sale. My, have mobile phones changed si
 
 ## My Mobiles before the iPhone launch
 
-{% img /images/pre-iphone-phones.png 640 480 %}
+{{< figure src="images/pre-iphone-phones.png 640 480" >}}
 
 When I first came to the USA, the only phones I could get were pay-as-you-go bricks. After some time, I finally became eligible for a contract phone. 
 
@@ -22,7 +22,7 @@ My last pre-iPhone was the Blackberry Curve (far right), it felt better than the
 
 ## My Mobiles since iPhone launch
 
-{% img /images/post-iphone-phones.png 640 480 %}
+{{< figure src="images/post-iphone-phones.png 640 480" >}}
 
 I've had the iPhone 3G, so much faster and easier than the old curve. Then the 3GS, one of the best phones ever. Then upgraded to the iPhone 4, love the display. And now I am on the iPhone 4S, the best iPhone yet. I still use the 3G and 3GS when I travel as unlocked and synced phones.
 

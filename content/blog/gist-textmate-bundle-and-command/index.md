@@ -8,7 +8,7 @@ I was having a conversation on Twitter with Shawn Hansen ([@geekles](https://twi
 
 Not anymore (the Oscars were on).
 
-{% img left /images/textmate-gists-menu.png 158 132 %}
+{{< figure src="images/textmate-gists-menu.png 158 132" class="left-right" >}}
 
 Announcing the first release of my [TextMate 2 bundle](https://github.com/hiltmon/Gist.tmbundle) and a [separate command line tool](https://github.com/hiltmon/gist) for retrieving, creating and updating GitHub Gists.
 
@@ -16,7 +16,7 @@ The main difference between this and other implementations is that this one *cac
 
 With these tools you can:
 
-{% img right /images/textmate-pick-gists.png 285 329 %}
+{{< figure src="images/textmate-pick-gists.png 285 329" class="image-right" >}}
 
 * Download and edit any public gists from within TextMate 2 or the command line (and since they both use the same code-base, they can be interchanged).
 * List up to 100 (API limit) of your own gists and pick which to download and edit.

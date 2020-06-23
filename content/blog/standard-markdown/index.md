@@ -4,7 +4,7 @@ date: 2014-09-03 20:25:56 -0400
 tags: Markdown
 ---
 
-{% img right /images/markdown.png 208 128 %}
+{{< figure src="images/markdown.png 208 128" class="image-right" >}}
 
 Looks like [Jeff Atwood](http://blog.codinghorror.com/standard-flavored-markdown/) ([@CodingHorror](http://twitter.com/codinghorror)), [John MacFarlane](http://johnmacfarlane.net), David Greenspan of [Meteor](https://www.meteor.com), and folks from StackExchange, Github and Reddit have put their money where their mouths are and released the first version of [Standard Markdown](http://standardmarkdown.com) at [http://standardmarkdown.com](http://standardmarkdown.com). 
 

@@ -21,7 +21,7 @@ TL:DR:
 
 Before I write anything, I jot down what I want to say. I use [nvAlt][nvalt] by [Elastic Threads / David Halter][9] and [Brett Terpstra][10]. [nvAlt][nvalt] is a markdown focussed fork of [Notational Velocity][12] by Zachary Schneirov, and is the tool I use to capture ideas.
 
-{% img /images/indie-writing-1.jpg 612 360 %}
+{{< figure src="images/indie-writing-1.jpg 612 360" >}}
 
 These start out as bunch of confusing point-form thoughts that I have rattling around. By writing them down, I get a feel for what I am thinking, what I want to say and what will get written, in what order. By writing and reordering these, I usually find out the point I want to make (or whether there is no point, and the post idea dies there). I often surprise myself as I think I am going to write about one thing, and land up writing about something completely different.
 
@@ -33,7 +33,7 @@ For more complex articles, I sometimes build a mind-map using [MindNode Pro][min
 
 Before switching to [Ulysses III][ulysses], I tried using a folder for Drafts wherein I placed my draft files and edited them using [Byword][byword]. But then I got confused between the draft and the final post.
 
-{% img /images/indie-writing-2.jpg 700 452 %}
+{{< figure src="images/indie-writing-2.jpg 700 452" >}}
 
 Fortunately, [Ulysses III][ulysses] by [The Soulmen GBR][22] in Germany came out at that time and I fell in love with the look and feel of it. I can see all my drafts in the left hand file pane, and do all my writing in the right. I love the fonts and colors that they chose, I love the ease of sharing the document directly into [Byword][byword], their markdown format works great and the ability to jump between drafts with ease. [Ulysses III][ulysses] still lacks features such as search that make it compete with bigger writing tools like [Scrivener][scrivener], but it fits my *drafting* needs perfectly.
 
@@ -41,7 +41,7 @@ Fortunately, [Ulysses III][ulysses] by [The Soulmen GBR][22] in Germany came out
 
 Since almost all my writing is a single, less than one thousand word article, I write the final post using [Byword][byword] by [MetaClassy][27] in Portugal. Since adding [Ulysses III][ulysses], I now create the post using my [command-line tools][29], tune the [markdown meta-data][30] headers and then paste in the markdown from [Ulysses III][ulysses] to start working on the final copy.
 
-{% img /images/indie-writing-3.jpg 507 484 %}
+{{< figure src="images/indie-writing-3.jpg 507 484" >}}
 
 I think [Byword][byword] is the best distraction free markdown editor for plain old writing, supported with a lovely set of keyboard shortcuts, a great markdown implementation and a gorgeous default theme.
 
@@ -53,7 +53,7 @@ In the case of a series of posts, I write the whole thing in [Scrivener][scriven
 
 Once I realize that a post is going to be a longer form series, I switch to writing in [Scrivener][scrivener] by [Literature and Latte][41] in England. It is, by far, the *best* tool for writing any long-form documentation, whether they be books, theses, scripts, knowledge bases or series of posts.
 
-{% img /images/indie-writing-4.jpg 712 343 %}
+{{< figure src="images/indie-writing-4.jpg 712 343" >}}
 
 [Scrivener][scrivener] enables me to write freely, then reorganize the writing into the different articles in the series. I would never be able to look at and manipulate the structure of a larger document in any other tool. It also allows me to keep the research and reference material with the document. It seems that every time I launch [Scrivener][scrivener] I learn something new. And I want to write more.
 
@@ -61,7 +61,7 @@ Once I realize that a post is going to be a longer form series, I switch to writ
 
 One of the best ways to review your writing is to send it to an editor. But since I do not have one of those hanging around, I find it best to look at it in another form. I guess I become typo and grammar blind after a while in the same tool, plus I really do like to see the balance and flow of the article in its finished form. 
 
-{% img /images/indie-writing-5.jpg 712 343 %}
+{{< figure src="images/indie-writing-5.jpg 712 343" >}}
 
 For that, there is none better than [Brett Terpstra’s][44] [Marked][marked] app. Best of all, it works with both [Scrivener][scrivener] and [Byword][byword] brilliantly. I have [Marked][marked] open on the right of my screen with [Scrivener][scrivener] or [Byword][byword] on the left. As soon as I make changes in the document, [Marked][marked] updates and displays it as it would appear on the blog. Not only that, it scrolls to the latest change to I don’t need to hunt to get back to my review position after correcting.
 

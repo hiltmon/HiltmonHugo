@@ -22,7 +22,7 @@ The primary uses for this work computer are:
 
 Page 1 of my [Launchpad](http://support.apple.com/kb/HT5548) contains all the default Apple applications, with the addition of [iWork](http://www.apple.com/iwork/) and [Xcode](https://developer.apple.com/xcode/):
 
-{% img /images/work-page-1.jpg 700 311 %}
+{{< figure src="images/work-page-1.jpg 700 311" >}}
 
 Quick notes:
 
@@ -35,7 +35,7 @@ Quick notes:
 
 Page 2 and 3 contain all my third party applications. Yes, in *alphabetical* order of course!
 
-{% img /images/work-page-2.jpg 700 301 %}
+{{< figure src="images/work-page-2.jpg 700 301" >}}
 
 * [1Password](https://agilebits.com/onepassword) for all web logins and secret codes
 * [Acorn](http://www.flyingmeat.com/acorn/) for quick and dirty image annotation and cropping for the blog or documentation
@@ -62,7 +62,7 @@ Page 2 and 3 contain all my third party applications. Yes, in *alphabetical* ord
 * [Keyboard Maestro](http://www.keyboardmaestro.com/main/) to speed up all the things
 * [Kiwi](http://kiwi-app.net) for App.net conversations
 
-{% img /images/work-page-3.jpg 700 375 %}
+{{< figure src="images/work-page-3.jpg 700 375" >}}
 
 * [Marked](http://markedapp.com) to preview and create PDFs
 * [Microsoft Excel, Word and Powerpoint](http://blog.officeformac.com/tag/macbu/) because we live in a Windows world
@@ -95,7 +95,7 @@ Page 2 and 3 contain all my third party applications. Yes, in *alphabetical* ord
 
 ## Dock and Menu Bar
 
-{% img /images/work-dock.jpg 700 57 %}
+{{< figure src="images/work-dock.jpg 700 57" >}}
 
 For the apps I like to drop things on or click to launch, and really because they have just habitually been on the dock:
 
@@ -113,7 +113,7 @@ For the apps I like to drop things on or click to launch, and really because the
 - **System Preferences**, because I always forget they are on the Apple menu
 - [OmniFocus](http://www.omnigroup.com/omnifocus), to see what to do next
 
-{% img /images/work-menu-bar.jpg 683 48 %}
+{{< figure src="images/work-menu-bar.jpg 683 48" >}}
 
 * [Fantastical](http://flexibits.com/fantastical) for calendaring, never hidden
 * In Bartender

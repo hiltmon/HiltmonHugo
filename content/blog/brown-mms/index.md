@@ -4,7 +4,7 @@ date: 2015-10-14 19:31:20 -0400
 tags: 
 ---
 
-{% img right /images/vanhalenmm.png 320 320 %}
+{{< figure src="images/vanhalenmm.png 320 320" class="image-right" >}}
 
 My business runs on code. Every day, my team and I deploy new systems, patches and add new features to our mission-critical code base. And we rarely have a problem.
 
@@ -14,11 +14,11 @@ We run a quick quality check.
 
 We look for the presence of *brown M&Ms*.
 
-{% img right /images/vanhalen.png 320 196 %}
+{{< figure src="images/vanhalen.png 320 196" class="image-right" >}}
 
 Back in the day, the legendary band [Van Halen](http://www.van-halen.com) put on complex live shows involving lots of equipment, lighting and expensive sensitive sound equipment. The setup for the show was documented in great detail in their standard concert contract which dictated what the venue needed to do to set up and run a Van Halen Concert.
 
-{% img right /images/vanhalenrider.jpg 477 144 %}
+{{< figure src="images/vanhalenrider.jpg 477 144" class="image-right" >}}
 
 One of the more unusual requests, under the "Munchies" section hidden in the middle of the contract, was a line requesting a bowl of M&M's with the brown ones removed.
 
@@ -44,7 +44,7 @@ We've seen this time and time again. Code to standard is usually more reliable a
 
 To be clear, we do not just take the pretty code and push it out. Code still gets reviewed, tested, challenged and examined before it goes out to run the business. If the attention to detail was applied to standardizing the code, then the likelihood of the same level of attention being paid to the functionality and feature set of the code is very high. 
 
-{% img right /images/vanhalenbrown.png 270 192 %}
+{{< figure src="images/vanhalenbrown.png 270 192" class="image-right" >}}
 
 Empirically, we see fewer bugs and problems, have an easier time in review, better tests run with better coverage, and maintenance by the team is easier.
 

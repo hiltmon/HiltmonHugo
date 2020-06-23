@@ -54,4 +54,4 @@ If you do spec work, you’re not only selling yourself short, you’re selling 
 
 So please, say no to spec work. Build your business and reputation properly, by doing good quality professional work for a proper professional price. You’ll be better off, your clients will be better off and the industry will be better off.
 
-{% img left /images/no-spec-logo-90.gif 90 21 %} I support [no!spec](http://www.no-spec.com), see their [FAQ](http://www.no-spec.com/faq/).
+{{< figure src="images/no-spec-logo-90.gif 90 21" class="left-right" >}} I support [no!spec](http://www.no-spec.com), see their [FAQ](http://www.no-spec.com/faq/).

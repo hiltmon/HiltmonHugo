@@ -24,7 +24,7 @@ The solution that *works* is to somehow install the *latest* copy of the NetExte
 
 Their demo site.
 
-{% img right /images/sonicwall-dropdown.jpg 300 235 %}
+{{< figure src="images/sonicwall-dropdown.jpg 300 235" class="image-right" >}}
 
 Just go to [https://sslvpn.demo.sonicwall.com/cgi-bin/welcome](https://sslvpn.demo.sonicwall.com/cgi-bin/welcome) and log in using the provided demo password. Then click the big NetExtender button to install the latest client version, just like you did on your IT provided site. I got 7.0.752. Which works on OS X Mavericks.
 

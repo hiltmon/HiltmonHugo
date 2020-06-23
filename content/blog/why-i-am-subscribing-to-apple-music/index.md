@@ -4,7 +4,7 @@ date: 2015-10-04 13:54:22 -0400
 tags: 
 ---
 
-{% img /images/apple-music.jpg 640 135 %}
+{{< figure src="images/apple-music.jpg 640 135" >}}
 
 Just over 3 months ago, Apple released [Apple Music](http://www.apple.com/music/) and I signed up for the free trial as we all did. My expectation was that I would play with it for a few days, get over it and never use it again. I expected the same experience I got from Spotify and Pandora before and I never subscribed to them. I expected the same old same old and no reason to use it.
 
@@ -16,7 +16,7 @@ Here are the main reasons why.
 
 ## The Human Curated Playlists
 
-{% img right /images/music-1.jpg 250 166 %}
+{{< figure src="images/music-1.jpg 250 166" class="image-right" >}}
 
 These are magnificent. They contain the best mixes created by people who know, live and understand music, and have led, time and time again, to me discovering artists and music I had never heard of before.
 

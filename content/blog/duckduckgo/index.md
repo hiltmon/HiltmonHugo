@@ -4,7 +4,7 @@ date: 2015-06-27 15:59:40 -0400
 tags: 
 ---
 
-{% img right /images/duckduckgo-logo.png 206 164 %}
+{{< figure src="images/duckduckgo-logo.png 206 164" class="image-right" >}}
 
 <span class="light">Note: This is not an advertisement. I love what the folks at DuckDuckGo are doing and want to spread the word.</span>
 
@@ -26,11 +26,11 @@ I started using [DuckDuckGo](https://duckduckgo.com) well over two years ago. My
 
 In **OS X**, in **Safari** **Preferences**:
 
-{% img /images/duckduckgo-safari-osx.png 680 256 %}
+{{< figure src="images/duckduckgo-safari-osx.png 680 256" >}}
 
 In **iOS**, In **Settings** / **Safari**:
 
-{% img /images/duckduckgo-safari-ios.png 250 230 %}
+{{< figure src="images/duckduckgo-safari-ios.png 250 230" >}}
 
 I strongly recommend you switch to [DuckDuckGo](https://duckduckgo.com) for your search needs now. And if you are web smart, feel free to give them [feedback](https://duckduckgo.com/feedback) or [get involved](http://duckduckhack.com) in making it better.
 

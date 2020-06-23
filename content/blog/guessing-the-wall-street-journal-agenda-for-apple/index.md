@@ -8,7 +8,7 @@ I'm not a subscriber to the Wall Street Journal, but I have noted the past few m
 
 So I ran a test, I Googled `wsj apple`.
 
-{% img right /images/wsj-apple.jpg 300 332 %}
+{{< figure src="images/wsj-apple.jpg 300 332" class="image-right" >}}
 
 Here are the headlines that came up. I only read the blurb because the content is behind a paywall, and so include my guess as to what I expect would be in the article (and know wasn't):
 

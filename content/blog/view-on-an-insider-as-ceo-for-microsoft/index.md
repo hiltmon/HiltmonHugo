@@ -20,7 +20,7 @@ Bill Gates' "a PC on every desktop" was a far better start.
 
 ### Why an Insider could be good for Microsoft
 
-{% img right /images/start-menu.jpg 300 400 %}
+{{< figure src="images/start-menu.jpg 300 400" class="image-right" >}}
 
 Well, it *is* possible. I think the biggest reason an Insider is good for Microsoft is that the Microsoft customer has been happy with "The Microsoft Way" since Windows 95 and is loath to change. This has been proven by the measurable disaster that is Windows 8 Metro and Microsoft's response in 8.2 bringing back the old ways. An Insider understands the Microsoft customer's comfort zone and will work within these constraints, whereas an Outsider would likely challenge this *status quo* in order to assert their vision. The vast majority of Microsoft's customers do not want change, nor, typically, do Insiders.
 
@@ -32,11 +32,11 @@ In short: Insiders bring less change, and more customer comfort. *Beige is safe.
 
 ### Why an Insider is bad for Microsoft
 
-{% img right /images/s-curve-1.png 300 220 %}
+{{< figure src="images/s-curve-1.png 300 220" class="image-right" >}}
 
 If you follow the five stages of business growth[^1] (Existence, Survival, Success, Take-Off and Resource Maturity), Microsoft has certainly hit maturity. Which means it's at the top, flat part of the S-curve where growth stagnates and begins to turn down (see [Technology Life Cycle](http://en.wikipedia.org/wiki/Technology_life_cycle)). If nothing is done, the business will slowly die, as lots of other companies have done in the past.
 
-{% img right /images/s-curve-2.png 300 220 %}
+{{< figure src="images/s-curve-2.png 300 220" class="image-right" >}}
 
 The only way to grow a mature business is to research and develop a new strategy or product-line and ride up a new S-curve. Insiders, traditionally, have been more worried about maintaining market share and existing product lines and are averse or blind to new strategies. This is not good for Microsoft. Outsiders bring new ideas, new research and the will to try new things. Usually they encourage and create the magical "innovation" *thingamajig* that creates new S-curves and grows businesses. Without this drive, Microsoft will slowly shrivel away.
 

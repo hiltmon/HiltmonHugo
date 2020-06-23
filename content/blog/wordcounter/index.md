@@ -4,9 +4,9 @@ date: 2014-07-14 18:24:10 -0400
 tags: 
 ---
 
-{% img left /images/WordCounter.png 128 128 %}
+{{< figure src="images/WordCounter.png 128 128" class="left-right" >}}
 
-{% img right /images/WordCounter-Menu.png 280 365 %}
+{{< figure src="images/WordCounter-Menu.png 280 365" class="image-right" >}}
 
 [WordCounter](http://wordcounterapp.com) by Christian Tietze ([@ctietze](http://twitter.com/ctietze)) does one thing, and does it well:
 

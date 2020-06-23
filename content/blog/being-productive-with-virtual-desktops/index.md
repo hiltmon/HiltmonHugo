@@ -8,7 +8,7 @@ There are a bunch of applications I always want running on my computer, such as 
 
 My goal is to create context-aware desktops where I can stay focussed on the task at hand without distractions, and to be able to switch and restore contexts instantly and predictably, that is most productive.
 
-{% img /images/desktops-all.jpg 750 110 %}
+{{< figure src="images/desktops-all.jpg 750 110" >}}
 
 After much experimentation, I have settled on a five virtual desktop setup in Mission Control, where each serves a specific purpose:
 
@@ -24,7 +24,7 @@ To enhance productivity, I also set up two things: keyboard shortcuts and pinnin
 
 I can get to any desktop with a single keystroke. `⌃1` to the current workspace, `⌃2` to the alternate, `⌃3` for mail, etc. So, when I have a break working and want to check my mail, I just press `⌃3` and the mail desktop slides in. It is a lot faster than using `⌥⇥` (Option/Alt - Tab) a bunch of times to select mail.app and then wait for the windows to come forward. The best thing is, to get back to work after checking email, `⌃1`, the first desktop appears, just as I left it.
 
-{% img /images/desktops-transitions.jpg 750 125 %}
+{{< figure src="images/desktops-transitions.jpg 750 125" >}}
 
 To enable this on your Mac, first create each virtual desktop. You do this by launching Mission Control by pressing the `F3` key or using four fingers to swipe up. Then move your mouse cursor to the top-right of your screen and click to create new virtual desktops.
 
@@ -32,7 +32,7 @@ I strong recommend opening **System Preferences**, choosing **Mission Control** 
 
 You also need to enable the keyboard shortcuts to give you the ability to  jump to a virtual desktop in a single keystroke. Open **System Preferences**, choose **Keyboard** then **Keyboard Shortcuts** tab and click on **Mission Control**. If you scroll down to the right, you should see shortcuts to switch to each created desktop. Make sure they correspond to `Control-N` where N is the desktop number and they are checked. See image below left.
 
-{% img /images/desktops-preferences.jpg 750 336 %}
+{{< figure src="images/desktops-preferences.jpg 750 336" >}}
 
 ### 2. Application Pinning
 
@@ -40,7 +40,7 @@ For the applications that I want to *always* run on specific desktops, like Mail
 
 To pin an application to a virtual desktop, make sure the application is not running. Switch to the preferred desktop using the shortcut key, then launch the application. Once the application is running, right-click on it’s icon in the dock, and choose **Options / Assign To / This Desktop**. Next time this application is launched, it will open its windows on this desktop. Which means all you need to remember is *which desktop* to switch to for that application.
 
-{% img /images/desktops-pin-application.jpg 434 354 %}
+{{< figure src="images/desktops-pin-application.jpg 434 354" >}}
 
 I do not recommend pinning all applications, for example Finder or Browser windows can and should appear on all desktops. Ideally, Apple will change it so that un-pinned applications will create new windows on desktops where they have none if activated.
 

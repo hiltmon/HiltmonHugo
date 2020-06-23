@@ -40,7 +40,7 @@ Galileo:~ $ which rvm-auto-ruby
 
 Set the `TM_RUBY` variable to this path. You could either do this in **TextMate / Preferences** in the **Variables** tab as shown ...
 
-{% img /images/textmate-ruby-variable.png 480 350 %}
+{{< figure src="images/textmate-ruby-variable.png 480 350" >}}
 
 ... or in your `~/.tm_properties` file.
 
@@ -70,7 +70,7 @@ puts RUBY_VERSION
 
 And hit `⌘R` to run it. You should see:
 
-{% img /images/textmate-run-with.png 638 256 %}
+{{< figure src="images/textmate-run-with.png 638 256" >}}
 
 It seems to be using the *system* ruby.
 
@@ -86,7 +86,7 @@ puts RUBY_VERSION
 
 Gives
 
-{% img /images/textmate-run-without.png 638 256 %}
+{{< figure src="images/textmate-run-without.png 638 256" >}}
 
 It is now using the correct `rvm` version.
 

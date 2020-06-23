@@ -19,7 +19,7 @@ Dropbox went down today, and I found out when my [Status Board](https://itunes.a
 
 You should get something like this <span class="light">(Yes, my follower count is still tiny. Yes, I live in New York, but I still use Celsius for weather.)</span>:
 
-{% img /images/status-board-ga-2.jpg 715 537 %}
+{{< figure src="images/status-board-ga-2.jpg 715 537" >}}
 
 ## Details
 

@@ -26,7 +26,7 @@ Here is how to set it up.
 
 In ChronoSync, go to **Preferences** and choose the **Connections** tab. While on the home LAN, click **Add**:
 
-{% img /images/chrono-settings.jpg 586 190 %}
+{{< figure src="images/chrono-settings.jpg 586 190" >}}
 
 As you can see, there are two references for `Kepler` (the name of my home server):
 
@@ -35,7 +35,7 @@ As you can see, there are two references for `Kepler` (the name of my home serve
 
 Then in the sync documents, I simply used the new `KeplerRemote` agent connection instead of the regular `Kepler` agent connection:
 
-{% img /images/chrono-remote.jpg 645 234 %}
+{{< figure src="images/chrono-remote.jpg 645 234" >}}
 
 Now I can sit at the office, or in a coffee shop, and use ChronoSync to sync files between my work or home laptop and the home server via *Back to My Mac*! No more wasting time downloading and uploading when a client calls! 
 
@@ -47,7 +47,7 @@ Now I can sit at the office, or in a coffee shop, and use ChronoSync to sync fil
 
 In order to use this, you will need a home Mac that remains turned on with:
 
-{% img right /images/back-to-my-mac.jpg 193 93 %}
+{{< figure src="images/back-to-my-mac.jpg 193 93" class="image-right" >}}
 
 * *Back to My Mac* enabled on the home computer. Make sure **System Preferences** / **iCloud** has **Back to My Mac** checked and that there are no warnings.
 * *Both* computers (home and laptop) are signed in to the same iCloud account.
@@ -77,7 +77,7 @@ Your home computer name is then:
 
 To mount a drive, launch `Finder` and press `⌘K` to bring up the **Connect to Server** dialog and type in your computer's URL. *Note that you must have **File Sharing** checked in **System Preferences** / **Sharing** on the remote computer for this to work.*
 
-{% img /images/connect-to-server.jpg 496 238 %}
+{{< figure src="images/connect-to-server.jpg 496 238" >}}
 
 Click **Connect** to see your shares at home.
 

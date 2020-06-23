@@ -12,13 +12,13 @@ In this post, I intend to outline how the limited set of productivity tools I us
 
 ### Keyboard Maestro
 
-{% img right /images/keyboard-maestro-icon-64.png 128 128 %}
+{{< figure src="images/keyboard-maestro-icon-64.png 128 128" class="image-right" >}}
 
 [Keyboard Maestro](http://www.keyboardmaestro.com/main/) is my primary productivity tool. Over the years I have added more and more macros to the point that I forget how to do things without them. It has also replaced other productivity utilities as its functionality has grown. [Keyboard Maestro](http://www.keyboardmaestro.com/main/) initially started out as a way to run a series of commands using keyboard shortcuts and has grown into a tool that can do these from menus, from application launches, startup, disk mounts, even scheduled. If you can imagine it, it can probably do it.
 
 My [Keyboard Maestro](http://www.keyboardmaestro.com/main/) macros include:
 
-{% img right /images/keyboard-maestro-menus.png 173 220 %}
+{{< figure src="images/keyboard-maestro-menus.png 173 220" class="image-right" >}}
 
 * Launching new Safari windows from a keyboard shortcut, with additional shortcuts for Rails development, the common web applications I open at work or blog posting. For less common sets, I use the menu feature.
 * Shortcuts to speed up blog article creation.
@@ -31,7 +31,7 @@ My [Keyboard Maestro](http://www.keyboardmaestro.com/main/) macros include:
 * Creating tweets and [Facebook](http://facebook.com/hiltmoncom/) links for new blog posts.
 * Reopening a page in Google Chrome on the rare occasions I need to see Flash content.
 
-{% img right /images/dev-screen.png 320 180 %}
+{{< figure src="images/dev-screen.png 320 180" class="image-right" >}}
 
 For example, to spin up my test environment which involves launching six applications, log viewers, a web server and a calculation engine, all in different terminal windows arranged so I can see what is going on, I could manually create new terminals for each application, type in the command to launch each one, then rearrange the windows. Which takes a lot of time.
 
@@ -39,13 +39,13 @@ Or press a single key and let [Keyboard Maestro](http://www.keyboardmaestro.com/
 
 ### TextExpander
 
-{% img right /images/text-expander-icon-64.png 64 64 %}
+{{< figure src="images/text-expander-icon-64.png 64 64" class="image-right" >}}
 
 [TextExpander](https://smilesoftware.com/TextExpander/index.html) then takes over to reduce the number of keystrokes to type almost anything. In many cases, I have [TextExpander](https://smilesoftware.com/TextExpander/index.html) snippets for specific applications.
 
 My [TextExpander](https://smilesoftware.com/TextExpander/index.html) quiver includes:
 
-{% img right /images/textexpander-snippets.png 173 289 %}
+{{< figure src="images/textexpander-snippets.png 173 289" class="image-right" >}}
 
 * My source code snippets for headers, code blocks and other common patterns. This allows me to use them across IDEs.
 * Expansions in the terminal for:
@@ -69,21 +69,21 @@ It has taken a lot of time to create the macros, perfect them and convert them i
 
 There are three additional tools that in their own ways complete the limited package: [1Password](https://agilebits.com/onepassword), [Hazel](http://www.noodlesoft.com/hazel.php) and [Mail Act-On](http://www.indev.ca/MailActOn.html).
 
-{% img right /images/1password-icon-64.png 64 64 %}
+{{< figure src="images/1password-icon-64.png 64 64" class="image-right" >}}
 
 [1Password](https://agilebits.com/onepassword) does one thing well, it manages all my passwords so I only have to remember one. It speeds me up as I use it as a web site launcher and I never lose time mistyping passwords. `⌘\` in [1Password](https://agilebits.com/onepassword) is your friend!
 
-{% img right /images/hazel-icon-64.png 64 64 %}
+{{< figure src="images/hazel-icon-64.png 64 64" class="image-right" >}}
 
 [Hazel](http://www.noodlesoft.com/hazel.php) takes care of housekeeping for me, so I do not have to. It cleans up my desktop and downloads folders, it files my bills and creates OmniFocus payment reminders. The hardest part of using [Hazel](http://www.noodlesoft.com/hazel.php) is to figure out what you want it to do for you, setting that up and forgetting about it is the easy part.
 
-{% img right /images/mail-act-on-icon-64.png 64 64 %}
+{{< figure src="images/mail-act-on-icon-64.png 64 64" class="image-right" >}}
 
 And [Mail Act-On](http://www.indev.ca/MailActOn.html) gives Apple's Mail superpowers. We all get too much email, and, unfortunately, we need to hang on to it. I mainly use [Mail Act-On](http://www.indev.ca/MailActOn.html) for its single key shortcuts to file emails in folders and keep my Inbox clean (but not zero).
 
 ### There are Others
 
-{% img right /images/launchbar-icon-64.png 64 64 %}
+{{< figure src="images/launchbar-icon-64.png 64 64" class="image-right" >}}
 
 You may have noticed that the two most popular productivity tools, [LaunchBar](https://www.obdev.at/products/launchbar/index.html) and [Alfred](https://www.alfredapp.com/) are not mentioned. I *used* to use them a lot, and both are still installed, just not running. With all my [Keyboard Maestro](http://www.keyboardmaestro.com/main/) macros running well, I was down to using them as application launchers only. I tried using Spotlight in Yosemite as an Application Launcher, and it worked well enough to stick.
 

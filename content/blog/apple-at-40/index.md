@@ -4,7 +4,7 @@ date: 2016-04-03 12:13:14 -0400
 tags: 
 ---
 
-{% img right /images/apple-at-40-1.png 230 133 %}
+{{< figure src="images/apple-at-40-1.png 230 133" class="image-right" >}}
 
 Apple turned 40 this week, and it got me thinking about the past 40 years of our individual computing experiences.
 
@@ -14,13 +14,13 @@ And I'm willing to bet your journey is the similar.
 
 ## The 1980s - Youthful Experimentation
 
-{% img right /images/apple-at-40-2.png 230 181 %}
+{{< figure src="images/apple-at-40-2.png 230 181" class="image-right" >}}
 
 In the early 1980s, Apple was young, surrounded by a wide range of competitors and the [Apple II](https://en.wikipedia.org/wiki/Apple_II) was it. Everybody who could, had one. They used them to work, to play, to learn programming and to experiment.
 
 When the [Apple Lisa](https://en.wikipedia.org/wiki/Apple_Lisa) project was announced and plastered all over [Byte magazine](http://www.guidebookgallery.org/articles/thelisacomputersystem), we all devoured each word written about it. We argued whether the [Apple III](https://en.wikipedia.org/wiki/Apple_III) or the Lisa was better (I was a Lisa), but both disappointed.
 
-{% img right /images/apple-at-40-3.png 230 222 %}
+{{< figure src="images/apple-at-40-3.png 230 222" class="image-right" >}}
 
 In 1984, Apple released the [Macintosh](http://www.aresluna.org/attached/computerhistory/articles/macintoshbytereview). And changed the world.
 
@@ -32,7 +32,7 @@ In parallel, I was doing the same. I had [Sinclair](https://en.wikipedia.org/wik
 
 ## The 1990s - Suit Wearing Corporate Life
 
-{% img right /images/apple-at-40-4.png 230 392 %}
+{{< figure src="images/apple-at-40-4.png 230 392" class="image-right" >}}
 
 The 1990s were Apple trying to be corporate and becoming quite miserable about it. Time after time, Apple produced the same boring beige boxes, boring updates to the operating system, and struggled to complete against IBM compatible systems and the Microsoft juggernaut.
 
@@ -48,19 +48,19 @@ By the late 1990s, I was miserable. Something had to change.
 
 ## The 2000s - Finding the Bliss
 
-{% img right /images/apple-at-40-5.png 230 263 %}
+{{< figure src="images/apple-at-40-5.png 230 263" class="image-right" >}}
 
 The return of Steve Jobs via the reverse acquisition of [NeXT](https://en.wikipedia.org/wiki/NeXT) was the trigger for Apple to [Think Different](https://en.wikipedia.org/wiki/Think_different) again. Its moment of change had come. The new iMac design language took hold, from the [Bondi blue model](https://en.wikipedia.org/wiki/IMac_G3) in the late 1990s, through the beautiful [iMac G4 lampshade](https://en.wikipedia.org/wiki/IMac_G4) model to the current slab design on the desktop, the powerful [PowerMac G4 Quicksilvers](https://en.wikipedia.org/wiki/Power_Mac_G4) with their unique handles leading to the amazing all-metal [G5 models](https://en.wikipedia.org/wiki/Power_Mac_G5), the new [Powerbooks G4s](https://en.wikipedia.org/wiki/PowerBook_G4) and later MacBooks. 
 
 And more. [OS X](https://en.wikipedia.org/wiki/OS_X) was introduced and blossomed. The [Intel transition](https://en.wikipedia.org/wiki/Apple%27s_transition_to_Intel_processors) happened. And the [iPod](https://en.wikipedia.org/wiki/IPod) became the most iconic, must-have product for our generation.
 
-{% img right /images/apple-at-40-6.png 230 163 %}
+{{< figure src="images/apple-at-40-6.png 230 163" class="image-right" >}}
 
 **Apple's products became Apple's again.** They had found their bliss. And the market found it with them. Apple changed to doing what it wanted to do, what it loved and that showed. It found its market wanted the same and shared their love of great design, music, experience and reliability.
 
 In parallel, so did I. I replaced the suit and meetings and Windows PC with jeans, an IDE and a [Titanium PowerBook G4](https://hiltmon.com/blog/2012/12/31/1ghz-titanium-powerbook/). I changed countries (twice) and worked on the products that I wanted to work on and make great. 
 
-{% img right /images/apple-at-40-7.png 230 347 %}
+{{< figure src="images/apple-at-40-7.png 230 347" class="image-right" >}}
 
 I had found my bliss. I was doing what I loved and was free to also live my life surrounded by people I loved doing fun things at work and especially at play.
 
@@ -72,13 +72,13 @@ All using Apple products.
 
 ## The 2010s - Living the Life
 
-{% img right /images/apple-at-40-8.png 230 360 %}
+{{< figure src="images/apple-at-40-8.png 230 360" class="image-right" >}}
 
 By the start of the 2010s, Apple was confidently living the life. The passing of Steve Jobs and the handover to Tim Cook did not change who or what Apple was. Apple had gotten better at things it traditionally was terrible at, like services, even better at things it was good at, like design, manufacturing and innovation. Yet it was still finding more bliss. The [iPad](https://en.wikipedia.org/wiki/IPad), [Apple TV](https://en.wikipedia.org/wiki/Apple_TV) and [Apple Watch](https://en.wikipedia.org/wiki/Apple_Watch) may not be seen as super-successful products compared to the iPhone, but each on their own would be a Fortune 500 company!
 
 Apple has gotten confidently comfortable with who they are, what they do and how they go about it. They continue to innovate in other areas, continue to press forward, continue to enjoy what they love. They have not stagnated or settled down. They continue to youthfully experiment yet deliver like a mature firm.
 
-{% img right /images/apple-at-40-9.png 230 230 %}
+{{< figure src="images/apple-at-40-9.png 230 230" class="image-right" >}}
 
 In parallel, so have I. I live where I want to, do what I love to do, use the products I love to use. I am continually working on becoming an even better software designer, programmer and person. And finding more bliss. Like writing and traveling again.
 

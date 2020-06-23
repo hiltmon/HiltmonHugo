@@ -10,6 +10,6 @@ The gang at [App.Net](http://alpha.app.net) just released their new integrated [
 
 The first response I see (at the top) is from Manton Reece (TW: [@manton](https://twitter.com/manton), ADN: [@manton](http://alpha.app.net/manton)), the maker of [Tweet Marker](http://tweetmarker.net) that competes with this feature, congratulating them on their implementation.
 
-{% img /images/stream-marker.png 437 628 %}
+{{< figure src="images/stream-marker.png 437 628" >}}
 
 Screenshot off App.Net using [Wedge](http://wedge.natestedman.com).

@@ -10,7 +10,7 @@ Reader Brandon Cozart ([@brandoncozart](http://twitter.com/brandoncozart)) asked
 
 <span class="light">Update: Download again if you use these scripts, a null value bug and sorting bugs have been fixed.</span>
 
-{% img /images/status-board-browser.jpg 640 480 %}
+{{< figure src="images/status-board-browser.jpg 640 480" >}}
 
 **Note:** The installation instructions below assume you have already gotten one of my [Google Analytics for Status Board]({{ root_url }}/blog/2013/04/10/google-analytics-for-status-board/) scripts to install and work, so this only shows the changes that need to be made to setup these. If not, follow the instructions in [Google Analytics for Status Board]({{ root_url }}/blog/2013/04/10/google-analytics-for-status-board/) replacing the script and `.plist` files with these below.
 

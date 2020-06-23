@@ -18,7 +18,7 @@ Enter [iTerm 2](http://www.iterm2.com/#/section/home) profiles with shortcut key
 
 In [iTerm 2](http://www.iterm2.com/#/section/home) preferences, access profiles and add a new profile. I name these after the my server *colloquial* names (because who can remember those IT names like `XYZZYDEVDBWX907.domainname.local`). 
 
-{% img /images/iterm-profiles.jpg 700 410 %}
+{{< figure src="images/iterm-profiles.jpg 700 410" >}}
 
 Set the shortcut key you want to use, and input the full SSH command:
 
@@ -41,7 +41,7 @@ PS1='\[\e[0;35m\]\u\[\e[0;33m\]@\[\e[1;34m\]Farragut:\[\e[0;33m\]\W \[\e[0m\]\$ 
 ...
 ```
 
-{% img right /images/iterm-ps1.jpg 181 58 %}
+{{< figure src="images/iterm-ps1.jpg 181 58" class="image-right" >}}
 
 Which gives us this:
 

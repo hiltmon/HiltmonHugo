@@ -81,7 +81,7 @@ And that’s about it.
 
 So now Sublime Text 2 looks just like my TextMate 2 setup:
 
-{% img /images/sublime-textmate-match.jpg 640 230 %}
+{{< figure src="images/sublime-textmate-match.jpg 640 230" >}}
 
 But there are subtleties that are still driving me nuts:
 

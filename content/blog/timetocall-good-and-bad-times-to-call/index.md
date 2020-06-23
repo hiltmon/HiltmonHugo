@@ -35,7 +35,7 @@ So back to the question of ‘good’ times to call, how do we determine ‘bett
 
 And the light went on.
 
-{% img left /images/lightbulb.png 60 64 %}
+{{< figure src="images/lightbulb.png 60 64" class="left-right" >}}
 
 **I realized that by *knowing* the period in the day, the user gets a better feel for the state of mind of people in that time zone**. In the early morning, you can expect people to be dopey; during the day, busy; evenings socializing or late at night trying to settle down. I realized that this kind of information is great for the user of the app, and I wanted a way to show it.
 
@@ -43,7 +43,7 @@ And that is how I came up with the time period imagery for each time shown so yo
 
 The result was this, a color spectrum book-ended by night imagery, darker blue in the morning, orange sunset in the evening and bright, bright days:
 
-{% img /images/timetocall-day-periods.jpg 685 66 %}
+{{< figure src="images/timetocall-day-periods.jpg 685 66" >}}
 
 * **Midnight to 6AM**: Before Dawn, dark sky, stars, sleeping folks.
 * **6AM to 9AM**: Breakfast, orange sun rising, coffee being brewed.

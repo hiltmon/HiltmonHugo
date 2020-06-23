@@ -24,7 +24,7 @@ I have setup a Keyboard Maestro macro mapped to `⌃⌥⇧⌘W` that opens all m
 
 To switch contexts, I have a series of context macros linked to the *same* key combination `⌃⌥⇧⌘C`. In Keyboard Maestro, if you use the same key for more than one macro, it displays a panel for you to choose from.  Here's mine:
 
-{% img /images/application-context-panel.png 223 169 %}
+{{< figure src="images/application-context-panel.png 223 169" >}}
 
 I can either use the mouse to select a context, or just press `1` for the first, `2` for the second, etc. The macros themselves are pretty simple: if I am already in that context, it terminates the context applications, else it launches them. It determines whether I am in a context by checking if the key application for that context is running. For example, if Xcode is running, then triggering the Xcode context terminates it, else it launches it.
 

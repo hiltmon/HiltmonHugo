@@ -4,7 +4,7 @@ date: 2013-06-19 21:09:00-0400
 tags: [ reviews ]
 ---
 
-{% img right /images/Pinbrowser-for-Pinboard.png 128 128 %}
+{{< figure src="images/Pinbrowser-for-Pinboard.png 128 128" class="image-right" >}}
 
 I just downloaded the updated [Pinbrowser for Pinboard](http://www.pinbrowser.co) from the [App Store](https://itunes.apple.com/us/app/pinbrowser-for-pinboard/id611736066?mt=8&uo=4&at=10l894), an iOS app by Mikael Konutgan ([@mkonutgan](http://twitter.com/mkonutgan)), and it just got a whole lot better.
 
@@ -12,7 +12,7 @@ I just downloaded the updated [Pinbrowser for Pinboard](http://www.pinbrowser.co
 
 It's the social aspect that attracted me to the product in the first place. I love to see what other people I follow on Twitter and App.Net are finding on the Internet in their travels, and the ability to browse their Pinboard lists is the *stand-out* feature of [Pinbrowser](https://itunes.apple.com/us/app/pinbrowser-for-pinboard/id611736066?mt=8&uo=4&at=10l894).
 
-{% img right /images/pinbrowser-compare.jpg 300 270 %}
+{{< figure src="images/pinbrowser-compare.jpg 300 270" class="image-right" >}}
 
 In this release, Mikael has gotten down to spotlighting the key uses of the application by adding new icons to separate the standard sidebar items from user added ones, a **Me** list for your own bookmarks (strangely missing from the original) and a lovely new feature, the **All Starred** list. Oh, and the new icon is brilliant!
 

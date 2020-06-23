@@ -12,7 +12,7 @@ tags: [ TimeToCall ]
 
 In order to achieve this limited scope, I constructed four views:
 
-{% img /images/timetocall-controllers.jpg 738 310 %}
+{{< figure src="images/timetocall-controllers.jpg 738 310" >}}
 
 The first view, Master, is just a table view with rows for each *Time to Call*. The second view, Detail, displays all the information we have about a *Time to Call* and enables the user to ‘play’ with time, the primary action of the app. The third view, Edit, enables the user to change the *Time to Call’s* location, name and destination. And the final view, Picker, enables the user to browse or search for locations.
 
@@ -48,7 +48,7 @@ Free does work for some developers. They want this magical unicorn-like thing ca
 
 That is no good. There should be a return. Lets say I price the app at 99c a pop and we run a break-even analysis:
 
-{% img /images/timetocall-breakeven.jpg 600 400 %}
+{{< figure src="images/timetocall-breakeven.jpg 600 400" >}}
 
 I need to sell 21,429 copies of the app to get my investment back and not lose any money. Given that this is such a simple app, no other price point makes sense, so no need to test them too.
 

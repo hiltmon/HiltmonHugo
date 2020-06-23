@@ -4,7 +4,7 @@ date: 2016-03-14 20:26:13 -0400
 tags: [ Hiltmonism ]
 ---
 
-{% img right /images/checkengine.png 391 232 %}
+{{< figure src="images/checkengine.png 391 232" class="image-right" >}}
 
 How many people really know how their motor vehicle works, or even care to. Very few.
 

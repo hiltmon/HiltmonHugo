@@ -4,7 +4,7 @@ date: 2013-06-01 08:51:00-0400
 tags: [ Tips and Tricks ]
 ---
 
-{% img right /images/reminders-icon.jpg 76 94 %}
+{{< figure src="images/reminders-icon.jpg 76 94" class="image-right" >}}
 
 Looking for a quick and easy way to share reminders with other people? Here's how we do it.
 
@@ -14,13 +14,13 @@ Reminders.app is an Apple app included in iOS and the Mac that enables you to cr
 
 But, **did you know that you can also share reminder lists between accounts?**  That's how we share our groceries list between our separate accounts. 
 
-{% img right /images/reminders-new.jpg 350 208 %}
+{{< figure src="images/reminders-new.jpg 350 208" class="image-right" >}}
 
 To share a list, start by logging in to your iCloud account at [www.icloud.com][1] and click on **Reminders**.
 
 If you need to create a new, shared list, click the **+** at the bottom-left and name the new list. I just created `Shared List`. You could also, of course, share an existing list.
 
-{% img right /images/reminders-sharing.jpg 350 207 %}
+{{< figure src="images/reminders-sharing.jpg 350 207" class="image-right" >}}
 
 Then, click on the circular icon to the right of the list name to open the sharing dialog. Type in the email address of another iCloud user, then click `Done`. *Note: You need to use the same email that they use when setting up iCloud on their devices.*
 

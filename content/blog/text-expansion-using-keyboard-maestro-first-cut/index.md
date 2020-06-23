@@ -12,7 +12,7 @@ This post presents how I have set up [Keyboard Maestro](http://www.keyboardmaest
 * Basic variables
 
 
-{% img right /images/te-to-km-1.png 417 382 %}
+{{< figure src="images/te-to-km-1.png 417 382" class="image-right" >}}
 
 ## Basic Text Expansion
 
@@ -27,21 +27,21 @@ Type `;gma` anywhere and Keyboard Maestro makes the replacement.
 
 ## Insert text by typing vs pasting
 
-{% img right /images/te-to-km-8.png 417 427 %}
+{{< figure src="images/te-to-km-8.png 417 427" class="image-right" >}}
 
 Almost all the time, **Insert text by typing** is the right way to go. Its fast enough and does not affect the system clipboard. However, for long strings, typing may be too slow.
 
-{% img /images/te-to-km-2.gif 320 175 %}
+{{< figure src="images/te-to-km-2.gif 320 175" >}}
 
 In these rare cases, **Insert text by pasting** is way faster. But you need to add another step to the macro. Add a **Set Clipboard to Past Clipboard** step after the paste to reset the clipboard back by 1 in Keyboard Maestro's history. <span class="light">(Thanks to [@TheBaronHimSelf](https://twitter.com/TheBaronHimself) for this tip.)</span>
 
-{% img /images/te-to-km-3.gif 320 83 %}
+{{< figure src="images/te-to-km-3.gif 320 83" >}}
 
 ## Limit To Application
 
 Many of my snippets apply only to specific applications. To limit snippets to an application (or set of them), I create a new Group and make it available in a selected list of applications.
 
-{% img /images/te-to-km-4.png 617 250 %}
+{{< figure src="images/te-to-km-4.png 617 250" >}}
 
 The snippets in this group only expand in Xcode.
 
@@ -49,14 +49,14 @@ The snippets in this group only expand in Xcode.
 
 Keyboard Maestro has many of the same variables and abilities as TextExpander (and a whole bunch more, of course), including
 
-{% img right /images/te-to-km-5.png 444 195 %}
+{{< figure src="images/te-to-km-5.png 444 195" class="image-right" >}}
 
 * Position Cursor after typing `%|%`
 * The current clipboard `%CurrentClipboard%`
 
 So, for example, to create a Markdown Link using a URL on the clipboard and place the caret (the text insertion cursor) in the description area, I can use my `;mml` macro.
 
-{% img right /images/te-to-km-6.png 381 304 %}
+{{< figure src="images/te-to-km-6.png 381 304" class="image-right" >}}
 
 	[**CARET**](http://localhost:4000/blog/2016/04/08/text-expansion-using-keyboard-maestro-first-cut/)
 
@@ -70,7 +70,7 @@ This types:
 	
 You can format the date any way you like, of course.
 
-{% img right /images/te-to-km-7.png 247 262 %}
+{{< figure src="images/te-to-km-7.png 247 262" class="image-right" >}}
 
 To see what variables are available, click the **Insert Token** dropdown on the right of the action panel. As you can see, there is a huge number available.
 

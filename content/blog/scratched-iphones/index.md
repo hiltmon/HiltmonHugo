@@ -8,6 +8,6 @@ There’s a big brouhaha in the news these days that new iPhone 5’s come scrat
 
 I prefer Remy Labesque’s take back in 2011 in [Aged to Perfection](http://designmind.frogdesign.com/blog/aged-to-perfection.html), the *back* of scratched iPhones can and does look beautiful.
 
-{% img /images/aged-to-perfection.png 237 415 %}
+{{< figure src="images/aged-to-perfection.png 237 415" >}}
 
 *Image &copy; Remy Labesque, 2011, FrogDesign. Reproduced without permission, hoping they are OK with this.*

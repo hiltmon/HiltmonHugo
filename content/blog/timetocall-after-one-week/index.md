@@ -15,7 +15,7 @@ Unlike other products and other developers, I intend to report the sales numbers
 Sales   | 6     | 5     | 59     | 55     | 13    | 4     | 3     | **145**
 Revenue | $4.17 | $3.49 | $41.71 | $39.06 | $9.28 | $2.86 | $2.16 | **$102.74**
 
-{% img left /images/timetocall-week1-sales.jpg 359 159 %}
+{{< figure src="images/timetocall-week1-sales.jpg 359 159" class="left-right" >}}
 
 Day 1 and 2 sales were family and friends, mostly via my [Facebook Page](http://facebook.com/hiltmoncom) (*you know you want to ‘like’ it*) and [Twitter](https://twitter.com/hiltmon). Not surprising as no-one else knew about it then.
 
@@ -51,7 +51,7 @@ But thanks for finding them folks. Even the simplest of apps is not perfect. For
 
 I also received a reasonable number of emails from folks offering to promote my product and increase its ranking. I did not respond to any of them (oops, there goes the respond to support emails rule). Maybe one day I’ll hit one up as an experiment to see if it works, but right now, paying for rankings or pushing their links on my site does not cut it. I’d rather my writing, limited network and own marketing took care of sales.
 
-{% img right /images/aberlour.jpg 200 411 %}
+{{< figure src="images/aberlour.jpg 200 411" class="image-right" >}}
 
 ## After One Week
 

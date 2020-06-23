@@ -8,15 +8,15 @@ On Friday, I joined the SSD club. That’s the **S**olid **S**tate **D**rive clu
 
 I purchased the kit that included the bracket (they call it a data doubler), the tools and the SSD:
 
-{% img /images/ssd-parts.png 640 428 %}
+{{< figure src="images/ssd-parts.png 640 428" >}}
 
 Installation was easy, I used the video and the manual that came with it.
 
-{% img /images/ssd-install.png 640 428 %}
+{{< figure src="images/ssd-install.png 640 428" >}}
 
 The only difficult part was reconnecting the plug that drives the screen. Here’s the final install:
 
-{% img /images/ssd-done.png 640 429 %}
+{{< figure src="images/ssd-done.png 640 429" >}}
 
 I then installed the latest OS X Mountain Lion GM Seed, leaving the old Hard Drive unaffected. And attempted to use symbolic links for key folders, but certain applications, mostly sandboxed ones, failed to work across these links. Instead, I simply moved my iPhoto library, iTunes, VM’s and other big files to the root of the old HDD and left the rest on the SSD.
 
