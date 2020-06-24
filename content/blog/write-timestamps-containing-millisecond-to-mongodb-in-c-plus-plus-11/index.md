@@ -11,10 +11,11 @@ I have a C++11 application that rapidly writes new documents to a [MongoDB](http
 The problem is that the C++ standard `time_t` structure reports in seconds, so
 
 
-	builder.appendTimeT("updated_at",
-	    std::chrono::system_clock::to_time_t(std::chrono::system_clock::now())
-	);
-
+```
+builder.appendTimeT("updated_at",
+		std::chrono::system_clock::to_time_t(std::chrono::system_clock::now())
+);
+```
 
 creates an ISODate *without* milliseconds in MongoDB.
 
@@ -25,30 +26,33 @@ MongoDB helps with its own `Date_t` class which is really just a `long long` num
 The solution in my `utilities` namespace, `DateTime` class is:
 
 
-    namespace utilities {
-  
-      struct DateTime {
-  
-        ...
+```
+namespace utilities {
 
-        static int64_t millisSinceEpoch()
-        {
-          std::chrono::system_clock::duration duration{
-            std::chrono::system_clock::now().time_since_epoch()
-          };
-          return std::chrono::duration_cast<std::chrono::milliseconds>(duration).count();
-        }
-    
-        ...
-      }
-    }  
+	struct DateTime {
 
+		...
+
+		static int64_t millisSinceEpoch()
+		{
+			std::chrono::system_clock::duration duration{
+				std::chrono::system_clock::now().time_since_epoch()
+			};
+			return std::chrono::duration_cast<std::chrono::milliseconds>(duration).count();
+		}
+
+		...
+	}
+}  
+```
 
 This function constructs a C++11 `duration` object containing the number we need in an internal format, and then converts it to `milliseconds` for use.
 
 The MongoDB c++ code also changes to:
 
-    builder.appendDate("updated_at", utilities::DateTime::millisSinceEpoch());
+```
+builder.appendDate("updated_at", utilities::DateTime::millisSinceEpoch());
+```
 
 And now we have [MongoDB](http://www.mongodb.org) ISODates with milliseconds that work perfectly.
 

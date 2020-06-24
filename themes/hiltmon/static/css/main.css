@@ -18,6 +18,7 @@
   
   --regular-font: "Source Sans Pro", serif;
   --heading-font: AvenirNext-Medium, HelveticaNeue-Medium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --writing-font: Georgia, Times, "Times New Roman", serif;
   --code-font: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;;
 }
 
@@ -151,15 +152,26 @@ aside {
 
 blockquote {
   font-style: italic;
-  margin: 0.6em 0 0 0;
+  margin: 0;
   padding: 0.2em 0.2em 0.2em 1.0em;
   
   background: var(--blockquote_background);
   border-left: 4px solid var(--medium-gray);
+  border-right: 4px solid var(--medium-gray);
+}
+
+blockquote h1 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 28px;
+  margin: 0.4em 0 0.4em 0;
+  padding: 0.2em 1.0em 0.2em 1.0em;
 }
 
 blockquote p {
-  margin: 0;
+  font-size: 18px;
+  margin: 0.4em 0 0.4em 0;
+  padding: 0.2em 1.0em 0.2em 1.0em;
 }
 
 code {
@@ -243,6 +255,10 @@ h2 {
 
 /* Images*/
 
+figure {
+	margin: 0.5em;
+}
+
 .image-left {
   float: left;
 }
@@ -311,6 +327,7 @@ span.light {
 
 aside {
   background: var(--light-gray);
+  font-size: 15px;
 }
 
 aside#sidebar h1 {
@@ -335,6 +352,7 @@ aside#sidebar ul li {
 }
 aside#sidebar a {
   color: var(--text-color);
+  text-decoration: underline;
 }
   
 aside#sidebar a:hover {
@@ -392,6 +410,10 @@ aside#sidebar a:hover {
   padding-bottom: 0.4em;
 }
 
+.post-title .fas {
+  color: var(--link-blue);
+}
+
 .post-body h2 {
   padding-bottom: 0.5em;
   border-bottom: 1px dotted var(--medium-gray);
@@ -411,6 +433,55 @@ aside#sidebar a:hover {
 }
 
 .post-next {
+  float: right; width: 43.333%;
+}
+
+.writing {
+  font-family: var(--writing-font);
+  background-color: #ebe8d2;
+  color: #6B5D08;
+  
+  width: 90%;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);;
+}
+
+.writing-title {
+  font-size: 44px;
+  border-bottom: 1px dotted var(--medium-gray);
+  padding-bottom: 0.4em;
+}
+
+.writing-body {
+  
+}
+
+.writing-body span.light {
+  color: #8C790B;
+}
+
+.writing-body h2 {
+  padding-bottom: 0.5em;
+  border-bottom: 1px dotted var(--medium-gray);
+}
+
+.writing-mark {
+  font-size: 14px;
+}
+
+.writing-previous {
+  float: left; width: 43.333%;
+}
+
+.writing-center {
+  display: inline-block; width: 13.333%;
+}
+
+.writing-next {
   float: right; width: 43.333%;
 }
 

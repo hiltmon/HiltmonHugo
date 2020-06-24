@@ -20,7 +20,9 @@ What I did was the following:
 
 In the command prompt, I executed the following to activate the importer:
 
-	mdimport -r ~/Library/Spotlight/Markdown.mdimporter
+```
+mdimport -r ~/Library/Spotlight/Markdown.mdimporter
+```
 
 And then, *when nothing seemed to have happened*, I recreated the entire Spotlight index on my computer.
 
@@ -30,19 +32,25 @@ The GUI way is to open **System Preferences**, select **Spotlight** and the **Pr
 
 Or use the following command:
 
-	sudo mdutil -E /
+```
+sudo mdutil -E /
+```
 	
 To see if this is working, run
 
-	mdimport -L
+```
+mdimport -L
+```
 	 
 I get
 
-	2015-11-17 12:40:40.400 mdimport[53046:588670] Paths: id(501) (
-    	"/Users/Hiltmon/Library/Spotlight/Markdown.mdimporter",
-    	"/Library/Spotlight/iBooksAuthor.mdimporter",
-    	"/Library/Spotlight/iWork.mdimporter",
-    	...
+```
+2015-11-17 12:40:40.400 mdimport[53046:588670] Paths: id(501) (
+  	"/Users/Hiltmon/Library/Spotlight/Markdown.mdimporter",
+  	"/Library/Spotlight/iBooksAuthor.mdimporter",
+  	"/Library/Spotlight/iWork.mdimporter",
+  	...
+```
 
 After a long while, all my Markdown files were once again searchable in Spotlight. Thanks Brett!
 

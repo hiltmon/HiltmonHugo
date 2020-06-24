@@ -12,15 +12,21 @@ Here's how to set one up.
 
 We need to get the `repo` files for DevTools2, a Red Hat package that contains a supported C++11 compiler. As `root`, run the following command to retrieve the `repo` file:
 
-    wget http://people.centos.org/tru/devtools-2/devtools-2.repo -O /etc/yum.repos.d/devtools-2.repo
+```
+wget http://people.centos.org/tru/devtools-2/devtools-2.repo -O /etc/yum.repos.d/devtools-2.repo
+```
     
 Then install the compiler and support tools:
 
-    yum install devtoolset-2-gcc devtoolset-2-binutils devtoolset-2-gcc-c++
+```
+yum install devtoolset-2-gcc devtoolset-2-binutils devtoolset-2-gcc-c++
+```
     
 Before you can compile C++11 code with the DevTools2 compiler, you need to enable it in a new shell:
 
-    scl enable devtoolset-2 bash
+```
+scl enable devtoolset-2 bash
+```
     
 All compiles in this new shell will use the new compiler.
 
@@ -28,8 +34,10 @@ All compiles in this new shell will use the new compiler.
 
 In your `.bash_profile`, add at the bottom:
 
-    echo "WARNING: devtoolset-2 is enabled!"
-    . /opt/rh/devtoolset-2/enable
+```
+echo "WARNING: devtoolset-2 is enabled!"
+. /opt/rh/devtoolset-2/enable
+```
     
 All new shells you create will use the new tools.
 

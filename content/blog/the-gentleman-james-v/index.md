@@ -1,4 +1,5 @@
 ---
+layout: writing
 title: "The Gentleman James V"
 date: 2016-10-07 08:31:11 -0400
 tags: 

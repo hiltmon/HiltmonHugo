@@ -8,7 +8,7 @@ tags: Scrivener
 
 I am writing a lot of business documents in [Scrivener](http://www.literatureandlatte.com/scrivener.php), and even though it's the wrong way to do it, I use Scrivener's format presets (think paragraph styles) to quickly format headings, bulleted lists and paragraphs in each sub-document. This way I minimize post-processing <span class="light">(and the business format is intentionally boring so I do not need any fancy layouts)</span>.
 
-But it's a hassle to have to take my hands off the keyboard to click through the **Format** /** Apply Formatting** / **Apply Preset** menu tree or hit the tiny format preset dropdown `¶a` to set the current paragraph style. What I want is a single key-combination to apply a preset style.
+But it's a hassle to have to take my hands off the keyboard to click through the **Format** / **Apply Formatting** / **Apply Preset** menu tree or hit the tiny format preset dropdown `¶a` to set the current paragraph style. What I want is a single key-combination to apply a preset style.
 
 Here's how I made it happen.
 

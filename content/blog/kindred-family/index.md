@@ -1,17 +1,19 @@
 ---
+layout: writing
 title: "Kindred-Family"
 date: 2015-07-05 13:43:25 -0400
 tags: 
 ---
 
-{% blockquote Unknown, unknown %}
-here's to the nights that turn into mornings
+>Here's to the nights that turn into mornings<br/>
 and the friends that turn into family
-{% endblockquote %}
+<br/>
+**Unknown** - Unknown
 
-{% blockquote Me, now %}
-Your kindred-family are the close, true friends that are your family when your real blood relatives live far far away.
-{% endblockquote %}
+
+> Your kindred-family are the close, true friends that are your family when your real blood relatives live far far away.
+<br/>
+**Me** - Now
 
 Yesterday was Independence Day here in New York and a popular day to spend with family. But my family lives in Australia and my wife's is in Japan. No blood relatives here but ourselves.
 

@@ -39,7 +39,7 @@ Or press a single key and let [Keyboard Maestro](http://www.keyboardmaestro.com/
 
 ### TextExpander
 
-{{< figure src="images/text-expander-icon-64.png 64 64" class="image-right" >}}
+{{< figure src="images/text-expander-icon-64.png" width=64 height=64 class="image-right" >}}
 
 [TextExpander](https://smilesoftware.com/TextExpander/index.html) then takes over to reduce the number of keystrokes to type almost anything. In many cases, I have [TextExpander](https://smilesoftware.com/TextExpander/index.html) snippets for specific applications.
 
@@ -67,21 +67,21 @@ It has taken a lot of time to create the macros, perfect them and convert them i
 
 There are three additional tools that in their own ways complete the limited package: [1Password](https://agilebits.com/onepassword), [Hazel](http://www.noodlesoft.com/hazel.php) and [Mail Act-On](http://www.indev.ca/MailActOn.html).
 
-{{< figure src="images/1password-icon-64.png 64 64" class="image-right" >}}
+{{< figure src="images/1password-icon-64.png" width=64 height=64 class="image-right" >}}
 
 [1Password](https://agilebits.com/onepassword) does one thing well, it manages all my passwords so I only have to remember one. It speeds me up as I use it as a web site launcher and I never lose time mistyping passwords. `⌘\` in [1Password](https://agilebits.com/onepassword) is your friend!
 
-{{< figure src="images/hazel-icon-64.png 64 64" class="image-right" >}}
+{{< figure src="images/hazel-icon-64.png" width=64 height=64 class="image-right" >}}
 
 [Hazel](http://www.noodlesoft.com/hazel.php) takes care of housekeeping for me, so I do not have to. It cleans up my desktop and downloads folders, it files my bills and creates OmniFocus payment reminders. The hardest part of using [Hazel](http://www.noodlesoft.com/hazel.php) is to figure out what you want it to do for you, setting that up and forgetting about it is the easy part.
 
-{{< figure src="images/mail-act-on-icon-64.png 64 64" class="image-right" >}}
+{{< figure src="images/mail-act-on-icon-64.png" width=64 height=64 class="image-right" >}}
 
 And [Mail Act-On](http://www.indev.ca/MailActOn.html) gives Apple's Mail superpowers. We all get too much email, and, unfortunately, we need to hang on to it. I mainly use [Mail Act-On](http://www.indev.ca/MailActOn.html) for its single key shortcuts to file emails in folders and keep my Inbox clean (but not zero).
 
 ### There are Others
 
-{{< figure src="images/launchbar-icon-64.png 64 64" class="image-right" >}}
+{{< figure src="images/launchbar-icon-64.png" width=64 height=64 class="image-right" >}}
 
 You may have noticed that the two most popular productivity tools, [LaunchBar](https://www.obdev.at/products/launchbar/index.html) and [Alfred](https://www.alfredapp.com/) are not mentioned. I *used* to use them a lot, and both are still installed, just not running. With all my [Keyboard Maestro](http://www.keyboardmaestro.com/main/) macros running well, I was down to using them as application launchers only. I tried using Spotlight in Yosemite as an Application Launcher, and it worked well enough to stick.
 

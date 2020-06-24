@@ -32,7 +32,9 @@ class MergeAsanaIntoOmnifocus
  
  Make sure the prerequisites are in-place from the old post and then run it
  
-	 $ ruby merge_asana_into_omnifocus.rb
+```
+$ ruby merge_asana_into_omnifocus.rb
+```
 
 <span class="light">Warning: This is just my script, it may or may not work for you. **Backup your OmniFocus before running it the first time.** And use at your own peril. *Inelegant, alpha-level, probably quite buggy, my first AppleScripts, you get the drift.*</span>
 

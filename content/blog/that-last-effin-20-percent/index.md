@@ -10,9 +10,10 @@ For those who do not know the 80/20 rule, it's a variant of the misnamed Pareto 
 
 In reality, Tom Cargill had it right where the right measure was 180% of the time:
 
-{% blockquote Tom Cargill, Bell Labs %}
-The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time.
-{% endblockquote %}
+
+> The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time.<br/>
+<br/>
+**Tom Cargill** - Bell Labs
 
 Over the past few months I have been buried in the last effin 20% (or remaining 90% of time depending on who you follow) of a major product development. Designing it was quite easy. Building the core architecture was great. Getting the primary functions up and working was quick. Getting it fast, right and accurate is the last effin 20% and it has taken months.
 

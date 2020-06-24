@@ -1,4 +1,5 @@
 ---
+layout: hiltmonism
 title: Hiltmonism - Talk to Drivers, not Mechanics
 date: 2016-03-14 20:26:13 -0400
 tags: [ Hiltmonism ]
@@ -30,7 +31,7 @@ Its because techs simply communicate differently to the way their audience does.
 
 In business, successful technology teams understand this disconnect and learn to speak to their audience, to talk and relate the way their audience in the business does.
 
-**Successful mechanics speak driver-to-driver *as fellow drivers* **.
+**Successful mechanics speak driver-to-driver *as fellow drivers***.
 
 ### Mechanics vs Drivers
 

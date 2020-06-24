@@ -1,4 +1,5 @@
 ---
+layout: writing
 title: "The Theater was Empty"
 date: 2019-12-31 14:14:36 -0500
 tags: 

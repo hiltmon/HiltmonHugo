@@ -1,4 +1,5 @@
 ---
+layout: writing
 title: "We're better than this"
 date: 2015-11-25 09:46:47 -0500
 tags: 

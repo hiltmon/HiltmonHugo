@@ -22,7 +22,7 @@ I could do this development on a Linux desktop, as a lot of people do. The tools
 
 Lets start with a *real* Makefile I use for a semi-complex product with many dependencies. Its a long Makefile, but I'll go though the highlights below.
 
-``` make
+```make
 #
 #  Makefile
 #  CoralSeaServer
@@ -103,11 +103,15 @@ Also, note line **43**, this product has three dependencies, libraries called `c
 
 To build this product on any supported platform, I just type the command:
 
-	make clean; make -j 8
+```
+make clean; make -j 8
+```
 	
 To install the product:
 
-	sudo make install
+```
+sudo make install
+```
 	
 <span class="light">Note: On OS X I do not use `sudo` for installs.</span>
 
@@ -217,7 +221,9 @@ Double-click the column *to the right* of **Library Search Paths**. It brings up
 
 Now we need to add the libraries that are included in Line **43** of the Makefile to the compilation.
 
-	LIB := -L /usr/local/lib -lcorinth -lprotobuf -lzmq
+```
+LIB := -L /usr/local/lib -lcorinth -lprotobuf -lzmq
+```
 	
 Click **Build Phases** and then expand **Link Binary With Libraries**.
 
@@ -287,14 +293,20 @@ The project is now building in Xcode and you gain all the benefits of the Xcode 
 
 Open a terminal, `cd` to the project folder and:
 
-	make clean; make -j 8
+```
+make clean; make -j 8
+```
 	
 If all is well, the project will compile as well.
 
 If it does not compile, chances are you changed `#include` paths. Add the missing include paths as per my line **44**:
 
-	INC := -I include -I include/proto -I /usr/local/include
-	
+```
+INC := -I include -I include/proto -I /usr/local/include
+```
+
+<br/>
+
 ## Live Long and Prosper
 
 You now have a C++ project that compiles both ways, from a Makefile and via the Xcode build system and get the best of both worlds:
