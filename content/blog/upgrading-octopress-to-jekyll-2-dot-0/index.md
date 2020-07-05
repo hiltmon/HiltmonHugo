@@ -44,7 +44,9 @@ Configuration file: /Users/Hiltmon/Projects/Spikes/HiltmonDotCom/_config.yml
 
 To correct this problem, I added the following line in my `_config.yml` to excerpt manually or the whole post:
 
-	excerpt_separator: "<!--more-->"
+```
+excerpt_separator: "< !--more-->"
+```
 
 The site now generates just fine.
 

@@ -30,7 +30,7 @@ A *Site Specific Browser* is an application that presents the web pages of a sin
 
 For example, my Facebook *Site Specific Browser* looks like this:
 
-{{< figure src="images/tab-hell-3.png 600 87" >}}
+{{< figure src="images/tab-hell-3.png" width=600 height=87 >}}
 
 Not that there seems to be no browser chrome or address bars, just a regular window frame called Facebook.
 

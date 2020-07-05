@@ -4,7 +4,7 @@ date: 2014-03-27 20:43:24 -0400
 tags: 
 ---
 
-{{< figure src="images/osx-mavericks-100px.png 100 91" class="image-right" >}}
+{{< figure src="images/osx-mavericks-100px.png" width=100 height=91 class="image-right" >}}
 
 OS X really is a developer's dream platform, a solid UNIX core on which *almost* everything compiles with a brilliant graphical environment hosting the most amazing developer tools.
 

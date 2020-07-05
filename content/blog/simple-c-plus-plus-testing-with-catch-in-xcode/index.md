@@ -122,7 +122,7 @@ I then add `catch.hpp` and edit the `main.cpp` file. The `main.cpp` in the test 
 
 I also add the following command-line options to the test target scheme and toggle when needed:
 
-{{< figure src="images/catch-command-line.png" width=313 height=120 class="image-right" >}}
+{{< figure src="images/catch-command-line.png"  class="image-right" >}}
 
 - `-r console` sets up readable console output (not necessary but a good reminder)
 - `-d yes` shows the time taken on each test (usually disabled)
@@ -131,7 +131,7 @@ I also add the following command-line options to the test target scheme and togg
 
 I then start to add `.cpp` files for each test case and write my tests.
 
-{{< figure src="images/catch-include-target.png 197 96" class="image-right" >}}
+{{< figure src="images/catch-include-target.png" width=197 height=96 class="image-right" >}}
 
 Finally, you also need to add each class that is being tested to the Test target as well or it will not compile.
 
